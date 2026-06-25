@@ -64,13 +64,9 @@
   </select>
 
   <!-- Seletor de semana (dentro do mês) -->
-  <div style="display:flex;gap:6px;margin-bottom:14px;align-items:center;">
-    <button onclick="navSemana(-1)" style="padding:6px 12px;border-radius:8px;border:1px solid #ddd;background:#fff;cursor:pointer;font-size:1em;">‹</button>
-    <select id="sel-semana" onchange="renderSemana(this.value)"
-      style="flex:1;padding:7px 10px;border-radius:8px;border:1px solid #ddd;font-size:0.88em;color:#444;">
-    </select>
-    <button onclick="navSemana(1)" style="padding:6px 12px;border-radius:8px;border:1px solid #ddd;background:#fff;cursor:pointer;font-size:1em;">›</button>
-  </div>
+  <select id="sel-semana" onchange="renderSemana(this.value)"
+    style="width:100%;padding:8px 10px;border-radius:8px;border:1px solid #ddd;font-size:0.88em;color:#444;margin-bottom:14px;">
+  </select>
 
   <!-- Conteúdo da semana selecionada -->
   <div id="semana-body"></div>
