@@ -33,6 +33,8 @@ jobs:
           FALAE_SENHA:            ${{ secrets.FALAE_SENHA }}
           DASHBOARD3V_EMAIL:      operacoes@cantucci.com.br
           DASHBOARD3V_SENHA:      ${{ secrets.DASHBOARD3V_SENHA }}
+          CHECKLIST_EMAIL:        operacoes@cantucci.com.br
+          CHECKLIST_SENHA:        ${{ secrets.CHECKLIST_SENHA }}
         run: python daily_sync.py
 
       - name: Generate HTML
