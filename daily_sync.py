@@ -239,7 +239,7 @@ def sync_quadro():
     log('Quadro Operacional...')
     try:
         result = subprocess.run(
-            ['py', '-3', 'quadro_mapear_tudo.py'], cwd=DIR,
+            [sys.executable, 'quadro_mapear_tudo.py'], cwd=DIR,
             capture_output=True, text=True, timeout=60, encoding='utf-8', errors='replace'
         )
         with open(os.path.join(DIR, 'QUADRO_DADOS.json'), encoding='utf-8') as f:
@@ -271,7 +271,7 @@ def sync_relatorio():
     log('Relatório pós-turno...')
     try:
         subprocess.run(
-            ['py', '-3', 'relatorio_mapear_tudo.py'], cwd=DIR,
+            [sys.executable, 'relatorio_mapear_tudo.py'], cwd=DIR,
             capture_output=True, text=True, timeout=60, encoding='utf-8', errors='replace'
         )
         with open(os.path.join(DIR, 'RELATORIO_DADOS.json'), encoding='utf-8') as f:
@@ -337,7 +337,7 @@ def sync_dashboard3v():
     log('Dashboard 3V...')
     try:
         subprocess.run(
-            ['py', '-3', 'dashboard3v_mapear.py'], cwd=DIR,
+            [sys.executable, 'dashboard3v_mapear.py'], cwd=DIR,
             capture_output=True, text=True, timeout=120, encoding='utf-8', errors='replace'
         )
         with open(os.path.join(DIR, 'DASHBOARD3V_DADOS.json'), encoding='utf-8') as f:
@@ -451,7 +451,7 @@ def sync_checklists():
     try:
         data_br = DATA_DT.strftime('%d/%m/%Y')
         subprocess.run(
-            ['py', '-3', 'checklistfacil_consultar.py', data_br], cwd=DIR,
+            [sys.executable, 'checklistfacil_consultar.py', data_br], cwd=DIR,
             capture_output=True, text=True, timeout=90, encoding='utf-8', errors='replace'
         )
         res_path = os.path.join(DIR, 'checklistfacil_resultado.json')
@@ -567,12 +567,13 @@ if __name__ == '__main__':
         msg = 'Checklist Facil: cookies expirados! Renove em checklistfacil_login.py'
         print(f'\n⚠️  {msg}')
         try:
-            subprocess.run(
-                ['powershell', '-Command',
-                 f'Add-Type -AssemblyName System.Windows.Forms; '
-                 f'[System.Windows.Forms.MessageBox]::Show("{msg}", "Alerta Cantucci Daily")'],
-                timeout=5, capture_output=True
-            )
+            if sys.platform == 'win32':
+                subprocess.run(
+                    ['powershell', '-Command',
+                     f'Add-Type -AssemblyName System.Windows.Forms; '
+                     f'[System.Windows.Forms.MessageBox]::Show("{msg}", "Alerta Cantucci Daily")'],
+                    timeout=5, capture_output=True
+                )
         except Exception:
             pass
 
@@ -620,21 +621,23 @@ if __name__ == '__main__':
 
     log(f'Histórico diário: {len(historico)} registros')
 
-    # Gera relatório HTML e publica no GitHub Pages
+    # Gera relatório HTML (o workflow do GitHub Actions faz o commit/push)
     subprocess.run(
-        ['py', '-3', 'daily_html.py', DATA], cwd=DIR,
+        [sys.executable, 'daily_html.py', DATA], cwd=DIR,
         capture_output=True, text=True, encoding='utf-8', errors='replace'
     )
     log('DAILY_REPORT.html gerado')
-    try:
-        import shutil
-        shutil.copy(os.path.join(DIR, 'DAILY_REPORT.html'), os.path.join(DIR, 'index.html'))
-        subprocess.run(['git', 'add', 'index.html'], cwd=DIR, capture_output=True)
-        subprocess.run(['git', 'commit', '-m', f'Report {DATA}'], cwd=DIR, capture_output=True)
-        subprocess.run(['git', 'push'], cwd=DIR, capture_output=True)
-        log('GitHub Pages atualizado')
-    except Exception as e:
-        log(f'GitHub Pages ERRO: {e}')
+    # No CI, o commit/push é feito pelo workflow — só roda localmente
+    if not os.environ.get('GITHUB_ACTIONS'):
+        try:
+            import shutil
+            shutil.copy(os.path.join(DIR, 'DAILY_REPORT.html'), os.path.join(DIR, 'index.html'))
+            subprocess.run(['git', 'add', 'index.html'], cwd=DIR, capture_output=True)
+            subprocess.run(['git', 'commit', '-m', f'Report {DATA}'], cwd=DIR, capture_output=True)
+            subprocess.run(['git', 'push'], cwd=DIR, capture_output=True)
+            log('GitHub Pages atualizado')
+        except Exception as e:
+            log(f'GitHub Pages ERRO: {e}')
 
     ok = sum(1 for l in cache['lojas'].values()
              if any(v is not None for v in l.values()))
