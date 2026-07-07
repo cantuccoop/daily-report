@@ -5,36 +5,12 @@
   "lojas": {
     "cantucci_an": {
       "faturamento": 13380.14,
-      "meta": 0.0,
+      "meta": 17910.58,
       "google": null,
       "ifood": null,
       "reviews_dia": null,
-      "relatorio": {
-        "nota_min": 8.0,
-        "nota_max": 8.0,
-        "nota_med": 8.0,
-        "turnos": 1,
-        "tma": 17,
-        "ocs": [
-          "Delivery atraso",
-          "Equip. quebrado"
-        ],
-        "bos": [
-          "Largamos com muitos atrasos nos primeiros pedidos do Ifood "
-        ]
-      },
-      "quadro": {
-        "freelas": 2,
-        "alerta_escala": true,
-        "alerta_rupturas": false,
-        "rupturas": [
-          "BANOFEE",
-          "STEAK AL FUNGHI",
-          "SALMONE AO MEDITERRANEO",
-          "SALMONE AO MEDITERRANEO"
-        ],
-        "turnos": 2
-      },
+      "relatorio": null,
+      "quadro": null,
       "diarias": {
         "acumulado": "639,90",
         "meta": "5.000,00",
@@ -42,9 +18,9 @@
       },
       "checklists": null,
       "maturidade": {
-        "score": 5.0,
-        "quadro_turnos": 2,
-        "relatorio_turnos": 1,
+        "score": 0.0,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 0,
         "checklist_executado": 0,
         "checklist_esperado": 8,
         "tem_checklist": false
@@ -52,35 +28,12 @@
     },
     "cantucci_as": {
       "faturamento": 4924.64,
-      "meta": 0.0,
+      "meta": 4573.93,
       "google": null,
       "ifood": null,
       "reviews_dia": null,
-      "relatorio": {
-        "nota_min": 9.0,
-        "nota_max": 9.0,
-        "nota_med": 9.0,
-        "turnos": 1,
-        "tma": 10,
-        "ocs": [],
-        "bos": [
-          "Delivery hambúrgueres queimados"
-        ]
-      },
-      "quadro": {
-        "freelas": 1,
-        "alerta_escala": false,
-        "alerta_rupturas": true,
-        "rupturas": [
-          "FILE WELLINGTON",
-          "LASAGNA BOLOGNESE",
-          "LEMON FRESH",
-          "SPRITE ORIGINAL",
-          "FANTA GUARANA ZERO",
-          "GUARANA ANTARTICA"
-        ],
-        "turnos": 1
-      },
+      "relatorio": null,
+      "quadro": null,
       "diarias": {
         "acumulado": "0,00",
         "meta": "3.500,00",
@@ -88,9 +41,9 @@
       },
       "checklists": null,
       "maturidade": {
-        "score": 3.3,
-        "quadro_turnos": 1,
-        "relatorio_turnos": 1,
+        "score": 0.0,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 0,
         "checklist_executado": 0,
         "checklist_esperado": 12,
         "tem_checklist": false
@@ -98,36 +51,12 @@
     },
     "cantucci_ac": {
       "faturamento": 16062.05,
-      "meta": 0.0,
+      "meta": 12518.24,
       "google": null,
       "ifood": null,
       "reviews_dia": null,
-      "relatorio": {
-        "nota_min": 8.0,
-        "nota_max": 10.0,
-        "nota_med": 9.3,
-        "turnos": 3,
-        "tma": 15,
-        "ocs": [
-          "Erro qualidade",
-          "Delivery atraso"
-        ],
-        "bos": [
-          "kds tendo que reconfigurar e falar com o suporte com frequência ",
-          "Turno sem intercorrências.",
-          "Sem b.o"
-        ]
-      },
-      "quadro": {
-        "freelas": 2,
-        "alerta_escala": true,
-        "alerta_rupturas": false,
-        "rupturas": [
-          "SPRITE ORIGINAL",
-          "SPRITE ORIGINAL"
-        ],
-        "turnos": 2
-      },
+      "relatorio": null,
+      "quadro": null,
       "diarias": {
         "acumulado": "120,00",
         "meta": "3.100,00",
@@ -135,9 +64,9 @@
       },
       "checklists": null,
       "maturidade": {
-        "score": 6.7,
-        "quadro_turnos": 2,
-        "relatorio_turnos": 3,
+        "score": 0.0,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 0,
         "checklist_executado": 0,
         "checklist_esperado": 12,
         "tem_checklist": false
@@ -145,7 +74,7 @@
     },
     "superquadra": {
       "faturamento": null,
-      "meta": 0.0,
+      "meta": 2851.02,
       "google": null,
       "ifood": null,
       "reviews_dia": null,
@@ -172,33 +101,17 @@
       "google": null,
       "ifood": null,
       "reviews_dia": null,
-      "relatorio": {
-        "nota_min": null,
-        "nota_max": null,
-        "nota_med": null,
-        "turnos": 0,
-        "tma": 15,
-        "ocs": [],
-        "bos": []
-      },
-      "quadro": {
-        "freelas": 0,
-        "alerta_escala": false,
-        "alerta_rupturas": false,
-        "rupturas": [
-          "CARPACCIO DE MAMINHA DEFUMADA"
-        ],
-        "turnos": 2
-      },
+      "relatorio": null,
+      "quadro": null,
       "diarias": {
-        "acumulado": "1.895,00",
+        "acumulado": "2.817,26",
         "meta": "4.000,00",
-        "pct": "47.4%"
+        "pct": "70.4%"
       },
       "checklists": null,
       "maturidade": {
-        "score": 3.3,
-        "quadro_turnos": 2,
+        "score": 0.0,
+        "quadro_turnos": 0,
         "relatorio_turnos": 0,
         "checklist_executado": 0,
         "checklist_esperado": 12,
@@ -225,14 +138,10 @@
       }
     }
   },
-  "vmarket": {
-    "cantuccisul": {
-      "total": 0,
-      "pedidos": 0,
-      "cotacoes": 0
-    }
-  },
+  "vmarket": {},
   "erros": [
-    "falae: 'token'"
+    "quadro: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/QUADRO_DADOS.json'",
+    "falae: 'token'",
+    "relatorio: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/RELATORIO_DADOS.json'"
   ]
 }
