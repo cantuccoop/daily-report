@@ -14,7 +14,7 @@ _E = os.environ.get
 CANTUCCI_OS_USER  = _E('CANTUCCI_OS_USER',  'julhyana')
 CANTUCCI_OS_PASS  = _E('CANTUCCI_OS_PASS',  'julhyana90!')
 FALAE_EMAIL       = _E('FALAE_EMAIL',        'operacoes@cantucci.com.br')
-FALAE_SENHA       = _E('FALAE_SENHA',        'Gestorop2026')
+FALAE_SENHA       = _E('FALAE_SENHA',        'Gestorop2026!')
 DASHBOARD3V_EMAIL = _E('DASHBOARD3V_EMAIL',  'operacoes@cantucci.com.br')
 DASHBOARD3V_SENHA = _E('DASHBOARD3V_SENHA',  'jU20263v')
 
