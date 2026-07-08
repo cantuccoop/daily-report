@@ -561,10 +561,10 @@ if __name__ == '__main__':
     sync_checklists()
     calcular_maturidade()
 
-    # Alerta se checklist não retornou dados (cookies expirados)
+    # Checklist indisponivel no plano atual — nao e erro, apenas sem dados
     sem_checklist = all(cache['lojas'][lid].get('checklists') is None for lid in cache['lojas'])
     if sem_checklist:
-        msg = 'Checklist Facil: cookies expirados! Renove em checklistfacil_login.py'
+        msg = 'Checklist Facil: sem dados (API nao disponivel no plano atual)'
         print(f'\n⚠️  {msg}')
         try:
             if sys.platform == 'win32':

@@ -40,12 +40,16 @@ def buscar_checklists(data_br=None):
         print('  ChecklistFacil: fazendo login...')
         page.goto('https://spa.checklistfacil.com.br/login?lang=pt-br', wait_until='networkidle', timeout=30000)
 
-        # Preenche email
+        # Etapa 1: preenche email e clica Continuar
         page.wait_for_selector('input[name="user-name"]', timeout=15000)
         page.fill('input[name="user-name"]', EMAIL)
-        page.wait_for_timeout(800)
+        page.wait_for_timeout(600)
+        # Clica via JS para evitar overlay interceptando
+        page.evaluate("document.querySelector('button[type=\"submit\"]').click()")
+        page.wait_for_timeout(2000)
 
-        # Preenche senha via JS (campo pode estar bloqueado por CSS)
+        # Etapa 2: preenche senha via JS e clica Entrar
+        page.wait_for_selector('input[name="user-password"]', timeout=15000)
         page.evaluate(f"""
             const inp = document.querySelector('input[name="user-password"]');
             if (inp) {{
@@ -56,10 +60,8 @@ def buscar_checklists(data_br=None):
                 inp.dispatchEvent(new Event('change', {{bubbles: true}}));
             }}
         """)
-        page.wait_for_timeout(500)
-
-        # Clica em Entrar
-        page.click('button[type="submit"]')
+        page.wait_for_timeout(600)
+        page.evaluate("document.querySelector('button[type=\"submit\"]').click()")
         page.wait_for_timeout(3000)
 
         # Aguarda sair do login (até 20s)
