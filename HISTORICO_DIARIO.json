@@ -388,5 +388,83 @@
     "checklist_executado": 0,
     "checklist_esperado": 14,
     "tem_checklist": false
+  },
+  {
+    "data": "2026-07-13",
+    "unidade_id": "cantucci_ac",
+    "unidade": "Cantucci Águas Claras",
+    "faturamento": 12568.33,
+    "meta": 12507.44,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 12,
+    "tem_checklist": false
+  },
+  {
+    "data": "2026-07-13",
+    "unidade_id": "cantucci_an",
+    "unidade": "Cantucci Asa Norte",
+    "faturamento": 11313.16,
+    "meta": 17763.38,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 8,
+    "tem_checklist": false
+  },
+  {
+    "data": "2026-07-13",
+    "unidade_id": "cantucci_as",
+    "unidade": "Cantucci Asa Sul",
+    "faturamento": 5345.21,
+    "meta": 4632.89,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 12,
+    "tem_checklist": false
+  },
+  {
+    "data": "2026-07-13",
+    "unidade_id": "koji",
+    "unidade": "Koji",
+    "faturamento": 13285.44,
+    "meta": 0.0,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 4,
+    "tem_checklist": false
+  },
+  {
+    "data": "2026-07-13",
+    "unidade_id": "mane",
+    "unidade": "Mané",
+    "faturamento": 11954.4,
+    "meta": 0.0,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 12,
+    "tem_checklist": false
+  },
+  {
+    "data": "2026-07-13",
+    "unidade_id": "superquadra",
+    "unidade": "Superquadra Norte",
+    "faturamento": null,
+    "meta": 2877.93,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 14,
+    "tem_checklist": false
   }
 ]
