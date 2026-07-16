@@ -1,18 +1,18 @@
 {
-  "data": "2026-07-14",
-  "gerado_em": "2026-07-15",
+  "data": "2026-07-15",
+  "gerado_em": "2026-07-16",
   "semana_inicio": "2026-07-13",
   "lojas": {
     "cantucci_an": {
-      "faturamento": 13835.99,
-      "meta": 18459.64,
+      "faturamento": 15434.85,
+      "meta": 20705.68,
       "google": {
-        "grade": 4.52,
-        "total": 37
+        "grade": 4.54,
+        "total": 36
       },
       "ifood": {
         "grade": 4.77,
-        "total": 196
+        "total": 199
       },
       "reviews_dia": null,
       "relatorio": null,
@@ -33,15 +33,15 @@
       }
     },
     "cantucci_as": {
-      "faturamento": 7297.38,
-      "meta": 7794.09,
+      "faturamento": 7951.65,
+      "meta": 9947.91,
       "google": {
-        "grade": 3.52,
-        "total": 16
+        "grade": 3.62,
+        "total": 15
       },
       "ifood": {
-        "grade": 4.25,
-        "total": 115
+        "grade": 4.24,
+        "total": 111
       },
       "reviews_dia": null,
       "relatorio": null,
@@ -62,17 +62,23 @@
       }
     },
     "cantucci_ac": {
-      "faturamento": 14813.47,
-      "meta": 13559.92,
+      "faturamento": 17120.09,
+      "meta": 15014.59,
       "google": {
-        "grade": 3.93,
-        "total": 132
+        "grade": 3.92,
+        "total": 125
       },
       "ifood": {
         "grade": 4.75,
-        "total": 229
+        "total": 224
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "google": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": null,
       "quadro": null,
       "diarias": {
@@ -91,15 +97,15 @@
       }
     },
     "superquadra": {
-      "faturamento": 7837.94,
-      "meta": 7905.62,
+      "faturamento": 5358.19,
+      "meta": 9807.61,
       "google": {
         "grade": 4.67,
         "total": 6
       },
       "ifood": {
-        "grade": 4.86,
-        "total": 72
+        "grade": 4.79,
+        "total": 71
       },
       "reviews_dia": null,
       "relatorio": null,
@@ -120,7 +126,7 @@
       }
     },
     "mane": {
-      "faturamento": 14580.0,
+      "faturamento": 15076.71,
       "meta": 0.0,
       "google": null,
       "ifood": null,
@@ -143,11 +149,11 @@
       }
     },
     "koji": {
-      "faturamento": 18730.82,
+      "faturamento": 20920.58,
       "meta": 0.0,
       "google": {
-        "grade": 4.44,
-        "total": 9
+        "grade": 4.5,
+        "total": 10
       },
       "ifood": {
         "grade": 4.95,
