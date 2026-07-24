@@ -1,0 +1,274 @@
+{
+  "data": "2026-07-22",
+  "gerado_em": "2026-07-23",
+  "semana_inicio": "2026-07-20",
+  "lojas": {
+    "cantucci_an": {
+      "faturamento": 14274.04,
+      "meta": 20667.54,
+      "google": {
+        "grade": 4.87,
+        "total": 98
+      },
+      "ifood": {
+        "grade": 4.72,
+        "total": 202
+      },
+      "reviews_dia": {
+        "google": {
+          "total": 16,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
+      "relatorio": {
+        "nota_min": 0.0,
+        "nota_max": 10.0,
+        "nota_med": 5.3,
+        "turnos": 3,
+        "tma": 13,
+        "ocs": [
+          "Ruptura salão",
+          "Erro qualidade"
+        ],
+        "bos": [
+          "Atendente fora da Praça ",
+          "Sem B.O Hoje !!!",
+          "Sem problemas graves"
+        ]
+      },
+      "quadro": null,
+      "diarias": {
+        "acumulado": "5.279,90",
+        "meta": "5.000,00",
+        "pct": "105.6%"
+      },
+      "checklists": null,
+      "maturidade": {
+        "score": 3.3,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 3,
+        "checklist_executado": 0,
+        "checklist_esperado": 8,
+        "tem_checklist": false
+      }
+    },
+    "cantucci_as": {
+      "faturamento": 9201.02,
+      "meta": 9873.62,
+      "google": {
+        "grade": 4.31,
+        "total": 32
+      },
+      "ifood": {
+        "grade": 4.47,
+        "total": 114
+      },
+      "reviews_dia": {
+        "google": {
+          "total": 5,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
+      "relatorio": {
+        "nota_min": 7.0,
+        "nota_max": 7.0,
+        "nota_med": 7.0,
+        "turnos": 1,
+        "tma": 15,
+        "ocs": [
+          "Erro qualidade",
+          "Equip. quebrado"
+        ],
+        "bos": [
+          "Lançamento errado (pre shift vai ser reforçado pra fazermos conferência de pedidos antes de enviar pra produçao)."
+        ]
+      },
+      "quadro": null,
+      "diarias": {
+        "acumulado": "4.100,00",
+        "meta": "2.500,00",
+        "pct": "164%"
+      },
+      "checklists": null,
+      "maturidade": {
+        "score": 1.7,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 1,
+        "checklist_executado": 0,
+        "checklist_esperado": 12,
+        "tem_checklist": false
+      }
+    },
+    "cantucci_ac": {
+      "faturamento": 14333.89,
+      "meta": 14972.78,
+      "google": {
+        "grade": 3.78,
+        "total": 167
+      },
+      "ifood": {
+        "grade": 4.75,
+        "total": 228
+      },
+      "reviews_dia": {
+        "google": {
+          "total": 6,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 2,
+          "baixas": 0,
+          "textos": []
+        }
+      },
+      "relatorio": {
+        "nota_min": 8.0,
+        "nota_max": 10.0,
+        "nota_med": 9.3,
+        "turnos": 3,
+        "tma": 13,
+        "ocs": [],
+        "bos": [
+          "Turno sem intercorrências ",
+          "Nada a relatar",
+          "Sem b.o"
+        ]
+      },
+      "quadro": null,
+      "diarias": {
+        "acumulado": "3.110,00",
+        "meta": "5.000,00",
+        "pct": "62.2%"
+      },
+      "checklists": null,
+      "maturidade": {
+        "score": 3.3,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 3,
+        "checklist_executado": 0,
+        "checklist_esperado": 12,
+        "tem_checklist": false
+      }
+    },
+    "superquadra": {
+      "faturamento": 5295.38,
+      "meta": 9746.88,
+      "google": {
+        "grade": 4.67,
+        "total": 3
+      },
+      "ifood": {
+        "grade": 4.83,
+        "total": 77
+      },
+      "reviews_dia": {
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
+      "relatorio": null,
+      "quadro": null,
+      "diarias": {
+        "acumulado": "3.882,00",
+        "meta": "3.500,00",
+        "pct": "110.9%"
+      },
+      "checklists": null,
+      "maturidade": {
+        "score": 0.0,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 0,
+        "checklist_executado": 0,
+        "checklist_esperado": 14,
+        "tem_checklist": false
+      }
+    },
+    "mane": {
+      "faturamento": 10846.9,
+      "meta": 0.0,
+      "google": null,
+      "ifood": null,
+      "reviews_dia": null,
+      "relatorio": {
+        "nota_min": null,
+        "nota_max": null,
+        "nota_med": null,
+        "turnos": 0,
+        "tma": 15,
+        "ocs": [],
+        "bos": []
+      },
+      "quadro": null,
+      "diarias": {
+        "acumulado": "7.492,76",
+        "meta": "4.000,00",
+        "pct": "187.3%"
+      },
+      "checklists": null,
+      "maturidade": {
+        "score": 0.0,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 0,
+        "checklist_executado": 0,
+        "checklist_esperado": 12,
+        "tem_checklist": false
+      }
+    },
+    "koji": {
+      "faturamento": 26250.61,
+      "meta": 24270.69,
+      "google": {
+        "grade": 4.6,
+        "total": 10
+      },
+      "ifood": {
+        "grade": 4.93,
+        "total": 43
+      },
+      "reviews_dia": {
+        "google": {
+          "total": 2,
+          "baixas": 0,
+          "textos": []
+        }
+      },
+      "relatorio": null,
+      "quadro": null,
+      "diarias": null,
+      "checklists": null,
+      "maturidade": {
+        "score": 0.0,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 0,
+        "checklist_executado": 0,
+        "checklist_esperado": 4,
+        "tem_checklist": false
+      }
+    }
+  },
+  "vmarket": {
+    "cantuccisul": {
+      "total": 0,
+      "pedidos": 0,
+      "cotacoes": 0
+    }
+  },
+  "erros": [
+    "quadro: Command '['C:\\\\Users\\\\julhy\\\\AppData\\\\Local\\\\Python\\\\pythoncore-3.14-64\\\\python.exe', 'quadro_mapear_tudo.py']' timed out after 60 seconds"
+  ]
+}
