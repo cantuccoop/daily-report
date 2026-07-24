@@ -18,7 +18,7 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 12859.18,
     "meta": 17491.72,
-    "maturidade_score": 6.7,
+    "maturidade_score": 6.67,
     "quadro_turnos": 2,
     "relatorio_turnos": 3,
     "checklist_executado": 0,
@@ -31,12 +31,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 16062.05,
     "meta": 0.0,
-    "maturidade_score": 6.7,
+    "maturidade_score": 10.0,
     "quadro_turnos": 2,
     "relatorio_turnos": 3,
-    "checklist_executado": 0,
+    "checklist_executado": 13,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-07",
@@ -44,12 +44,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 12961.94,
     "meta": 13572.14,
-    "maturidade_score": 6.7,
+    "maturidade_score": 9.72,
     "quadro_turnos": 3,
     "relatorio_turnos": 3,
-    "checklist_executado": 0,
+    "checklist_executado": 11,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-08",
@@ -57,12 +57,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 16870.85,
     "meta": 15005.54,
-    "maturidade_score": 0.0,
+    "maturidade_score": 3.33,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 14,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-09",
@@ -70,12 +70,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 18223.56,
     "meta": 17980.51,
-    "maturidade_score": 0.0,
+    "maturidade_score": 3.33,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 13,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-10",
@@ -83,12 +83,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 30663.65,
     "meta": 27748.37,
-    "maturidade_score": 6.7,
+    "maturidade_score": 10.0,
     "quadro_turnos": 2,
     "relatorio_turnos": 2,
-    "checklist_executado": 0,
+    "checklist_executado": 14,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-11",
@@ -96,12 +96,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 25970.56,
     "meta": 33438.45,
-    "maturidade_score": 0.0,
+    "maturidade_score": 3.33,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 12,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-12",
@@ -109,12 +109,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 22506.0,
     "meta": 27752.02,
-    "maturidade_score": 0.0,
+    "maturidade_score": 3.06,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 11,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-13",
@@ -122,12 +122,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 12568.33,
     "meta": 12507.44,
-    "maturidade_score": 0.0,
+    "maturidade_score": 3.33,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 12,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-14",
@@ -135,12 +135,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 14813.47,
     "meta": 13559.92,
-    "maturidade_score": 0.0,
+    "maturidade_score": 3.33,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 14,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-15",
@@ -148,12 +148,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 17120.09,
     "meta": 15014.59,
-    "maturidade_score": 6.7,
+    "maturidade_score": 9.44,
     "quadro_turnos": 3,
     "relatorio_turnos": 2,
-    "checklist_executado": 0,
+    "checklist_executado": 10,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-16",
@@ -161,12 +161,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 21002.46,
     "meta": 17980.97,
-    "maturidade_score": 3.3,
+    "maturidade_score": 6.67,
     "quadro_turnos": 0,
     "relatorio_turnos": 2,
-    "checklist_executado": 0,
+    "checklist_executado": 12,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-17",
@@ -174,12 +174,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 20408.56,
     "meta": 27487.72,
-    "maturidade_score": 0.0,
+    "maturidade_score": 3.33,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 14,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-18",
@@ -187,12 +187,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 28771.67,
     "meta": 33459.2,
-    "maturidade_score": 0.0,
+    "maturidade_score": 3.33,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 12,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-19",
@@ -200,12 +200,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 24784.43,
     "meta": 27728.07,
-    "maturidade_score": 0.0,
+    "maturidade_score": 3.33,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 13,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-20",
@@ -213,12 +213,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 12780.47,
     "meta": 12561.39,
-    "maturidade_score": 0.0,
+    "maturidade_score": 2.5,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 9,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-22",
@@ -226,12 +226,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 14333.89,
     "meta": 14972.78,
-    "maturidade_score": 3.3,
+    "maturidade_score": 6.67,
     "quadro_turnos": 0,
     "relatorio_turnos": 3,
-    "checklist_executado": 0,
+    "checklist_executado": 12,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-22",
@@ -239,12 +239,12 @@
     "unidade": "Cantucci Asa Norte",
     "faturamento": 14274.04,
     "meta": 20667.54,
-    "maturidade_score": 3.3,
+    "maturidade_score": 6.67,
     "quadro_turnos": 0,
     "relatorio_turnos": 3,
-    "checklist_executado": 0,
+    "checklist_executado": 11,
     "checklist_esperado": 8,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-22",
@@ -252,12 +252,12 @@
     "unidade": "Cantucci Asa Sul",
     "faturamento": 9201.02,
     "meta": 9873.62,
-    "maturidade_score": 1.7,
+    "maturidade_score": 5.0,
     "quadro_turnos": 0,
     "relatorio_turnos": 1,
-    "checklist_executado": 0,
+    "checklist_executado": 13,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-22",
@@ -265,12 +265,12 @@
     "unidade": "Koji",
     "faturamento": 26250.61,
     "meta": 24270.69,
-    "maturidade_score": 0.0,
+    "maturidade_score": 0.83,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 1,
     "checklist_esperado": 4,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-22",
@@ -278,12 +278,12 @@
     "unidade": "Mané",
     "faturamento": 10846.9,
     "meta": 0.0,
-    "maturidade_score": 0.0,
+    "maturidade_score": 0.83,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 3,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-22",
@@ -291,12 +291,12 @@
     "unidade": "Superquadra Norte",
     "faturamento": 5295.38,
     "meta": 9746.88,
-    "maturidade_score": 0.0,
+    "maturidade_score": 3.33,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 14,
     "checklist_esperado": 14,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-23",
