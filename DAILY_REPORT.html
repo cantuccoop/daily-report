@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Matinal — 23/07/2026</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f4f6f9;
+      color: #1a1a2e;
+      padding: 16px;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.3em;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 4px;
+    }
+    .subtitle {
+      color: #888;
+      font-size: 0.85em;
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-size: 0.8em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #888;
+      margin: 24px 0 10px;
+    }
+    .vmarket-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    .footer {
+      text-align: center;
+      color: #bbb;
+      font-size: 0.75em;
+      margin-top: 24px;
+      padding-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>☀️ Report Matinal</h1>
+  <div class="subtitle">23/07/2026 &nbsp;·&nbsp; gerado em 2026-07-24</div>
+
+  <div class="section-title">📅 Resumo Semanal</div>
+  
+<div style="background:#fff;border-radius:12px;padding:16px 20px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+
+  <!-- Seletor de mês -->
+  <select id="sel-mes" onchange="onMesChange(this.value)"
+    style="width:100%;padding:9px 12px;border-radius:8px;border:1px solid #ddd;font-size:0.95em;font-weight:600;margin-bottom:12px;color:#1a1a2e;">
+    <option value="2026-07" selected>Jul 2026</option><option value="2026-06" >Jun 2026</option>
+  </select>
+
+  <!-- Seletor de semana (dentro do mês) -->
+  <select id="sel-semana" onchange="renderSemana(this.value)"
+    style="width:100%;padding:8px 10px;border-radius:8px;border:1px solid #ddd;font-size:0.88em;color:#444;margin-bottom:14px;">
+  </select>
+
+  <!-- Conteúdo da semana selecionada -->
+  <div id="semana-body"></div>
+
+</div>
+
+<script>
+const SEMANAS     = {"2026-07-20": "<div style=\"font-weight:700;font-size:0.95em;margin-bottom:8px;\">📅 SEMANA 20/07 – 26/07</div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Cantucci Asa Norte</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 28,312</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 46,396 &nbsp;<span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">61%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">3.3/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 0/4 · turno 3/4 · ck 13/16</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#444\">G ⭐4.9</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.7</div>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Cantucci Asa Sul</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 19,215</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 21,139 &nbsp;<span style=\"background:#fff8e1;color:#7d5a00;border:1px solid #ffc107;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">91%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">3.4/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 0/4 · turno 2/4 · ck 12/24</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#444\">G ⭐4.3</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.5</div>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Cantucci Águas Claras</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 44,645</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 45,597 &nbsp;<span style=\"background:#fff8e1;color:#7d5a00;border:1px solid #ffc107;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">98%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">1.8/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 0/6 · turno 3/6 · ck 8/36</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#c0392b\">G ⭐3.8</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.7</div>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Superquadra Norte</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 13,832</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 20,290 &nbsp;<span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">68%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">1.6/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 0/4 · turno 0/4 · ck 16/28</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#444\">G ⭐4.8</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.8</div>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Mané</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 29,774</div>\n              <div></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">0.1/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 0/4 · turno 0/4 · ck 1/24</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"color:#bbb;font-size:0.82em\">—</div>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Koji</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 51,566</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 50,012 &nbsp;<span style=\"background:#e6f4ea;color:#2d6a4f;border:1px solid #52b788;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">103%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">1.2/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 0/4 · turno 0/4 · ck 3/8</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#444\">G ⭐4.6</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.9</div>\n            </div>\n          </div>\n        </div>", "2026-07-13": "<div style=\"font-weight:700;font-size:0.95em;margin-bottom:8px;\">📅 SEMANA 13/07 – 19/07</div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Cantucci Águas Claras</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 139,469</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 147,738 &nbsp;<span style=\"background:#fff8e1;color:#7d5a00;border:1px solid #ffc107;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">94%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">1.4/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 3/14 · turno 4/14 · ck 0/84</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#c0392b\">G ⭐3.8</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.7</div>\n            </div>\n          </div>\n        </div>", "2026-07-06": "<div style=\"font-weight:700;font-size:0.95em;margin-bottom:8px;\">📅 SEMANA 06/07 – 12/07</div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Cantucci Águas Claras</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 143,259</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 135,497 &nbsp;<span style=\"background:#e6f4ea;color:#2d6a4f;border:1px solid #52b788;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">106%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">2.9/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 7/14 · turno 8/14 · ck 0/84</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#c0392b\">G ⭐3.8</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.7</div>\n            </div>\n          </div>\n        </div>", "2026-06-22": "<div style=\"font-weight:700;font-size:0.95em;margin-bottom:8px;\">📅 SEMANA 22/06 – 28/06</div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Cantucci Águas Claras</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 22,603</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 32,151 &nbsp;<span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">70%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#e6f4ea;color:#2d6a4f;border:1px solid #52b788;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">7.5/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 5/4 · turno 4/4 · ck 13/24</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#c0392b\">G ⭐3.8</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.7</div>\n            </div>\n          </div>\n        </div>"};
+const MES_SEMANAS = {"2026-07": [["2026-07-20", "20/07 – 26/07"], ["2026-07-13", "13/07 – 19/07"], ["2026-07-06", "06/07 – 12/07"]], "2026-06": [["2026-06-22", "22/06 – 28/06"]]};
+const MESES_HTML  = {"2026-07": "<div style=\"font-weight:700;font-size:0.95em;margin-bottom:8px;\">📆 Jul 2026</div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Cantucci Asa Norte</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 28,312</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 46,396 &nbsp;<span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">61%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">3.3/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 0/4 · turno 3/4 · ck 13/16</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#444\">G ⭐4.9</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.7</div>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Cantucci Asa Sul</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 19,215</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 21,139 &nbsp;<span style=\"background:#fff8e1;color:#7d5a00;border:1px solid #ffc107;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">91%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">3.4/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 0/4 · turno 2/4 · ck 12/24</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#444\">G ⭐4.3</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.5</div>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Cantucci Águas Claras</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 327,373</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 328,832 &nbsp;<span style=\"background:#e6f4ea;color:#2d6a4f;border:1px solid #52b788;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">100%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">2.1/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 10/34 · turno 15/34 · ck 8/204</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#c0392b\">G ⭐3.8</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.7</div>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Superquadra Norte</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 13,832</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 20,290 &nbsp;<span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">68%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">1.6/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 0/4 · turno 0/4 · ck 16/28</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#444\">G ⭐4.8</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.8</div>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Mané</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 29,774</div>\n              <div></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">0.1/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 0/4 · turno 0/4 · ck 1/24</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"color:#bbb;font-size:0.82em\">—</div>\n            </div>\n          </div>\n        </div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Koji</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 51,566</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 50,012 &nbsp;<span style=\"background:#e6f4ea;color:#2d6a4f;border:1px solid #52b788;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">103%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">1.2/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 0/4 · turno 0/4 · ck 3/8</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#444\">G ⭐4.6</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.9</div>\n            </div>\n          </div>\n        </div>", "2026-06": "<div style=\"font-weight:700;font-size:0.95em;margin-bottom:8px;\">📆 Jun 2026</div>\n        <div style=\"padding:10px 0;border-top:1px solid #f0f0f0;\">\n          <div style=\"font-weight:700;font-size:0.93em;margin-bottom:8px;\">Cantucci Águas Claras</div>\n          <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:6px;\">\n            <div>\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Faturamento</div>\n              <div style=\"font-size:0.88em;font-weight:600;\">R$ 22,603</div>\n              <div><span style=\"color:#888;font-size:0.78em\">/ R$ 32,151 &nbsp;<span style=\"background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">70%</span></span></div>\n            </div>\n            <div style=\"text-align:center;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:4px;\">Maturidade</div>\n              <span style=\"background:#e6f4ea;color:#2d6a4f;border:1px solid #52b788;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;\">7.5/10</span>\n              <div style=\"margin-top:5px;\"><span style=\"font-size:0.78em;color:#777\">quadro 5/4 · turno 4/4 · ck 13/24</span></div>\n            </div>\n            <div style=\"text-align:right;\">\n              <div style=\"font-size:0.7em;color:#888;font-weight:600;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:2px;\">Reputação</div>\n              <div style=\"font-size:0.82em;color:#c0392b\">G ⭐3.8</div><div style=\"font-size:0.82em;color:#444\">iF ⭐4.7</div>\n            </div>\n          </div>\n        </div>"};
+
+function onMesChange(mes) {
+  const sems = MES_SEMANAS[mes] || [];
+  const sel = document.getElementById('sel-semana');
+  sel.innerHTML = sems.map(([s,l]) => `<option value="${s}">${l}</option>`).join('');
+  if (sems.length) renderSemana(sems[0][0]);
+  else document.getElementById('semana-body').innerHTML = '<p style="color:#999">Sem dados.</p>';
+}
+
+function renderSemana(v) {
+  document.getElementById('semana-body').innerHTML = SEMANAS[v] || '<p style="color:#999">Sem dados.</p>';
+  document.getElementById('sel-semana').value = v;
+}
+
+function navSemana(dir) {
+  const sel = document.getElementById('sel-semana');
+  const opts = Array.from(sel.options);
+  const idx = opts.findIndex(o => o.value === sel.value);
+  const next = idx + dir;
+  if (next >= 0 && next < opts.length) renderSemana(opts[next].value);
+}
+
+// inicializa com mês atual
+onMesChange('2026-07');
+// tenta selecionar a semana atual dentro do mês
+(function() {
+  const sel = document.getElementById('sel-semana');
+  const opts = Array.from(sel.options);
+  const cur = opts.find(o => o.value === '2026-07-20');
+  if (cur) renderSemana(cur.value);
+})();
+</script>
+
+  <div class="section-title">Unidades — Ontem</div>
+  
+    <div style="background:#fff;border-radius:12px;padding:20px;margin-bottom:16px;
+                border-left:4px solid #e74c3c;
+                box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+
+      <div style="font-size:1.1em;font-weight:700;color:#1a1a2e;margin-bottom:14px;">
+        🏠 CANTUCCI ASA NORTE
+      </div>
+
+      <table style="width:100%;border-collapse:collapse;">
+        <tr>
+          <td style="padding:6px 0;vertical-align:top;width:120px;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Faturamento</td>
+          <td style="padding:6px 0;vertical-align:top;">💰 <b>R$ 14,038</b> / meta R$ 25,728 &nbsp;<span style="background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">55%</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Diárias</td>
+          <td style="padding:6px 0;vertical-align:top;">📊 R$ 5.719,90 / meta R$ 5.000,00 &nbsp;<span style="background:#e6f4ea;color:#2d6a4f;border:1px solid #52b788;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">114.4%</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Rel. Turno</td>
+          <td style="padding:6px 0;vertical-align:top;">📋 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Quadro Op.</td>
+          <td style="padding:6px 0;vertical-align:top;">👥 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Reputação</td>
+          <td style="padding:6px 0;vertical-align:top;">⭐ Google ⭐ 4.9 (91) &nbsp;|&nbsp; iFood ⭐ 4.7 (197)<div style="color:#e67e22;font-size:0.85em;margin-top:4px">↳ +1 Google hoje</div></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Maturidade</td>
+          <td style="padding:6px 0;vertical-align:top;">🎯 <span style="background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">3.3/10</span>  &nbsp; <span style="color:#666;font-size:0.85em">quadro 0/2 | turno 0/2 | ck 13/8</span></td>
+        </tr>
+      </table>
+    </div>
+    <div style="background:#fff;border-radius:12px;padding:20px;margin-bottom:16px;
+                border-left:4px solid #ffc107;
+                box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+
+      <div style="font-size:1.1em;font-weight:700;color:#1a1a2e;margin-bottom:14px;">
+        🏠 CANTUCCI ASA SUL
+      </div>
+
+      <table style="width:100%;border-collapse:collapse;">
+        <tr>
+          <td style="padding:6px 0;vertical-align:top;width:120px;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Faturamento</td>
+          <td style="padding:6px 0;vertical-align:top;">💰 <b>R$ 10,014</b> / meta R$ 11,266 &nbsp;<span style="background:#fff8e1;color:#7d5a00;border:1px solid #ffc107;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">89%</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Diárias</td>
+          <td style="padding:6px 0;vertical-align:top;">📊 R$ 4.100,00 / meta R$ 2.500,00 &nbsp;<span style="background:#e6f4ea;color:#2d6a4f;border:1px solid #52b788;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">164%</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Rel. Turno</td>
+          <td style="padding:6px 0;vertical-align:top;">📋 
+            <span style="background:#fff8e1;color:#7d5a00;border:1px solid #ffc107;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">7.0/10</span> &nbsp; TMA: 15min &nbsp;
+            <span style="color:#666;font-size:0.9em">Erro qualidade, Equip. quebrado</span>
+            <div style="color:#555;font-size:0.85em;margin-top:4px">↳ Lançamento errado (pre shift vai ser reforçado pra fazermos conferência de pedidos antes de enviar p</div></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Quadro Op.</td>
+          <td style="padding:6px 0;vertical-align:top;">👥 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Reputação</td>
+          <td style="padding:6px 0;vertical-align:top;">⭐ Google ⭐ 4.3 (32) &nbsp;|&nbsp; iFood ⭐ 4.5 (114)</td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Maturidade</td>
+          <td style="padding:6px 0;vertical-align:top;">🎯 <span style="background:#fff8e1;color:#7d5a00;border:1px solid #ffc107;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">5.0/10</span>  &nbsp; <span style="color:#666;font-size:0.85em">quadro 0/2 | turno 1/2 | ck 12/12</span></td>
+        </tr>
+      </table>
+    </div>
+    <div style="background:#fff;border-radius:12px;padding:20px;margin-bottom:16px;
+                border-left:4px solid #e74c3c;
+                box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+
+      <div style="font-size:1.1em;font-weight:700;color:#1a1a2e;margin-bottom:14px;">
+        🏠 CANTUCCI ÁGUAS CLARAS
+      </div>
+
+      <table style="width:100%;border-collapse:collapse;">
+        <tr>
+          <td style="padding:6px 0;vertical-align:top;width:120px;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Faturamento</td>
+          <td style="padding:6px 0;vertical-align:top;">💰 <b>R$ 17,531</b> / meta R$ 18,063 &nbsp;<span style="background:#fff8e1;color:#7d5a00;border:1px solid #ffc107;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">97%</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Diárias</td>
+          <td style="padding:6px 0;vertical-align:top;">📊 R$ 4.130,00 / meta R$ 5.000,00 &nbsp;<span style="background:#fff8e1;color:#7d5a00;border:1px solid #ffc107;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">82.6%</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Rel. Turno</td>
+          <td style="padding:6px 0;vertical-align:top;">📋 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Quadro Op.</td>
+          <td style="padding:6px 0;vertical-align:top;">👥 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Reputação</td>
+          <td style="padding:6px 0;vertical-align:top;">⭐ Google ⭐ 3.8 (172) &nbsp;|&nbsp; iFood ⭐ 4.7 (230)<div style="color:#e67e22;font-size:0.85em;margin-top:4px">↳ +5 Google hoje | +1 iFood hoje</div></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Maturidade</td>
+          <td style="padding:6px 0;vertical-align:top;">🎯 <span style="background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">2.2/10</span>  &nbsp; <span style="color:#666;font-size:0.85em">quadro 0/2 | turno 0/2 | ck 8/12</span></td>
+        </tr>
+      </table>
+    </div>
+    <div style="background:#fff;border-radius:12px;padding:20px;margin-bottom:16px;
+                border-left:4px solid #e74c3c;
+                box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+
+      <div style="font-size:1.1em;font-weight:700;color:#1a1a2e;margin-bottom:14px;">
+        🏠 SUPERQUADRA NORTE
+      </div>
+
+      <table style="width:100%;border-collapse:collapse;">
+        <tr>
+          <td style="padding:6px 0;vertical-align:top;width:120px;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Faturamento</td>
+          <td style="padding:6px 0;vertical-align:top;">💰 <b>R$ 8,536</b> / meta R$ 10,543 &nbsp;<span style="background:#fff8e1;color:#7d5a00;border:1px solid #ffc107;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">81%</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Diárias</td>
+          <td style="padding:6px 0;vertical-align:top;">📊 R$ 4.142,00 / meta R$ 3.500,00 &nbsp;<span style="background:#e6f4ea;color:#2d6a4f;border:1px solid #52b788;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">118.3%</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Rel. Turno</td>
+          <td style="padding:6px 0;vertical-align:top;">📋 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Quadro Op.</td>
+          <td style="padding:6px 0;vertical-align:top;">👥 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Reputação</td>
+          <td style="padding:6px 0;vertical-align:top;">⭐ Google ⭐ 4.8 (5) &nbsp;|&nbsp; iFood ⭐ 4.8 (79)<div style="color:#e67e22;font-size:0.85em;margin-top:4px">↳ +2 Google hoje | +2 iFood hoje</div></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Maturidade</td>
+          <td style="padding:6px 0;vertical-align:top;">🎯 <span style="background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">3.3/10</span>  &nbsp; <span style="color:#666;font-size:0.85em">quadro 0/2 | turno 0/2 | ck 16/14</span></td>
+        </tr>
+      </table>
+    </div>
+    <div style="background:#fff;border-radius:12px;padding:20px;margin-bottom:16px;
+                border-left:4px solid #e74c3c;
+                box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+
+      <div style="font-size:1.1em;font-weight:700;color:#1a1a2e;margin-bottom:14px;">
+        🏠 MANÉ
+      </div>
+
+      <table style="width:100%;border-collapse:collapse;">
+        <tr>
+          <td style="padding:6px 0;vertical-align:top;width:120px;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Faturamento</td>
+          <td style="padding:6px 0;vertical-align:top;">💰 <b>R$ 18,927</b> <span style="color:#999">(sem meta)</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Diárias</td>
+          <td style="padding:6px 0;vertical-align:top;">📊 R$ 7.492,76 / meta R$ 4.000,00 &nbsp;<span style="background:#e6f4ea;color:#2d6a4f;border:1px solid #52b788;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">187.3%</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Rel. Turno</td>
+          <td style="padding:6px 0;vertical-align:top;">📋 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Quadro Op.</td>
+          <td style="padding:6px 0;vertical-align:top;">👥 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Reputação</td>
+          <td style="padding:6px 0;vertical-align:top;">⭐ <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Maturidade</td>
+          <td style="padding:6px 0;vertical-align:top;">🎯 <span style="background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">0.3/10</span>  &nbsp; <span style="color:#666;font-size:0.85em">quadro 0/2 | turno 0/2 | ck 1/12</span></td>
+        </tr>
+      </table>
+    </div>
+    <div style="background:#fff;border-radius:12px;padding:20px;margin-bottom:16px;
+                border-left:4px solid #e74c3c;
+                box-shadow:0 1px 4px rgba(0,0,0,0.08);">
+
+      <div style="font-size:1.1em;font-weight:700;color:#1a1a2e;margin-bottom:14px;">
+        🏠 KOJI
+      </div>
+
+      <table style="width:100%;border-collapse:collapse;">
+        <tr>
+          <td style="padding:6px 0;vertical-align:top;width:120px;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Faturamento</td>
+          <td style="padding:6px 0;vertical-align:top;">💰 <b>R$ 25,316</b> / meta R$ 25,741 &nbsp;<span style="background:#fff8e1;color:#7d5a00;border:1px solid #ffc107;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">98%</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Diárias</td>
+          <td style="padding:6px 0;vertical-align:top;">📊 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Rel. Turno</td>
+          <td style="padding:6px 0;vertical-align:top;">📋 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Quadro Op.</td>
+          <td style="padding:6px 0;vertical-align:top;">👥 <span style="color:#999">—</span></td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Reputação</td>
+          <td style="padding:6px 0;vertical-align:top;">⭐ Google ⭐ 4.6 (9) &nbsp;|&nbsp; iFood ⭐ 4.9 (44)</td>
+        </tr>
+        <tr style="border-top:1px solid #f0f0f0;">
+          <td style="padding:6px 0;vertical-align:top;color:#888;font-size:0.85em;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;">Maturidade</td>
+          <td style="padding:6px 0;vertical-align:top;">🎯 <span style="background:#fdecea;color:#c0392b;border:1px solid #e74c3c;padding:2px 8px;border-radius:12px;font-size:0.8em;font-weight:600;">2.5/10</span>  &nbsp; <span style="color:#666;font-size:0.85em">quadro 0/2 | turno 0/2 | ck 3/4</span></td>
+        </tr>
+      </table>
+    </div>
+
+  <div class="footer">Grupo Cantucci · 23/07/2026</div>
+
+</body>
+</html>
