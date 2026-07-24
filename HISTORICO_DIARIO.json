@@ -303,26 +303,26 @@
     "unidade_id": "cantucci_ac",
     "unidade": "Cantucci Águas Claras",
     "faturamento": 17531.05,
-    "meta": 18062.72,
-    "maturidade_score": 0.0,
+    "meta": 18062.07,
+    "maturidade_score": 2.2,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 8,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-23",
     "unidade_id": "cantucci_an",
     "unidade": "Cantucci Asa Norte",
     "faturamento": 14038.12,
-    "meta": 25728.3,
-    "maturidade_score": 0.0,
+    "meta": 25728.12,
+    "maturidade_score": 3.3,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 13,
     "checklist_esperado": 8,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-23",
@@ -330,12 +330,12 @@
     "unidade": "Cantucci Asa Sul",
     "faturamento": 10013.94,
     "meta": 11264.59,
-    "maturidade_score": 0.0,
+    "maturidade_score": 5.0,
     "quadro_turnos": 0,
-    "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "relatorio_turnos": 1,
+    "checklist_executado": 12,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-23",
@@ -343,12 +343,12 @@
     "unidade": "Koji",
     "faturamento": 25315.66,
     "meta": 25741.2,
-    "maturidade_score": 0.0,
+    "maturidade_score": 2.5,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 3,
     "checklist_esperado": 4,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-23",
@@ -356,24 +356,24 @@
     "unidade": "Mané",
     "faturamento": 18927.29,
     "meta": 0.0,
-    "maturidade_score": 0.0,
+    "maturidade_score": 0.3,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 1,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-23",
     "unidade_id": "superquadra",
     "unidade": "Superquadra Norte",
     "faturamento": 8536.47,
-    "meta": 10543.28,
-    "maturidade_score": 0.0,
+    "meta": 10542.45,
+    "maturidade_score": 3.3,
     "quadro_turnos": 0,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 16,
     "checklist_esperado": 14,
-    "tem_checklist": false
+    "tem_checklist": true
   }
 ]
