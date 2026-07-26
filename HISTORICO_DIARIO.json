@@ -453,5 +453,83 @@
     "checklist_executado": 0,
     "checklist_esperado": 14,
     "tem_checklist": false
+  },
+  {
+    "data": "2026-07-25",
+    "unidade_id": "cantucci_ac",
+    "unidade": "Cantucci Águas Claras",
+    "faturamento": 31350.33,
+    "meta": 33440.43,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 12,
+    "tem_checklist": false
+  },
+  {
+    "data": "2026-07-25",
+    "unidade_id": "cantucci_an",
+    "unidade": "Cantucci Asa Norte",
+    "faturamento": 21721.5,
+    "meta": 33084.93,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 8,
+    "tem_checklist": false
+  },
+  {
+    "data": "2026-07-25",
+    "unidade_id": "cantucci_as",
+    "unidade": "Cantucci Asa Sul",
+    "faturamento": 9650.0,
+    "meta": 16412.55,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 12,
+    "tem_checklist": false
+  },
+  {
+    "data": "2026-07-25",
+    "unidade_id": "koji",
+    "unidade": "Koji",
+    "faturamento": 28859.8,
+    "meta": 32476.62,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 4,
+    "tem_checklist": false
+  },
+  {
+    "data": "2026-07-25",
+    "unidade_id": "mane",
+    "unidade": "Mané",
+    "faturamento": 26331.86,
+    "meta": 0.0,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 12,
+    "tem_checklist": false
+  },
+  {
+    "data": "2026-07-25",
+    "unidade_id": "superquadra",
+    "unidade": "Superquadra Norte",
+    "faturamento": 16568.13,
+    "meta": 23191.26,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 14,
+    "tem_checklist": false
   }
 ]
