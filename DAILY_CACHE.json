@@ -12,27 +12,61 @@
       },
       "ifood": {
         "grade": 4.75,
-        "total": 200
+        "total": 203
       },
       "reviews_dia": {
         "google": {
           "total": 20,
           "baixas": 0,
           "textos": []
+        },
+        "ifood": {
+          "total": 2,
+          "baixas": 0,
+          "textos": []
         }
       },
-      "relatorio": null,
-      "quadro": null,
-      "diarias": {
-        "acumulado": "5.719,90",
-        "meta": "5.000,00",
-        "pct": "114.4%"
+      "relatorio": {
+        "nota_min": 6.0,
+        "nota_max": 8.0,
+        "nota_med": 7.0,
+        "turnos": 2,
+        "tma": 14,
+        "ocs": [
+          "Erro qualidade",
+          "Delivery atraso"
+        ],
+        "bos": [
+          "Wellington fora do ponto por duas vezes",
+          "Cozinha se atrapalhou"
+        ]
       },
+      "quadro": {
+        "freelas": 3,
+        "alerta_escala": true,
+        "alerta_rupturas": true,
+        "rupturas": [
+          "CARCIOFI G",
+          "CAIPI SAKE",
+          "BADEN CRISTAL 600ml",
+          "EISENBAHN PILSEN LN",
+          "H2O LIMONETO COM GAS",
+          "AGUA TONICA ZERO",
+          "SALTIMBOCA DI POLLO",
+          "BADEN CRISTAL 600ml",
+          "EISENBAHN PILSEN LN",
+          "AGUA TONICA ZERO",
+          "CAIPI SAKE",
+          "CHEESECAKE FRUTAS VERMELHAS"
+        ],
+        "turnos": 3
+      },
+      "diarias": null,
       "checklists": null,
       "maturidade": {
-        "score": 0.0,
-        "quadro_turnos": 0,
-        "relatorio_turnos": 0,
+        "score": 6.7,
+        "quadro_turnos": 3,
+        "relatorio_turnos": 2,
         "checklist_executado": 0,
         "checklist_esperado": 8,
         "tem_checklist": false
@@ -61,18 +95,32 @@
           "textos": []
         }
       },
-      "relatorio": null,
-      "quadro": null,
-      "diarias": {
-        "acumulado": "4.100,00",
-        "meta": "2.500,00",
-        "pct": "164%"
+      "relatorio": {
+        "nota_min": 8.0,
+        "nota_max": 8.0,
+        "nota_med": 8.0,
+        "turnos": 1,
+        "tma": 10,
+        "ocs": [
+          "Erro qualidade"
+        ],
+        "bos": [
+          "Somente Mesa 16 salmao cru ."
+        ]
       },
+      "quadro": {
+        "freelas": 3,
+        "alerta_escala": true,
+        "alerta_rupturas": false,
+        "rupturas": [],
+        "turnos": 2
+      },
+      "diarias": null,
       "checklists": null,
       "maturidade": {
-        "score": 0.0,
-        "quadro_turnos": 0,
-        "relatorio_turnos": 0,
+        "score": 5.0,
+        "quadro_turnos": 2,
+        "relatorio_turnos": 1,
         "checklist_executado": 0,
         "checklist_esperado": 12,
         "tem_checklist": false
@@ -86,28 +134,64 @@
         "total": 233
       },
       "ifood": {
-        "grade": 4.72,
-        "total": 225
+        "grade": 4.71,
+        "total": 228
       },
       "reviews_dia": {
         "google": {
           "total": 9,
           "baixas": 0,
           "textos": []
+        },
+        "ifood": {
+          "total": 2,
+          "baixas": 0,
+          "textos": []
         }
       },
-      "relatorio": null,
-      "quadro": null,
-      "diarias": {
-        "acumulado": "4.310,00",
-        "meta": "5.000,00",
-        "pct": "86.2%"
+      "relatorio": {
+        "nota_min": 9.0,
+        "nota_max": 9.0,
+        "nota_med": 9.0,
+        "turnos": 2,
+        "tma": 13,
+        "ocs": [
+          "Erro qualidade"
+        ],
+        "bos": [
+          "Apenas pratos da mesa 01",
+          "Nao teve "
+        ]
       },
+      "quadro": {
+        "freelas": 1,
+        "alerta_escala": true,
+        "alerta_rupturas": true,
+        "rupturas": [
+          "SPRITE ORIGINAL",
+          "COCA COLA KS",
+          "SALSA TRUFADA 500G",
+          "POUCA ROUPA TINTO",
+          "MARCELO PELLERITI SIGNATURE",
+          "FORTE AMBRONE ETICHETTA NERA",
+          "1550 BRAS RESERVA CHARDONNAY",
+          "POUCA ROUPA TINTO",
+          "FORTE AMBRONE ETICHETTA NERA",
+          "MARCELO PELLERITI SIGNATURE",
+          "1550 BRAS RESERVA CHARDONNAY",
+          "SPRITE ORIGINAL",
+          "COCA COLA KS",
+          "SALSA TRUFADA 500G",
+          "BANOFEE"
+        ],
+        "turnos": 2
+      },
+      "diarias": null,
       "checklists": null,
       "maturidade": {
-        "score": 0.0,
-        "quadro_turnos": 0,
-        "relatorio_turnos": 0,
+        "score": 6.7,
+        "quadro_turnos": 2,
+        "relatorio_turnos": 2,
         "checklist_executado": 0,
         "checklist_esperado": 12,
         "tem_checklist": false
@@ -126,16 +210,18 @@
       },
       "reviews_dia": null,
       "relatorio": null,
-      "quadro": null,
-      "diarias": {
-        "acumulado": "4.142,00",
-        "meta": "3.500,00",
-        "pct": "118.3%"
+      "quadro": {
+        "freelas": 1,
+        "alerta_escala": true,
+        "alerta_rupturas": false,
+        "rupturas": [],
+        "turnos": 1
       },
+      "diarias": null,
       "checklists": null,
       "maturidade": {
-        "score": 0.0,
-        "quadro_turnos": 0,
+        "score": 1.7,
+        "quadro_turnos": 1,
         "relatorio_turnos": 0,
         "checklist_executado": 0,
         "checklist_esperado": 14,
@@ -148,17 +234,35 @@
       "google": null,
       "ifood": null,
       "reviews_dia": null,
-      "relatorio": null,
-      "quadro": null,
-      "diarias": {
-        "acumulado": "7.924,78",
-        "meta": "4.000,00",
-        "pct": "198.1%"
+      "relatorio": {
+        "nota_min": null,
+        "nota_max": null,
+        "nota_med": null,
+        "turnos": 0,
+        "tma": 10,
+        "ocs": [
+          "Erro prato",
+          "Reclamação cliente"
+        ],
+        "bos": []
       },
+      "quadro": {
+        "freelas": 1,
+        "alerta_escala": false,
+        "alerta_rupturas": false,
+        "rupturas": [
+          "SANDUBA DE COSTELA",
+          "SANDUBA DE PASTRAMI",
+          "CARPACCIO DE MAMINHA DEFUMADA",
+          "CARPACCIO DE MAMINHA DEFUMADA"
+        ],
+        "turnos": 2
+      },
+      "diarias": null,
       "checklists": null,
       "maturidade": {
-        "score": 0.0,
-        "quadro_turnos": 0,
+        "score": 3.3,
+        "quadro_turnos": 2,
         "relatorio_turnos": 0,
         "checklist_executado": 0,
         "checklist_esperado": 12,
@@ -173,10 +277,16 @@
         "total": 14
       },
       "ifood": {
-        "grade": 4.94,
-        "total": 48
+        "grade": 4.92,
+        "total": 51
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": null,
       "quadro": null,
       "diarias": null,
@@ -191,9 +301,14 @@
       }
     }
   },
-  "vmarket": {},
+  "vmarket": {
+    "cantuccisul": {
+      "total": 458.0,
+      "pedidos": 1,
+      "cotacoes": 0
+    }
+  },
   "erros": [
-    "quadro: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/QUADRO_DADOS.json'",
-    "relatorio: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/RELATORIO_DADOS.json'"
+    "dashboard3v: Command '['C:\\\\Users\\\\julhy\\\\AppData\\\\Local\\\\Python\\\\pythoncore-3.14-64\\\\python.exe', 'dashboard3v_mapear.py']' timed out after 120 seconds"
   ]
 }
