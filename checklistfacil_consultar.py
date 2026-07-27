@@ -102,11 +102,22 @@ def buscar_via_cookies(data_br, data_iso):
 
 
 # ── Método 2: API Analytics com paginação inteligente ────────────────────────
-# Referência calibrada: página 10 = fev/2026
+# Referência calibrada: página 18 = jul/2026
 # A API retorna dados em ordem crescente; total sempre 0 (bug da API)
 _REF_PAG  = 18
 _REF_DATA = date(2026, 7, 1)
 _PAG_MES  = 1.6   # páginas por mês (calibrado em jul/2026)
+
+# Mapa fixo de unitId → lid (obtido via /v1/units)
+_UNIT_ID_MAP = {
+    3895613: "cantucci_an",
+    3895614: "cantucci_ac",
+    3895616: "cantucci_as",
+    3895617: "superquadra",
+    3895618: "mane",
+    3895619: "mane",
+    4329290: "koji",
+}
 
 def _estimar_pagina(data_iso):
     alvo = date.fromisoformat(data_iso)
@@ -133,11 +144,11 @@ def _fetch_pag(headers, pag):
 
 def _item_para_exec(item):
     started = item.get("startedAt", "") or ""
-    uid   = item.get("unitId", "")
-    uname = item.get("unitName", "") or str(uid)
-    lid   = slug(uname)
+    uid   = item.get("unitId")
+    lid   = _UNIT_ID_MAP.get(uid)
+    uname = {v: k for k, v in UNIDADE_MAP.items()}.get(lid, str(uid)) if lid else str(uid)
     return {"unidade": uname, "lid": lid,
-            "checklist": item.get("checklistName", str(item.get("checklistId", ""))),
+            "checklist": str(item.get("checklistId", "")),
             "data_hora": started[:16].replace("T", " "),
             "nota": str(item.get("score") or "")}
 
