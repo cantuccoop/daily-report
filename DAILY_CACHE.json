@@ -1,22 +1,22 @@
 {
-  "data": "2026-07-25",
-  "gerado_em": "2026-07-26",
+  "data": "2026-07-26",
+  "gerado_em": "2026-07-27",
   "semana_inicio": "2026-07-20",
   "lojas": {
     "cantucci_an": {
-      "faturamento": 21721.5,
-      "meta": 33084.93,
+      "faturamento": 30499.49,
+      "meta": 33434.3,
       "google": {
         "grade": 4.95,
-        "total": 108
+        "total": 122
       },
       "ifood": {
         "grade": 4.75,
-        "total": 194
+        "total": 200
       },
       "reviews_dia": {
         "google": {
-          "total": 13,
+          "total": 20,
           "baixas": 0,
           "textos": []
         }
@@ -39,19 +39,24 @@
       }
     },
     "cantucci_as": {
-      "faturamento": 9650.0,
-      "meta": 16412.55,
+      "faturamento": 12495.57,
+      "meta": 17882.63,
       "google": {
-        "grade": 4.44,
-        "total": 34
+        "grade": 4.7,
+        "total": 35
       },
       "ifood": {
-        "grade": 4.47,
-        "total": 112
+        "grade": 4.49,
+        "total": 117
       },
       "reviews_dia": {
         "google": {
-          "total": 2,
+          "total": 3,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 4,
           "baixas": 0,
           "textos": []
         }
@@ -74,20 +79,20 @@
       }
     },
     "cantucci_ac": {
-      "faturamento": 31350.33,
-      "meta": 33440.43,
+      "faturamento": 23099.12,
+      "meta": 27624.17,
       "google": {
-        "grade": 4.18,
-        "total": 226
+        "grade": 4.49,
+        "total": 233
       },
       "ifood": {
-        "grade": 4.73,
-        "total": 221
+        "grade": 4.72,
+        "total": 225
       },
       "reviews_dia": {
         "google": {
-          "total": 30,
-          "baixas": 1,
+          "total": 9,
+          "baixas": 0,
           "textos": []
         }
       },
@@ -109,15 +114,15 @@
       }
     },
     "superquadra": {
-      "faturamento": 16568.13,
-      "meta": 23191.26,
+      "faturamento": 19936.87,
+      "meta": 21476.83,
       "google": {
         "grade": 4.8,
         "total": 5
       },
       "ifood": {
         "grade": 4.83,
-        "total": 76
+        "total": 75
       },
       "reviews_dia": null,
       "relatorio": null,
@@ -138,7 +143,7 @@
       }
     },
     "mane": {
-      "faturamento": 26331.86,
+      "faturamento": 23796.0,
       "meta": 0.0,
       "google": null,
       "ifood": null,
@@ -161,23 +166,17 @@
       }
     },
     "koji": {
-      "faturamento": 28859.8,
-      "meta": 32476.62,
+      "faturamento": null,
+      "meta": 8034.14,
       "google": {
         "grade": 4.07,
         "total": 14
       },
       "ifood": {
-        "grade": 4.93,
-        "total": 44
+        "grade": 4.94,
+        "total": 48
       },
-      "reviews_dia": {
-        "google": {
-          "total": 3,
-          "baixas": 1,
-          "textos": []
-        }
-      },
+      "reviews_dia": null,
       "relatorio": null,
       "quadro": null,
       "diarias": null,
