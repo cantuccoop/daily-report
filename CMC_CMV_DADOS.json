@@ -1,0 +1,56 @@
+{
+  "semana_inicio": "2026-07-20",
+  "semana_fim": "2026-07-26",
+  "mes_referencia": "July / 2026",
+  "gerado_em": "2026-07-27",
+  "unidades": {
+    "cantucci_an": {
+      "unidade": "Asa Norte",
+      "cmc_semana_pct": 19.3,
+      "faturamento_semana": 139660.0,
+      "compras_semana": 26936.0,
+      "cmv_mes_pct": 27.8,
+      "cmv_mes_meta_pct": 29.5
+    },
+    "cantucci_as": {
+      "unidade": "Asa Sul",
+      "cmc_semana_pct": 21.3,
+      "faturamento_semana": 70995.0,
+      "compras_semana": 15131.0,
+      "cmv_mes_pct": 31.2,
+      "cmv_mes_meta_pct": 29.5
+    },
+    "cantucci_ac": {
+      "unidade": "Aguas Claras",
+      "cmc_semana_pct": 26.7,
+      "faturamento_semana": 152090.0,
+      "compras_semana": 40649.0,
+      "cmv_mes_pct": 31.6,
+      "cmv_mes_meta_pct": 29.5
+    },
+    "superquadra": {
+      "unidade": "SPQ Norte",
+      "cmc_semana_pct": 32.1,
+      "faturamento_semana": 77494.0,
+      "compras_semana": 24841.0,
+      "cmv_mes_pct": 31.5,
+      "cmv_mes_meta_pct": 29.5
+    },
+    "mane": {
+      "unidade": "Mane",
+      "cmc_semana_pct": 22.0,
+      "faturamento_semana": 129708.0,
+      "compras_semana": 28550.0,
+      "cmv_mes_pct": 29.9,
+      "cmv_mes_meta_pct": 29.5
+    },
+    "koji": {
+      "unidade": "Koji",
+      "cmc_semana_pct": null,
+      "faturamento_semana": null,
+      "compras_semana": null,
+      "cmv_mes_pct": 0.0,
+      "cmv_mes_meta_pct": 29.5
+    }
+  }
+}
