@@ -61,15 +61,19 @@
         ],
         "turnos": 3
       },
-      "diarias": null,
-      "checklists": null,
+      "diarias": {
+        "acumulado": "5.719,90",
+        "meta": "5.000,00",
+        "pct": "114.4%"
+      },
+      "checklists": 84,
       "maturidade": {
-        "score": 6.7,
+        "score": 10.0,
         "quadro_turnos": 3,
         "relatorio_turnos": 2,
-        "checklist_executado": 0,
+        "checklist_executado": 84,
         "checklist_esperado": 8,
-        "tem_checklist": false
+        "tem_checklist": true
       }
     },
     "cantucci_as": {
@@ -115,15 +119,19 @@
         "rupturas": [],
         "turnos": 2
       },
-      "diarias": null,
-      "checklists": null,
+      "diarias": {
+        "acumulado": "4.100,00",
+        "meta": "2.500,00",
+        "pct": "164%"
+      },
+      "checklists": 297,
       "maturidade": {
-        "score": 5.0,
+        "score": 8.3,
         "quadro_turnos": 2,
         "relatorio_turnos": 1,
-        "checklist_executado": 0,
+        "checklist_executado": 297,
         "checklist_esperado": 12,
-        "tem_checklist": false
+        "tem_checklist": true
       }
     },
     "cantucci_ac": {
@@ -186,15 +194,19 @@
         ],
         "turnos": 2
       },
-      "diarias": null,
-      "checklists": null,
+      "diarias": {
+        "acumulado": "4.310,00",
+        "meta": "5.000,00",
+        "pct": "86.2%"
+      },
+      "checklists": 596,
       "maturidade": {
-        "score": 6.7,
+        "score": 10.0,
         "quadro_turnos": 2,
         "relatorio_turnos": 2,
-        "checklist_executado": 0,
+        "checklist_executado": 596,
         "checklist_esperado": 12,
-        "tem_checklist": false
+        "tem_checklist": true
       }
     },
     "superquadra": {
@@ -217,15 +229,19 @@
         "rupturas": [],
         "turnos": 1
       },
-      "diarias": null,
-      "checklists": null,
+      "diarias": {
+        "acumulado": "4.142,00",
+        "meta": "3.500,00",
+        "pct": "118.3%"
+      },
+      "checklists": 2,
       "maturidade": {
-        "score": 1.7,
+        "score": 2.1,
         "quadro_turnos": 1,
         "relatorio_turnos": 0,
-        "checklist_executado": 0,
+        "checklist_executado": 2,
         "checklist_esperado": 14,
-        "tem_checklist": false
+        "tem_checklist": true
       }
     },
     "mane": {
@@ -258,15 +274,19 @@
         ],
         "turnos": 2
       },
-      "diarias": null,
-      "checklists": null,
+      "diarias": {
+        "acumulado": "7.924,78",
+        "meta": "4.000,00",
+        "pct": "198.1%"
+      },
+      "checklists": 21,
       "maturidade": {
-        "score": 3.3,
+        "score": 6.7,
         "quadro_turnos": 2,
         "relatorio_turnos": 0,
-        "checklist_executado": 0,
+        "checklist_executado": 21,
         "checklist_esperado": 12,
-        "tem_checklist": false
+        "tem_checklist": true
       }
     },
     "koji": {
@@ -308,7 +328,5 @@
       "cotacoes": 0
     }
   },
-  "erros": [
-    "dashboard3v: Command '['C:\\\\Users\\\\julhy\\\\AppData\\\\Local\\\\Python\\\\pythoncore-3.14-64\\\\python.exe', 'dashboard3v_mapear.py']' timed out after 120 seconds"
-  ]
+  "erros": []
 }

@@ -1,18 +1,15 @@
 """
-Consulta checklists aplicados por dia no ChecklistFacil via API.
-Usa cookies salvos pelo checklistfacil_login.py.
+Consulta checklists aplicados por dia no ChecklistFacil via API Analytics.
+Usa API key permanente — sem necessidade de cookies ou login manual.
 """
 import sys, json, os, requests
 from datetime import datetime
 
-DIR          = os.path.dirname(os.path.abspath(__file__))
-COOKIES_FILE = os.path.join(DIR, "checklistfacil_spy.json")
-API_BASE     = "https://app.checklistfacil.com.br/api/spa/v1"
-HEADERS_BASE = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Accept": "application/json",
-    "Referer": "https://app.checklistfacil.com.br/",
-}
+DIR      = os.path.dirname(os.path.abspath(__file__))
+API_KEY  = os.environ.get("CHECKLIST_API_KEY",
+           "EzHmDeA9R2Mje3dBS8FRzzq0WXQTEgvknraebBy0IIh8aH9uKOaxaD7Ez2HTHQ9wPFDNQa3L1xxIAN6LXYYR0Qx5B9bLdvUhy5iPSvFy8Kzyq79dwI2VqjjD09L0IlCO")
+BASE     = "https://api-analytics.checklistfacil.com.br/v1"
+HEADERS  = {"Authorization": f"Bearer {API_KEY}", "Accept": "application/json"}
 
 UNIDADE_MAP = {
     "cantucci asa sul":      "cantucci_as",
@@ -27,6 +24,18 @@ UNIDADE_MAP = {
     "koji":                  "koji",
 }
 
+_units_cache = {}
+
+def get_units():
+    if _units_cache:
+        return _units_cache
+    r = requests.get(f"{BASE}/units", headers=HEADERS, timeout=15)
+    if not r.ok:
+        return {}
+    for u in r.json().get("data", []):
+        _units_cache[u["unitId"]] = u.get("name", "")
+    return _units_cache
+
 def slug(nome):
     n = nome.lower().strip()
     for k, v in UNIDADE_MAP.items():
@@ -39,87 +48,57 @@ def buscar_checklists(data_br=None):
     if not data_br:
         data_br = datetime.today().strftime("%d/%m/%Y")
 
-    if not os.path.exists(COOKIES_FILE):
-        print("  ChecklistFacil: sem cookies — rode checklistfacil_login.py")
-        return []
+    # Converte DD/MM/YYYY → YYYY-MM-DD
+    data_iso = f"{data_br[6:10]}-{data_br[3:5]}-{data_br[0:2]}"
 
-    with open(COOKIES_FILE, encoding="utf-8") as f:
-        spy = json.load(f)
-    cookies = spy.get("cookies", {})
-    if not cookies:
-        print("  ChecklistFacil: cookies vazios")
-        return []
-
-    session = requests.Session()
-    for k, v in cookies.items():
-        session.cookies.set(k, v, domain="app.checklistfacil.com.br")
-        session.cookies.set(k, v, domain=".checklistfacil.com.br")
+    units = get_units()
 
     execucoes = []
     pagina = 1
 
     while True:
         params = {
-            "status[]": "completed",
-            "period": "start",
-            "start_date": data_br,
-            "end_date": data_br,
-            "page": pagina,
-            "per_page": 100,
-            "my_analyses": 0,
+            "page":      pagina,
+            "limit":     1000,
+            "status":    6,          # 6 = concluído
+            "startDate": data_iso,
+            "endDate":   data_iso,
         }
         try:
-            r = session.get(f"{API_BASE}/evaluations", params=params,
-                            headers=HEADERS_BASE, timeout=15)
+            r = requests.get(f"{BASE}/evaluations", params=params,
+                             headers=HEADERS, timeout=20)
         except Exception as e:
             print(f"  ChecklistFacil ERRO: {e}")
             break
 
-        if r.status_code == 404:
-            break
         if not r.ok:
-            print(f"  ChecklistFacil: HTTP {r.status_code} — cookies expirados?")
+            print(f"  ChecklistFacil: HTTP {r.status_code}")
             break
 
-        try:
-            data = r.json()
-        except:
+        data = r.json()
+        items = data.get("data", [])
+        if not items:
             break
 
-        payload = data.get("data", data.get("payload", []))
-        if not payload:
-            break
+        print(f"  Página {pagina}: {len(items)} registros")
 
-        # data_br = "DD/MM/YYYY" → prefixo ISO "YYYY-MM-DD"
-        data_iso = f"{data_br[6:10]}-{data_br[3:5]}-{data_br[0:2]}"
-        encontrou_fora = False
-        for item in payload:
-            started = item.get("startedAt", "") or ""
-            # Filtra pela data correta (API ignora start_date/end_date)
-            if not started.startswith(data_iso):
-                encontrou_fora = True
-                continue
-            unidade_nome   = (item.get("unit") or {}).get("name", "")
-            checklist_nome = (item.get("checklist") or {}).get("name", "")
-            score          = item.get("formattedScore", "")
-            started_fmt    = started[:16].replace("T", " ")
-            lid            = slug(unidade_nome)
-            if unidade_nome and checklist_nome:
+        for item in items:
+            uid   = item.get("unitId")
+            nome  = units.get(uid, str(uid))
+            lid   = slug(nome)
+            score = item.get("score")
+            started = item.get("startedAt", "")[:16].replace("T", " ") if item.get("startedAt") else ""
+            if nome:
                 execucoes.append({
-                    "unidade":    unidade_nome,
-                    "lid":        lid,
-                    "checklist":  checklist_nome,
-                    "data_hora":  started_fmt,
-                    "nota":       score,
+                    "unidade":   nome,
+                    "lid":       lid,
+                    "checklist": str(item.get("checklistId", "")),
+                    "data_hora": started,
+                    "nota":      str(score) if score is not None else "",
                 })
-        # Para quando não há mais itens do dia (API retorna decrescente)
-        if encontrou_fora and not any(
-            (item.get("startedAt") or "").startswith(data_iso) for item in payload
-        ):
-            break
 
-        print(f"  Página {pagina}: {len(payload)} registros")
-        if len(payload) < 100:
+        total = data.get("total") or data.get("count") or 0
+        if len(execucoes) >= total or len(items) < 1000:
             break
         pagina += 1
 

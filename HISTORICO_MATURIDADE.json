@@ -538,12 +538,12 @@
     "unidade": "Cantucci Águas Claras",
     "faturamento": 23099.12,
     "meta": 27624.17,
-    "maturidade_score": 6.7,
+    "maturidade_score": 10.0,
     "quadro_turnos": 2,
     "relatorio_turnos": 2,
-    "checklist_executado": 0,
+    "checklist_executado": 596,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-26",
@@ -551,12 +551,12 @@
     "unidade": "Cantucci Asa Norte",
     "faturamento": 30499.49,
     "meta": 33434.3,
-    "maturidade_score": 6.7,
+    "maturidade_score": 10.0,
     "quadro_turnos": 3,
     "relatorio_turnos": 2,
-    "checklist_executado": 0,
+    "checklist_executado": 84,
     "checklist_esperado": 8,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-26",
@@ -564,12 +564,12 @@
     "unidade": "Cantucci Asa Sul",
     "faturamento": 12495.57,
     "meta": 17882.63,
-    "maturidade_score": 5.0,
+    "maturidade_score": 8.3,
     "quadro_turnos": 2,
     "relatorio_turnos": 1,
-    "checklist_executado": 0,
+    "checklist_executado": 297,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-26",
@@ -590,12 +590,12 @@
     "unidade": "Mané",
     "faturamento": 23796.0,
     "meta": 0.0,
-    "maturidade_score": 3.3,
+    "maturidade_score": 6.7,
     "quadro_turnos": 2,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 21,
     "checklist_esperado": 12,
-    "tem_checklist": false
+    "tem_checklist": true
   },
   {
     "data": "2026-07-26",
@@ -603,11 +603,11 @@
     "unidade": "Superquadra Norte",
     "faturamento": 19936.87,
     "meta": 21476.83,
-    "maturidade_score": 1.7,
+    "maturidade_score": 2.1,
     "quadro_turnos": 1,
     "relatorio_turnos": 0,
-    "checklist_executado": 0,
+    "checklist_executado": 2,
     "checklist_esperado": 14,
-    "tem_checklist": false
+    "tem_checklist": true
   }
 ]
