@@ -35,6 +35,7 @@ jobs:
           DASHBOARD3V_SENHA:      ${{ secrets.DASHBOARD3V_SENHA }}
           CHECKLIST_EMAIL:        operacoes@cantucci.com.br
           CHECKLIST_SENHA:        ${{ secrets.CHECKLIST_SENHA }}
+          CHECKLIST_API_KEY:      ${{ secrets.CHECKLIST_API_KEY }}
         run: python daily_sync.py
 
       - name: Generate HTML
