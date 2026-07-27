@@ -3,6 +3,7 @@
   "semana_fim": "2026-07-26",
   "gerado_em": "2026-07-27",
   "mes_referencia_cmv": "July / 2026",
+  "mes_referencia_projecao": "07/2026",
   "lojas": {
     "cantucci_an": {
       "dias": 5,
@@ -13,12 +14,49 @@
       "relatorio_turnos": 5,
       "checklist_executado": 20,
       "checklist_esperado": 40,
-      "google": null,
-      "ifood": null,
-      "reviews_semana": null,
+      "google": {
+        "grade": 4.98,
+        "total": 65
+      },
+      "ifood": {
+        "grade": 4.71,
+        "total": 29
+      },
+      "reviews_semana": {
+        "ifood": {
+          "baixas": 2,
+          "textos": [
+            {
+              "nota": 2,
+              "cliente": "Derick",
+              "texto": "Mt gordurosa, uso excessivo de oleo e pouco tempero"
+            },
+            {
+              "nota": 2,
+              "cliente": "Thiago",
+              "texto": "Abaixo do esperado. N"
+            }
+          ]
+        }
+      },
+      "detratores_google": 0,
+      "detratores_ifood": 2,
       "cmc_semana_pct": 19.3,
       "cmv_mes_pct": 27.8,
-      "cmv_mes_meta_pct": 29.5
+      "cmv_mes_meta_pct": 29.5,
+      "pct_delivery": 18.21,
+      "ticket_medio_geral": 96.19,
+      "descontos_qtd": 232,
+      "descontos_valor": 10301.37,
+      "pct_upsell": 11.62,
+      "fat_upsell": 11762.63,
+      "pct_alcoolica": 14.59,
+      "fat_alcoolica": 14772.29,
+      "tma_cozinha_min": 14.7,
+      "pct_tma_acima_20": 10.4,
+      "projecao_mes": 666087.44,
+      "meta_mes": 879020.0,
+      "projecao_pct_meta": 75.8
     },
     "cantucci_as": {
       "dias": 5,
@@ -29,12 +67,33 @@
       "relatorio_turnos": 3,
       "checklist_executado": 24,
       "checklist_esperado": 60,
-      "google": null,
-      "ifood": null,
+      "google": {
+        "grade": 5.0,
+        "total": 13
+      },
+      "ifood": {
+        "grade": 4.92,
+        "total": 23
+      },
       "reviews_semana": null,
+      "detratores_google": 0,
+      "detratores_ifood": 0,
       "cmc_semana_pct": 21.3,
       "cmv_mes_pct": 31.2,
-      "cmv_mes_meta_pct": 29.5
+      "cmv_mes_meta_pct": 29.5,
+      "pct_delivery": 23.21,
+      "ticket_medio_geral": 82.74,
+      "descontos_qtd": 266,
+      "descontos_valor": 10682.54,
+      "pct_upsell": 7.59,
+      "fat_upsell": 3647.02,
+      "pct_alcoolica": 11.71,
+      "fat_alcoolica": 5628.07,
+      "tma_cozinha_min": 17.9,
+      "pct_tma_acima_20": 46.2,
+      "projecao_mes": 313359.7,
+      "meta_mes": 412217.99,
+      "projecao_pct_meta": 76.0
     },
     "cantucci_ac": {
       "dias": 6,
@@ -45,12 +104,49 @@
       "relatorio_turnos": 5,
       "checklist_executado": 14,
       "checklist_esperado": 72,
-      "google": null,
-      "ifood": null,
-      "reviews_semana": null,
+      "google": {
+        "grade": 4.65,
+        "total": 86
+      },
+      "ifood": {
+        "grade": 4.58,
+        "total": 35
+      },
+      "reviews_semana": {
+        "google": {
+          "baixas": 2,
+          "textos": [
+            {
+              "nota": 2,
+              "cliente": "Carla Claro",
+              "texto": "Fui as 17h e ao chegar sentei na mesa externa e pedi chop. O chop não estava trincando de gelo.\nO lugar embora bonito achei ruim, pois muito silencioso só conseguia ouvir as vozes das conversas que os funcionários falavam.\nComo não gosto de lugar sem ao menos uma música de fundo não gostei."
+            },
+            {
+              "nota": 1,
+              "cliente": "Amanda Costa",
+              "texto": ""
+            }
+          ]
+        }
+      },
+      "detratores_google": 2,
+      "detratores_ifood": 0,
       "cmc_semana_pct": 26.7,
       "cmv_mes_pct": 31.6,
-      "cmv_mes_meta_pct": 29.5
+      "cmv_mes_meta_pct": 29.5,
+      "pct_delivery": 17.54,
+      "ticket_medio_geral": 123.45,
+      "descontos_qtd": 298,
+      "descontos_valor": 13076.32,
+      "pct_upsell": 10.83,
+      "fat_upsell": 12042.04,
+      "pct_alcoolica": 16.35,
+      "fat_alcoolica": 18172.64,
+      "tma_cozinha_min": 16.7,
+      "pct_tma_acima_20": 15.4,
+      "projecao_mes": 645643.58,
+      "meta_mes": 713803.0,
+      "projecao_pct_meta": 90.5
     },
     "superquadra": {
       "dias": 5,
@@ -61,12 +157,33 @@
       "relatorio_turnos": 0,
       "checklist_executado": 22,
       "checklist_esperado": 70,
-      "google": null,
-      "ifood": null,
+      "google": {
+        "grade": 5.0,
+        "total": 2
+      },
+      "ifood": {
+        "grade": 5.0,
+        "total": 11
+      },
       "reviews_semana": null,
+      "detratores_google": 0,
+      "detratores_ifood": 0,
       "cmc_semana_pct": 32.1,
       "cmv_mes_pct": 31.5,
-      "cmv_mes_meta_pct": 29.5
+      "cmv_mes_meta_pct": 29.5,
+      "pct_delivery": 14.92,
+      "ticket_medio_geral": 100.25,
+      "descontos_qtd": 166,
+      "descontos_valor": 3818.99,
+      "pct_upsell": 9.69,
+      "fat_upsell": 5702.8,
+      "pct_alcoolica": 20.7,
+      "fat_alcoolica": 12182.79,
+      "tma_cozinha_min": null,
+      "pct_tma_acima_20": null,
+      "projecao_mes": 403882.65,
+      "meta_mes": 447085.97,
+      "projecao_pct_meta": 90.3
     },
     "mane": {
       "dias": 5,
@@ -80,9 +197,24 @@
       "google": null,
       "ifood": null,
       "reviews_semana": null,
+      "detratores_google": null,
+      "detratores_ifood": null,
       "cmc_semana_pct": 22.0,
       "cmv_mes_pct": 29.9,
-      "cmv_mes_meta_pct": 29.5
+      "cmv_mes_meta_pct": 29.5,
+      "pct_delivery": 13.22,
+      "ticket_medio_geral": 118.87,
+      "descontos_qtd": 963,
+      "descontos_valor": 37993.22,
+      "pct_upsell": 6.87,
+      "fat_upsell": 5188.0,
+      "pct_alcoolica": 0.0,
+      "fat_alcoolica": 0.0,
+      "tma_cozinha_min": null,
+      "pct_tma_acima_20": null,
+      "projecao_mes": 583812.45,
+      "meta_mes": 691627.01,
+      "projecao_pct_meta": 84.4
     },
     "koji": {
       "dias": 5,
@@ -93,15 +225,50 @@
       "relatorio_turnos": 0,
       "checklist_executado": 3,
       "checklist_esperado": 20,
-      "google": null,
-      "ifood": null,
-      "reviews_semana": null,
+      "google": {
+        "grade": 3.71,
+        "total": 7
+      },
+      "ifood": {
+        "grade": 4.82,
+        "total": 11
+      },
+      "reviews_semana": {
+        "google": {
+          "baixas": 2,
+          "textos": [
+            {
+              "nota": 2,
+              "cliente": "Luana Rios",
+              "texto": "Não recomendo. Em dado momento, os itens da sequência pararam de chegar e os pedidos individuais também não eram atendidos (ou somente após muita demora e insistência). Desistimos e pedimos a conta."
+            },
+            {
+              "nota": 1,
+              "cliente": "chucrute de mel",
+              "texto": "que arrependimento ter voltado ai, fui há anos atrás, era um dos melhores de Brasília, atualmente da pra ver que o dono deve ter ficado rico e não deve nem ir no estabelecimento mais. a casa estava lotada e apesar do esforço e tentativas dos ótimos funcionários, os coitados não estavam dando conta de tamanha demanda. pra aumentar o lucro, esses péssimos \"empreendedores\" colocam poucos funcionários pra atender a casa e obviamente não dão conta. 160 reais um rodízio pra comida nao chegar, nao conseguimos comer metade do rodízio e começaram a trazer apenas coisas repetidas porque nao estavam dando conta da demanda. experiência horrível, fujam desse lugar"
+            }
+          ]
+        }
+      },
+      "detratores_google": 2,
+      "detratores_ifood": 0,
       "cmc_semana_pct": null,
       "cmv_mes_pct": 0.0,
-      "cmv_mes_meta_pct": 29.5
+      "cmv_mes_meta_pct": 29.5,
+      "pct_delivery": 0.0,
+      "ticket_medio_geral": 211.55,
+      "descontos_qtd": 1,
+      "descontos_valor": 114.0,
+      "pct_upsell": 4.26,
+      "fat_upsell": 6300.74,
+      "pct_alcoolica": 4.07,
+      "fat_alcoolica": 6022.74,
+      "tma_cozinha_min": null,
+      "pct_tma_acima_20": null,
+      "projecao_mes": 542549.63,
+      "meta_mes": 851661.99,
+      "projecao_pct_meta": 63.7
     }
   },
-  "erros": [
-    "falae: HTTPSConnectionPool(host='api-b2s.experienciab2s.com', port=443): Read timed out. (read timeout=10)"
-  ]
+  "erros": []
 }

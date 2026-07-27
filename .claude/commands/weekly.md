@@ -1,4 +1,4 @@
-Mostra o report semanal consolidado por unidade: faturamento vs meta, maturidade operacional (quadro/turno/checklist), reputação (Falaê), CMC da semana e CMV do mês — tudo somado/mediado na semana (segunda a domingo).
+Mostra o report semanal consolidado por unidade: faturamento vs meta, maturidade operacional (quadro/turno/checklist), reputação (Falaê), CMC da semana, CMV do mês, delivery, descontos, upsell/alcoólica, TMA e projeção do mês (tudo do Cantucci OS) — somado/mediado na semana (segunda a domingo).
 
 **Argumento opcional:** data dentro da semana alvo (padrão: semana passada).
 - `/weekly`
@@ -11,6 +11,9 @@ Lê o `WEEKLY_CACHE.json` gerado pelo `weekly_sync.py`, que roda toda segunda de
 `HISTORICO_DIARIO.json` já coletado dia a dia pelo `daily_sync.py`; reputação (Falaê) é buscada direto
 na API para a semana inteira; CMC da semana e CMV do mês corrente vêm do painel CMC/CMV do Grupo 3V
 (`cmc_cmv_mapear.py`, via `CMC_CMV_DADOS.json`) — o painel não calcula CMV por semana, só por mês.
+Delivery, descontos, upsell, bebida alcoólica, TMA (cozinha/bar) e projeção do mês vêm direto da API
+do Cantucci OS (`cantucci_os_semanal.py`, via `CANTUCCI_OS_SEMANAL.json`) — projeção também é só mensal,
+a API não calcula projeção por semana.
 
 ## Passos
 
@@ -22,6 +25,7 @@ na API para a semana inteira; CMC da semana e CMV do mês corrente vêm do paine
 2. Se o cache estiver desatualizado ou ausente, rode a sync manualmente:
    ```
    py -3 cmc_cmv_mapear.py [YYYY-MM-DD]
+   py -3 cantucci_os_semanal.py [YYYY-MM-DD]
    py -3 weekly_sync.py [YYYY-MM-DD]
    ```
 
@@ -29,6 +33,7 @@ na API para a semana inteira; CMC da semana e CMV do mês corrente vêm do paine
 
 ## Arquitetura
 - `cmc_cmv_mapear.py` — login no painel CMC/CMV (Streamlit, Grupo 3V) e salva `CMC_CMV_DADOS.json`
+- `cantucci_os_semanal.py` — coleta delivery/descontos/upsell/alcoólica/TMA/projeção via API do Cantucci OS e salva `CANTUCCI_OS_SEMANAL.json`
 - `weekly_sync.py` — agrega a semana (segunda a domingo) e salva `WEEKLY_CACHE.json`
 - `weekly_report.py` — lê o cache e imprime instantâneo
 - `WEEKLY_CACHE.json` — cache da semana

@@ -5,27 +5,10 @@
   "lojas": {
     "cantucci_an": {
       "faturamento": 30499.49,
-      "meta": 33434.3,
-      "google": {
-        "grade": 4.95,
-        "total": 122
-      },
-      "ifood": {
-        "grade": 4.75,
-        "total": 203
-      },
-      "reviews_dia": {
-        "google": {
-          "total": 20,
-          "baixas": 0,
-          "textos": []
-        },
-        "ifood": {
-          "total": 2,
-          "baixas": 0,
-          "textos": []
-        }
-      },
+      "meta": 33483.51,
+      "google": null,
+      "ifood": null,
+      "reviews_dia": null,
       "relatorio": {
         "nota_min": 6.0,
         "nota_max": 8.0,
@@ -66,39 +49,22 @@
         "meta": "5.000,00",
         "pct": "114.4%"
       },
-      "checklists": 84,
+      "checklists": 7,
       "maturidade": {
-        "score": 10.0,
+        "score": 9.6,
         "quadro_turnos": 3,
         "relatorio_turnos": 2,
-        "checklist_executado": 84,
+        "checklist_executado": 7,
         "checklist_esperado": 8,
         "tem_checklist": true
       }
     },
     "cantucci_as": {
       "faturamento": 12495.57,
-      "meta": 17882.63,
-      "google": {
-        "grade": 4.7,
-        "total": 35
-      },
-      "ifood": {
-        "grade": 4.49,
-        "total": 117
-      },
-      "reviews_dia": {
-        "google": {
-          "total": 3,
-          "baixas": 0,
-          "textos": []
-        },
-        "ifood": {
-          "total": 4,
-          "baixas": 0,
-          "textos": []
-        }
-      },
+      "meta": 17895.3,
+      "google": null,
+      "ifood": null,
+      "reviews_dia": null,
       "relatorio": {
         "nota_min": 8.0,
         "nota_max": 8.0,
@@ -124,39 +90,22 @@
         "meta": "2.500,00",
         "pct": "164%"
       },
-      "checklists": 297,
+      "checklists": 12,
       "maturidade": {
         "score": 8.3,
         "quadro_turnos": 2,
         "relatorio_turnos": 1,
-        "checklist_executado": 297,
+        "checklist_executado": 12,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "cantucci_ac": {
       "faturamento": 23099.12,
-      "meta": 27624.17,
-      "google": {
-        "grade": 4.49,
-        "total": 233
-      },
-      "ifood": {
-        "grade": 4.71,
-        "total": 228
-      },
-      "reviews_dia": {
-        "google": {
-          "total": 9,
-          "baixas": 0,
-          "textos": []
-        },
-        "ifood": {
-          "total": 2,
-          "baixas": 0,
-          "textos": []
-        }
-      },
+      "meta": 27665.58,
+      "google": null,
+      "ifood": null,
+      "reviews_dia": null,
       "relatorio": {
         "nota_min": 9.0,
         "nota_max": 9.0,
@@ -199,12 +148,12 @@
         "meta": "5.000,00",
         "pct": "86.2%"
       },
-      "checklists": 596,
+      "checklists": 6,
       "maturidade": {
-        "score": 10.0,
+        "score": 8.3,
         "quadro_turnos": 2,
         "relatorio_turnos": 2,
-        "checklist_executado": 596,
+        "checklist_executado": 6,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
@@ -212,14 +161,8 @@
     "superquadra": {
       "faturamento": 19936.87,
       "meta": 21476.83,
-      "google": {
-        "grade": 4.8,
-        "total": 5
-      },
-      "ifood": {
-        "grade": 4.83,
-        "total": 75
-      },
+      "google": null,
+      "ifood": null,
       "reviews_dia": null,
       "relatorio": null,
       "quadro": {
@@ -234,12 +177,12 @@
         "meta": "3.500,00",
         "pct": "118.3%"
       },
-      "checklists": 2,
+      "checklists": 6,
       "maturidade": {
-        "score": 2.1,
+        "score": 3.1,
         "quadro_turnos": 1,
         "relatorio_turnos": 0,
-        "checklist_executado": 2,
+        "checklist_executado": 6,
         "checklist_esperado": 14,
         "tem_checklist": true
       }
@@ -279,12 +222,12 @@
         "meta": "4.000,00",
         "pct": "198.1%"
       },
-      "checklists": 21,
+      "checklists": 5,
       "maturidade": {
-        "score": 6.7,
+        "score": 4.7,
         "quadro_turnos": 2,
         "relatorio_turnos": 0,
-        "checklist_executado": 21,
+        "checklist_executado": 5,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
@@ -292,21 +235,9 @@
     "koji": {
       "faturamento": null,
       "meta": 8034.14,
-      "google": {
-        "grade": 4.07,
-        "total": 14
-      },
-      "ifood": {
-        "grade": 4.92,
-        "total": 51
-      },
-      "reviews_dia": {
-        "ifood": {
-          "total": 1,
-          "baixas": 0,
-          "textos": []
-        }
-      },
+      "google": null,
+      "ifood": null,
+      "reviews_dia": null,
       "relatorio": null,
       "quadro": null,
       "diarias": null,
@@ -328,5 +259,7 @@
       "cotacoes": 0
     }
   },
-  "erros": []
+  "erros": [
+    "falae: HTTPSConnectionPool(host='api-b2s.experienciab2s.com', port=443): Max retries exceeded with url: /dashboard/reputation?companies_id=7657a307-a357-444d-8673-8589a6d6da8f&date_start=2026-07-26&date_end=2026-07-26 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-b2s.experienciab2s.com', port=443) at 0x25da0eb79d0>, 'Connection to api-b2s.experienciab2s.com timed out. (connect timeout=10)'))"
+  ]
 }

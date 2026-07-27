@@ -6,6 +6,9 @@ vêm do HISTORICO_DIARIO.json (já coletado dia a dia pelo daily_sync.py).
 Reputação (Falaê) é buscada direto na API para a semana inteira.
 CMC da semana e CMV do mês corrente vêm do CMC_CMV_DADOS.json, gerado pelo
 cmc_cmv_mapear.py (painel Grupo 3V) — precisa rodar antes deste script.
+Delivery, descontos, upsell, alcoólica, TMA e projeção do mês vêm do
+CANTUCCI_OS_SEMANAL.json, gerado pelo cantucci_os_semanal.py (API Cantucci OS)
+— também precisa rodar antes.
 
 Uso: py -3 weekly_sync.py [YYYY-MM-DD]   (qualquer data dentro da semana alvo; sem argumento = semana passada)
 """
@@ -67,6 +70,7 @@ cache = {
     'semana_fim': DOMINGO_ISO,
     'gerado_em': str(date.today()),
     'mes_referencia_cmv': None,
+    'mes_referencia_projecao': None,
     'lojas': {},
     'erros': [],
 }
@@ -77,7 +81,14 @@ for lid, _ in LOJAS:
         'quadro_turnos': 0, 'relatorio_turnos': 0,
         'checklist_executado': 0, 'checklist_esperado': 0,
         'google': None, 'ifood': None, 'reviews_semana': None,
+        'detratores_google': None, 'detratores_ifood': None,
         'cmc_semana_pct': None, 'cmv_mes_pct': None, 'cmv_mes_meta_pct': None,
+        'pct_delivery': None, 'ticket_medio_geral': None,
+        'descontos_qtd': None, 'descontos_valor': None,
+        'pct_upsell': None, 'fat_upsell': None,
+        'pct_alcoolica': None, 'fat_alcoolica': None,
+        'tma_cozinha_min': None, 'pct_tma_acima_20': None,
+        'projecao_mes': None, 'meta_mes': None, 'projecao_pct_meta': None,
     }
 
 
@@ -137,7 +148,34 @@ def carregar_cmc_cmv():
     log(f'CMC/CMV OK — {ok} unidades')
 
 
-# ─── 3. Falaê — reputação média da semana ────────────────────────────────────
+# ─── 3. Cantucci OS (delivery/descontos/upsell/alcoólica/TMA/projeção) ───────
+def carregar_cantucci_os():
+    log('Carregando Cantucci OS...')
+    path = os.path.join(DIR, 'CANTUCCI_OS_SEMANAL.json')
+    if not os.path.exists(path):
+        cache['erros'].append('cantucci_os: CANTUCCI_OS_SEMANAL.json não encontrado — rode cantucci_os_semanal.py')
+        return
+    with open(path, encoding='utf-8') as f:
+        dados = json.load(f)
+    if dados.get('semana_inicio') != SEGUNDA_ISO:
+        cache['erros'].append(f'cantucci_os: cache é da semana de {dados.get("semana_inicio")}')
+        return
+    cache['mes_referencia_projecao'] = dados.get('mes_referencia_projecao')
+    ok = 0
+    campos = ['pct_delivery', 'ticket_medio_geral', 'descontos_qtd', 'descontos_valor',
+              'pct_upsell', 'fat_upsell', 'pct_alcoolica', 'fat_alcoolica',
+              'tma_cozinha_min', 'pct_tma_acima_20', 'projecao_mes', 'meta_mes', 'projecao_pct_meta']
+    for lid, u in dados.get('lojas', {}).items():
+        if lid not in cache['lojas']:
+            continue
+        for campo in campos:
+            cache['lojas'][lid][campo] = u.get(campo)
+        if u.get('pct_delivery') is not None:
+            ok += 1
+    log(f'Cantucci OS OK — {ok} unidades')
+
+
+# ─── 4. Falaê — reputação média da semana ────────────────────────────────────
 def sync_falae():
     log('Falaê (semana)...')
     try:
@@ -158,11 +196,13 @@ def sync_falae():
             try:
                 rr = requests.get(endpoint,
                                    params={'companies_id': cid, 'date_start': SEGUNDA_ISO, 'date_end': DOMINGO_ISO,
-                                           'offset': 1, 'limit': 50},
+                                           'offset': 1, 'limit': 100,
+                                           'order_column': 'comment_date', 'order_type': 'DESC'},
                                    headers={**h, 'company_id': cid}, timeout=10)
                 if not rr.ok:
                     return []
-                items = rr.json().get('data', rr.json()) if isinstance(rr.json(), dict) else rr.json()
+                j = rr.json()
+                items = j.get('reviews', []) if isinstance(j, dict) else j
                 if not isinstance(items, list):
                     items = []
                 baixas = []
@@ -206,6 +246,10 @@ def sync_falae():
                 return None, 0
             return round(sum(grades) / len(grades), 2), sum(totais)
 
+        def qtd_detratores(reps, plat):
+            return sum(((r.get(plat, {}).get('summary', {}).get('oneStar') or 0) +
+                        (r.get(plat, {}).get('summary', {}).get('twoStars') or 0)) for r in reps)
+
         ok = 0
         for lid, reps, baixas_textos in results:
             if not reps:
@@ -215,6 +259,8 @@ def sync_falae():
             if g_grade or i_grade:
                 cache['lojas'][lid]['google'] = {'grade': g_grade, 'total': g_total} if g_grade else None
                 cache['lojas'][lid]['ifood'] = {'grade': i_grade, 'total': i_total} if i_grade else None
+                cache['lojas'][lid]['detratores_google'] = qtd_detratores(reps, 'google')
+                cache['lojas'][lid]['detratores_ifood'] = qtd_detratores(reps, 'ifood')
                 reviews = {}
                 for plat in ['google', 'ifood']:
                     bxs = baixas_textos.get(plat, [])
@@ -235,6 +281,7 @@ if __name__ == '__main__':
 
     agregar_historico()
     carregar_cmc_cmv()
+    carregar_cantucci_os()
     sync_falae()
 
     cache_path = os.path.join(DIR, 'WEEKLY_CACHE.json')

@@ -88,14 +88,25 @@ for lid, label in LOJAS:
     g = loja.get('google')
     i = loja.get('ifood')
     rs = loja.get('reviews_semana') or {}
+    det_g = loja.get('detratores_google')
+    det_i = loja.get('detratores_ifood')
     if g or i:
         g_str = f'⭐{g["grade"]:.1f} ({g["total"]})' if g and g.get('grade') else '—'
         i_str = f'⭐{i["grade"]:.1f} ({i["total"]})' if i and i.get('grade') else '—'
-        print(f'⭐ Reputação     → Google {g_str} | iFood {i_str}')
+        det_total = (det_g or 0) + (det_i or 0)
+        det_str = f'  |  {det_total} detrator(es) (≤2★)' if det_total else '  |  0 detratores'
+        print(f'⭐ Reputação     → Google {g_str} | iFood {i_str}{det_str}')
         for plat, plabel in [('google', 'Google'), ('ifood', 'iFood')]:
             s = rs.get(plat)
             if s and s.get('baixas'):
                 print(f'   ↳ ⚠️ {s["baixas"]} avaliação(ões) {plabel} abaixo de 3★ na semana')
+                for t in s.get('textos', [])[:5]:
+                    estrelas = '⭐' * int(t.get('nota', 1))
+                    texto = t.get('texto', '').strip()
+                    linha = f'      • {estrelas} {t.get("cliente", "Anônimo")}'
+                    if texto:
+                        linha += f': "{texto[:120]}"'
+                    print(linha)
     else:
         print(f'⭐ Reputação     → —')
 
@@ -124,6 +135,47 @@ for lid, label in LOJAS:
         print(f'📦 CMV mês ({mes_ref}) → {cmv}%{meta_str}')
     else:
         print(f'📦 CMV mês       → —')
+
+    pct_deliv = loja.get('pct_delivery')
+    if pct_deliv is not None:
+        print(f'🛵 Delivery      → {pct_deliv}%')
+    else:
+        print(f'🛵 Delivery      → —')
+
+    desc_qtd = loja.get('descontos_qtd')
+    desc_val = loja.get('descontos_valor')
+    if desc_qtd is not None:
+        print(f'🏷️ Descontos     → {desc_qtd} descontos  |  R$ {desc_val:,.2f}')
+    else:
+        print(f'🏷️ Descontos     → —')
+
+    pct_up = loja.get('pct_upsell')
+    pct_alc = loja.get('pct_alcoolica')
+    if pct_up is not None or pct_alc is not None:
+        up_str = f'{pct_up}% upsell' if pct_up is not None else 'upsell —'
+        alc_str = f'{pct_alc}% alcoólica' if pct_alc is not None else 'alcoólica —'
+        print(f'🍷 Up/Alcoólica  → {up_str}  |  {alc_str}')
+    else:
+        print(f'🍷 Up/Alcoólica  → —')
+
+    tma_coz = loja.get('tma_cozinha_min')
+    pct_20 = loja.get('pct_tma_acima_20')
+    if tma_coz is not None or pct_20 is not None:
+        coz_str = f'{tma_coz}min cozinha' if tma_coz is not None else 'cozinha —'
+        p20_str = f'{pct_20}% acima de 20min' if pct_20 is not None else '% acima de 20min —'
+        print(f'⏱️ TMA           → {coz_str}  |  {p20_str}')
+    else:
+        print(f'⏱️ TMA           → —')
+
+    proj = loja.get('projecao_mes')
+    proj_meta = loja.get('meta_mes')
+    proj_pct = loja.get('projecao_pct_meta')
+    mes_ref_proj = cache.get('mes_referencia_projecao') or '—'
+    if proj is not None:
+        meta_str = f' / meta R$ {proj_meta:,.0f} ({proj_pct}%) {semaforo_pct(proj_pct)}' if proj_meta else ''
+        print(f'📈 Projeção ({mes_ref_proj}) → R$ {proj:,.0f}{meta_str}')
+    else:
+        print(f'📈 Projeção      → —')
 
 print(f'\n{SEP}')
 if cache.get('erros'):
