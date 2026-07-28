@@ -609,5 +609,83 @@
     "checklist_executado": 6,
     "checklist_esperado": 14,
     "tem_checklist": true
+  },
+  {
+    "data": "2026-07-27",
+    "unidade_id": "cantucci_ac",
+    "unidade": "Cantucci Águas Claras",
+    "faturamento": 11329.81,
+    "meta": 12512.49,
+    "maturidade_score": 3.3,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 15,
+    "checklist_esperado": 12,
+    "tem_checklist": true
+  },
+  {
+    "data": "2026-07-27",
+    "unidade_id": "cantucci_an",
+    "unidade": "Cantucci Asa Norte",
+    "faturamento": 14975.35,
+    "meta": 18014.17,
+    "maturidade_score": 3.3,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 11,
+    "checklist_esperado": 8,
+    "tem_checklist": true
+  },
+  {
+    "data": "2026-07-27",
+    "unidade_id": "cantucci_as",
+    "unidade": "Cantucci Asa Sul",
+    "faturamento": 4724.72,
+    "meta": 4754.57,
+    "maturidade_score": 0.6,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 2,
+    "checklist_esperado": 12,
+    "tem_checklist": true
+  },
+  {
+    "data": "2026-07-27",
+    "unidade_id": "koji",
+    "unidade": "Koji",
+    "faturamento": null,
+    "meta": 20804.93,
+    "maturidade_score": 1.7,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 2,
+    "checklist_esperado": 4,
+    "tem_checklist": true
+  },
+  {
+    "data": "2026-07-27",
+    "unidade_id": "mane",
+    "unidade": "Mané",
+    "faturamento": 9857.8,
+    "meta": 0.0,
+    "maturidade_score": 0.8,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 3,
+    "checklist_esperado": 12,
+    "tem_checklist": true
+  },
+  {
+    "data": "2026-07-27",
+    "unidade_id": "superquadra",
+    "unidade": "Superquadra Norte",
+    "faturamento": null,
+    "meta": 2970.08,
+    "maturidade_score": 0.2,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 1,
+    "checklist_esperado": 14,
+    "tem_checklist": true
   }
 ]

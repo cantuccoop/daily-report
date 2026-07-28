@@ -1,265 +1,182 @@
 {
-  "data": "2026-07-26",
-  "gerado_em": "2026-07-27",
-  "semana_inicio": "2026-07-20",
+  "data": "2026-07-27",
+  "gerado_em": "2026-07-28",
+  "semana_inicio": "2026-07-27",
   "lojas": {
     "cantucci_an": {
-      "faturamento": 30499.49,
-      "meta": 33483.51,
-      "google": null,
-      "ifood": null,
-      "reviews_dia": null,
-      "relatorio": {
-        "nota_min": 6.0,
-        "nota_max": 8.0,
-        "nota_med": 7.0,
-        "turnos": 2,
-        "tma": 14,
-        "ocs": [
-          "Erro qualidade",
-          "Delivery atraso"
-        ],
-        "bos": [
-          "Wellington fora do ponto por duas vezes",
-          "Cozinha se atrapalhou"
-        ]
+      "faturamento": 14975.35,
+      "meta": 18014.17,
+      "google": {
+        "grade": 4.96,
+        "total": 122
       },
-      "quadro": {
-        "freelas": 3,
-        "alerta_escala": true,
-        "alerta_rupturas": true,
-        "rupturas": [
-          "CARCIOFI G",
-          "CAIPI SAKE",
-          "BADEN CRISTAL 600ml",
-          "EISENBAHN PILSEN LN",
-          "H2O LIMONETO COM GAS",
-          "AGUA TONICA ZERO",
-          "SALTIMBOCA DI POLLO",
-          "BADEN CRISTAL 600ml",
-          "EISENBAHN PILSEN LN",
-          "AGUA TONICA ZERO",
-          "CAIPI SAKE",
-          "CHEESECAKE FRUTAS VERMELHAS"
-        ],
-        "turnos": 3
+      "ifood": {
+        "grade": 4.77,
+        "total": 196
       },
+      "reviews_dia": {
+        "google": {
+          "total": 2,
+          "baixas": 0,
+          "textos": []
+        }
+      },
+      "relatorio": null,
+      "quadro": null,
       "diarias": {
         "acumulado": "5.719,90",
         "meta": "5.000,00",
         "pct": "114.4%"
       },
-      "checklists": 7,
+      "checklists": 11,
       "maturidade": {
-        "score": 9.6,
-        "quadro_turnos": 3,
-        "relatorio_turnos": 2,
-        "checklist_executado": 7,
+        "score": 3.3,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 0,
+        "checklist_executado": 11,
         "checklist_esperado": 8,
         "tem_checklist": true
       }
     },
     "cantucci_as": {
-      "faturamento": 12495.57,
-      "meta": 17895.3,
-      "google": null,
-      "ifood": null,
+      "faturamento": 4724.72,
+      "meta": 4754.57,
+      "google": {
+        "grade": 4.7,
+        "total": 35
+      },
+      "ifood": {
+        "grade": 4.45,
+        "total": 113
+      },
       "reviews_dia": null,
-      "relatorio": {
-        "nota_min": 8.0,
-        "nota_max": 8.0,
-        "nota_med": 8.0,
-        "turnos": 1,
-        "tma": 10,
-        "ocs": [
-          "Erro qualidade"
-        ],
-        "bos": [
-          "Somente Mesa 16 salmao cru ."
-        ]
-      },
-      "quadro": {
-        "freelas": 3,
-        "alerta_escala": true,
-        "alerta_rupturas": false,
-        "rupturas": [],
-        "turnos": 2
-      },
+      "relatorio": null,
+      "quadro": null,
       "diarias": {
         "acumulado": "4.100,00",
         "meta": "2.500,00",
         "pct": "164%"
       },
-      "checklists": 12,
+      "checklists": 2,
       "maturidade": {
-        "score": 8.3,
-        "quadro_turnos": 2,
-        "relatorio_turnos": 1,
-        "checklist_executado": 12,
+        "score": 0.6,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 0,
+        "checklist_executado": 2,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "cantucci_ac": {
-      "faturamento": 23099.12,
-      "meta": 27665.58,
-      "google": null,
-      "ifood": null,
+      "faturamento": 11329.81,
+      "meta": 12512.49,
+      "google": {
+        "grade": 4.49,
+        "total": 228
+      },
+      "ifood": {
+        "grade": 4.71,
+        "total": 217
+      },
       "reviews_dia": null,
-      "relatorio": {
-        "nota_min": 9.0,
-        "nota_max": 9.0,
-        "nota_med": 9.0,
-        "turnos": 2,
-        "tma": 13,
-        "ocs": [
-          "Erro qualidade"
-        ],
-        "bos": [
-          "Apenas pratos da mesa 01",
-          "Nao teve "
-        ]
-      },
-      "quadro": {
-        "freelas": 1,
-        "alerta_escala": true,
-        "alerta_rupturas": true,
-        "rupturas": [
-          "SPRITE ORIGINAL",
-          "COCA COLA KS",
-          "SALSA TRUFADA 500G",
-          "POUCA ROUPA TINTO",
-          "MARCELO PELLERITI SIGNATURE",
-          "FORTE AMBRONE ETICHETTA NERA",
-          "1550 BRAS RESERVA CHARDONNAY",
-          "POUCA ROUPA TINTO",
-          "FORTE AMBRONE ETICHETTA NERA",
-          "MARCELO PELLERITI SIGNATURE",
-          "1550 BRAS RESERVA CHARDONNAY",
-          "SPRITE ORIGINAL",
-          "COCA COLA KS",
-          "SALSA TRUFADA 500G",
-          "BANOFEE"
-        ],
-        "turnos": 2
-      },
+      "relatorio": null,
+      "quadro": null,
       "diarias": {
         "acumulado": "4.310,00",
         "meta": "5.000,00",
         "pct": "86.2%"
       },
-      "checklists": 6,
+      "checklists": 15,
       "maturidade": {
-        "score": 8.3,
-        "quadro_turnos": 2,
-        "relatorio_turnos": 2,
-        "checklist_executado": 6,
+        "score": 3.3,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 0,
+        "checklist_executado": 15,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "superquadra": {
-      "faturamento": 19936.87,
-      "meta": 21476.83,
-      "google": null,
-      "ifood": null,
+      "faturamento": null,
+      "meta": 2970.08,
+      "google": {
+        "grade": 4.8,
+        "total": 5
+      },
+      "ifood": {
+        "grade": 4.83,
+        "total": 72
+      },
       "reviews_dia": null,
       "relatorio": null,
-      "quadro": {
-        "freelas": 1,
-        "alerta_escala": true,
-        "alerta_rupturas": false,
-        "rupturas": [],
-        "turnos": 1
-      },
+      "quadro": null,
       "diarias": {
         "acumulado": "4.142,00",
         "meta": "3.500,00",
         "pct": "118.3%"
       },
-      "checklists": 6,
+      "checklists": 1,
       "maturidade": {
-        "score": 3.1,
-        "quadro_turnos": 1,
+        "score": 0.2,
+        "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 6,
+        "checklist_executado": 1,
         "checklist_esperado": 14,
         "tem_checklist": true
       }
     },
     "mane": {
-      "faturamento": 23796.0,
+      "faturamento": 9857.8,
       "meta": 0.0,
       "google": null,
       "ifood": null,
       "reviews_dia": null,
-      "relatorio": {
-        "nota_min": null,
-        "nota_max": null,
-        "nota_med": null,
-        "turnos": 0,
-        "tma": 10,
-        "ocs": [
-          "Erro prato",
-          "Reclamação cliente"
-        ],
-        "bos": []
-      },
-      "quadro": {
-        "freelas": 1,
-        "alerta_escala": false,
-        "alerta_rupturas": false,
-        "rupturas": [
-          "SANDUBA DE COSTELA",
-          "SANDUBA DE PASTRAMI",
-          "CARPACCIO DE MAMINHA DEFUMADA",
-          "CARPACCIO DE MAMINHA DEFUMADA"
-        ],
-        "turnos": 2
-      },
+      "relatorio": null,
+      "quadro": null,
       "diarias": {
         "acumulado": "7.924,78",
         "meta": "4.000,00",
         "pct": "198.1%"
       },
-      "checklists": 5,
+      "checklists": 3,
       "maturidade": {
-        "score": 4.7,
-        "quadro_turnos": 2,
+        "score": 0.8,
+        "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 5,
+        "checklist_executado": 3,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "koji": {
       "faturamento": null,
-      "meta": 8034.14,
-      "google": null,
-      "ifood": null,
+      "meta": 20804.93,
+      "google": {
+        "grade": 4.07,
+        "total": 14
+      },
+      "ifood": {
+        "grade": 4.92,
+        "total": 51
+      },
       "reviews_dia": null,
       "relatorio": null,
       "quadro": null,
       "diarias": null,
-      "checklists": null,
+      "checklists": 2,
       "maturidade": {
-        "score": 0.0,
+        "score": 1.7,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 0,
+        "checklist_executado": 2,
         "checklist_esperado": 4,
-        "tem_checklist": false
+        "tem_checklist": true
       }
     }
   },
-  "vmarket": {
-    "cantuccisul": {
-      "total": 458.0,
-      "pedidos": 1,
-      "cotacoes": 0
-    }
-  },
+  "vmarket": {},
   "erros": [
-    "falae: HTTPSConnectionPool(host='api-b2s.experienciab2s.com', port=443): Max retries exceeded with url: /dashboard/reputation?companies_id=7657a307-a357-444d-8673-8589a6d6da8f&date_start=2026-07-26&date_end=2026-07-26 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-b2s.experienciab2s.com', port=443) at 0x25da0eb79d0>, 'Connection to api-b2s.experienciab2s.com timed out. (connect timeout=10)'))"
+    "relatorio: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/RELATORIO_DADOS.json'",
+    "quadro: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/QUADRO_DADOS.json'"
   ]
 }
