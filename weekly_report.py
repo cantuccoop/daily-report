@@ -149,6 +149,13 @@ for lid, label in LOJAS:
     else:
         print(f'🏷️ Descontos     → —')
 
+    canc_qtd = loja.get('cancelamentos_qtd')
+    canc_val = loja.get('cancelamentos_valor')
+    if canc_qtd is not None:
+        print(f'🚫 Cancelamentos → {canc_qtd} cancelamentos  |  R$ {canc_val:,.2f}')
+    else:
+        print(f'🚫 Cancelamentos → —')
+
     pct_up = loja.get('pct_upsell')
     pct_alc = loja.get('pct_alcoolica')
     if pct_up is not None or pct_alc is not None:

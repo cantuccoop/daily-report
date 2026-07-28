@@ -85,6 +85,7 @@ for lid, _ in LOJAS:
         'cmc_semana_pct': None, 'cmv_mes_pct': None, 'cmv_mes_meta_pct': None,
         'pct_delivery': None, 'ticket_medio_geral': None,
         'descontos_qtd': None, 'descontos_valor': None,
+        'cancelamentos_qtd': None, 'cancelamentos_valor': None,
         'pct_upsell': None, 'fat_upsell': None,
         'pct_alcoolica': None, 'fat_alcoolica': None,
         'tma_cozinha_min': None, 'pct_tma_acima_20': None,
@@ -163,6 +164,7 @@ def carregar_cantucci_os():
     cache['mes_referencia_projecao'] = dados.get('mes_referencia_projecao')
     ok = 0
     campos = ['pct_delivery', 'ticket_medio_geral', 'descontos_qtd', 'descontos_valor',
+              'cancelamentos_qtd', 'cancelamentos_valor',
               'pct_upsell', 'fat_upsell', 'pct_alcoolica', 'fat_alcoolica',
               'tma_cozinha_min', 'pct_tma_acima_20', 'projecao_mes', 'meta_mes', 'projecao_pct_meta']
     for lid, u in dados.get('lojas', {}).items():
