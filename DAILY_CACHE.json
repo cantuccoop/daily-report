@@ -5,24 +5,56 @@
   "lojas": {
     "cantucci_an": {
       "faturamento": 13567.32,
-      "meta": 18116.26,
+      "meta": 18181.0,
       "google": {
         "grade": 4.97,
         "total": 134
       },
       "ifood": {
-        "grade": 4.77,
-        "total": 201
+        "grade": 4.76,
+        "total": 203
       },
       "reviews_dia": {
         "google": {
           "total": 9,
           "baixas": 0,
           "textos": []
+        },
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
         }
       },
-      "relatorio": null,
-      "quadro": null,
+      "relatorio": {
+        "nota_min": 4.0,
+        "nota_max": 9.0,
+        "nota_med": 6.5,
+        "turnos": 2,
+        "tma": 17,
+        "ocs": [
+          "Erro qualidade"
+        ],
+        "bos": [
+          "Cozinha com poucos colaboradores ",
+          "Demora para despachar no kds Boqueta "
+        ]
+      },
+      "quadro": {
+        "freelas": 0,
+        "alerta_escala": true,
+        "alerta_rupturas": true,
+        "rupturas": [
+          "RISOTO DE CAMARAO",
+          "RAVIOLI DI BUFALA",
+          "BANOFEE",
+          "SFOLIA LORDA DI ZUCCA",
+          "FETTUCCINI AO BISQUE",
+          "Camarao S Cabeca 41/50",
+          "Queijo Mussarela"
+        ],
+        "turnos": 1
+      },
       "diarias": {
         "acumulado": "5.719,90",
         "meta": "5.000,00",
@@ -30,9 +62,9 @@
       },
       "checklists": 13,
       "maturidade": {
-        "score": 3.3,
-        "quadro_turnos": 0,
-        "relatorio_turnos": 0,
+        "score": 8.3,
+        "quadro_turnos": 1,
+        "relatorio_turnos": 2,
         "checklist_executado": 13,
         "checklist_esperado": 8,
         "tem_checklist": true
@@ -46,8 +78,8 @@
         "total": 37
       },
       "ifood": {
-        "grade": 4.48,
-        "total": 114
+        "grade": 4.5,
+        "total": 115
       },
       "reviews_dia": {
         "google": {
@@ -56,8 +88,32 @@
           "textos": []
         }
       },
-      "relatorio": null,
-      "quadro": null,
+      "relatorio": {
+        "nota_min": 7.0,
+        "nota_max": 8.0,
+        "nota_med": 7.5,
+        "turnos": 2,
+        "tma": 15,
+        "ocs": [],
+        "bos": [
+          "Sem ocorrências ",
+          "Falta de um garçon pra preencher vaga deixada pelo wesley.  Não tivemos reclamações mais foi bem corrido"
+        ]
+      },
+      "quadro": {
+        "freelas": 0,
+        "alerta_escala": true,
+        "alerta_rupturas": false,
+        "rupturas": [
+          "RISOTO FUNGHI PORCINI E FILE",
+          "FUNGHI I ZUCCHINI G",
+          "FUNGHI I ZUCCHINI M",
+          "FUNGHI I ZUCCHINI P",
+          "MOLHO FUNGHI",
+          "RISOTO FUNGHI PORCINI E FILE"
+        ],
+        "turnos": 2
+      },
       "diarias": {
         "acumulado": "4.100,00",
         "meta": "2.500,00",
@@ -65,9 +121,9 @@
       },
       "checklists": 15,
       "maturidade": {
-        "score": 3.3,
-        "quadro_turnos": 0,
-        "relatorio_turnos": 0,
+        "score": 10.0,
+        "quadro_turnos": 2,
+        "relatorio_turnos": 2,
         "checklist_executado": 15,
         "checklist_esperado": 12,
         "tem_checklist": true
@@ -75,14 +131,14 @@
     },
     "cantucci_ac": {
       "faturamento": 11959.99,
-      "meta": 13567.35,
+      "meta": 13611.75,
       "google": {
         "grade": 4.48,
         "total": 209
       },
       "ifood": {
         "grade": 4.7,
-        "total": 212
+        "total": 214
       },
       "reviews_dia": {
         "google": {
@@ -91,18 +147,43 @@
           "textos": []
         }
       },
-      "relatorio": null,
-      "quadro": null,
+      "relatorio": {
+        "nota_min": 7.0,
+        "nota_max": 8.0,
+        "nota_med": 7.5,
+        "turnos": 2,
+        "tma": 15,
+        "ocs": [
+          "Delivery atraso",
+          "Reclamação"
+        ],
+        "bos": [
+          "Erro na escala",
+          "Somente 1 comanda de pizza que nao saiu na tela e nao imprimiu \n\n1 cliente reclamou de nao ter cardapio de bebidas nao alcoólicas físico "
+        ]
+      },
+      "quadro": {
+        "freelas": 0,
+        "alerta_escala": true,
+        "alerta_rupturas": false,
+        "rupturas": [
+          "LASAGNA BOLOGNESE",
+          "COCA COLA KS",
+          "SPRITE ORIGINAL",
+          "MARCELO PELLERITI SIGNATURE"
+        ],
+        "turnos": 1
+      },
       "diarias": {
-        "acumulado": "4.850,00",
+        "acumulado": "4.430,00",
         "meta": "5.000,00",
-        "pct": "97%"
+        "pct": "88.6%"
       },
       "checklists": 12,
       "maturidade": {
-        "score": 3.3,
-        "quadro_turnos": 0,
-        "relatorio_turnos": 0,
+        "score": 8.3,
+        "quadro_turnos": 1,
+        "relatorio_turnos": 2,
         "checklist_executado": 12,
         "checklist_esperado": 12,
         "tem_checklist": true
@@ -110,7 +191,7 @@
     },
     "superquadra": {
       "faturamento": 6875.79,
-      "meta": 7941.5,
+      "meta": 7973.4,
       "google": {
         "grade": 4.8,
         "total": 5
@@ -127,7 +208,16 @@
         }
       },
       "relatorio": null,
-      "quadro": null,
+      "quadro": {
+        "freelas": 0,
+        "alerta_escala": true,
+        "alerta_rupturas": false,
+        "rupturas": [
+          "CROQUETE DE CARNE DE PANELA",
+          "BOLO DE CHOCOLATE QUENTE"
+        ],
+        "turnos": 1
+      },
       "diarias": {
         "acumulado": "4.142,00",
         "meta": "3.500,00",
@@ -135,8 +225,8 @@
       },
       "checklists": 14,
       "maturidade": {
-        "score": 3.3,
-        "quadro_turnos": 0,
+        "score": 5.0,
+        "quadro_turnos": 1,
         "relatorio_turnos": 0,
         "checklist_executado": 14,
         "checklist_esperado": 14,
@@ -149,12 +239,23 @@
       "google": null,
       "ifood": null,
       "reviews_dia": null,
-      "relatorio": null,
+      "relatorio": {
+        "nota_min": null,
+        "nota_max": null,
+        "nota_med": null,
+        "turnos": 0,
+        "tma": 11,
+        "ocs": [
+          "Reclamação cliente",
+          "Erro prato"
+        ],
+        "bos": []
+      },
       "quadro": null,
       "diarias": {
-        "acumulado": "8.404,78",
+        "acumulado": "8.804,78",
         "meta": "4.000,00",
-        "pct": "210.1%"
+        "pct": "220.1%"
       },
       "checklists": 6,
       "maturidade": {
@@ -193,8 +294,5 @@
     }
   },
   "vmarket": {},
-  "erros": [
-    "quadro: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/QUADRO_DADOS.json'",
-    "relatorio: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/RELATORIO_DADOS.json'"
-  ]
+  "erros": []
 }
