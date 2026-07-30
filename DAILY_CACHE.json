@@ -1,85 +1,65 @@
 {
-  "data": "2026-07-28",
-  "gerado_em": "2026-07-29",
+  "data": "2026-07-29",
+  "gerado_em": "2026-07-30",
   "semana_inicio": "2026-07-27",
   "lojas": {
     "cantucci_an": {
-      "faturamento": 13567.32,
-      "meta": 18181.0,
+      "faturamento": 16109.83,
+      "meta": 20712.72,
       "google": {
         "grade": 4.97,
-        "total": 134
+        "total": 136
       },
       "ifood": {
-        "grade": 4.76,
-        "total": 203
+        "grade": 4.75,
+        "total": 192
       },
       "reviews_dia": {
         "google": {
-          "total": 9,
-          "baixas": 0,
-          "textos": []
-        },
-        "ifood": {
-          "total": 1,
+          "total": 3,
           "baixas": 0,
           "textos": []
         }
       },
       "relatorio": {
-        "nota_min": 4.0,
-        "nota_max": 9.0,
-        "nota_med": 6.5,
-        "turnos": 2,
-        "tma": 17,
+        "nota_min": 8.0,
+        "nota_max": 8.0,
+        "nota_med": 8.0,
+        "turnos": 1,
+        "tma": 10,
         "ocs": [
           "Erro qualidade"
         ],
         "bos": [
-          "Cozinha com poucos colaboradores ",
-          "Demora para despachar no kds Boqueta "
+          "Sem problemas, equipe de salão se tivesse um cumim a mais tínhamos ciso mais eficiente "
         ]
       },
-      "quadro": {
-        "freelas": 0,
-        "alerta_escala": true,
-        "alerta_rupturas": true,
-        "rupturas": [
-          "RISOTO DE CAMARAO",
-          "RAVIOLI DI BUFALA",
-          "BANOFEE",
-          "SFOLIA LORDA DI ZUCCA",
-          "FETTUCCINI AO BISQUE",
-          "Camarao S Cabeca 41/50",
-          "Queijo Mussarela"
-        ],
-        "turnos": 1
-      },
+      "quadro": null,
       "diarias": {
         "acumulado": "5.719,90",
         "meta": "5.000,00",
         "pct": "114.4%"
       },
-      "checklists": 13,
+      "checklists": 11,
       "maturidade": {
-        "score": 8.3,
-        "quadro_turnos": 1,
-        "relatorio_turnos": 2,
-        "checklist_executado": 13,
+        "score": 5.0,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 1,
+        "checklist_executado": 11,
         "checklist_esperado": 8,
         "tem_checklist": true
       }
     },
     "cantucci_as": {
-      "faturamento": 8298.7,
-      "meta": 7936.38,
+      "faturamento": 9612.33,
+      "meta": 9895.76,
       "google": {
-        "grade": 4.71,
-        "total": 37
+        "grade": 4.58,
+        "total": 39
       },
       "ifood": {
-        "grade": 4.5,
-        "total": 115
+        "grade": 4.54,
+        "total": 106
       },
       "reviews_dia": {
         "google": {
@@ -93,148 +73,111 @@
         "nota_max": 8.0,
         "nota_med": 7.5,
         "turnos": 2,
-        "tma": 15,
+        "tma": 13,
         "ocs": [],
         "bos": [
-          "Sem ocorrências ",
-          "Falta de um garçon pra preencher vaga deixada pelo wesley.  Não tivemos reclamações mais foi bem corrido"
+          "Não teve",
+          "Movimento acima do esperado (sem ocorrências pivot point realizado)."
         ]
       },
-      "quadro": {
-        "freelas": 0,
-        "alerta_escala": true,
-        "alerta_rupturas": false,
-        "rupturas": [
-          "RISOTO FUNGHI PORCINI E FILE",
-          "FUNGHI I ZUCCHINI G",
-          "FUNGHI I ZUCCHINI M",
-          "FUNGHI I ZUCCHINI P",
-          "MOLHO FUNGHI",
-          "RISOTO FUNGHI PORCINI E FILE"
-        ],
-        "turnos": 2
-      },
+      "quadro": null,
       "diarias": {
         "acumulado": "4.100,00",
         "meta": "2.500,00",
         "pct": "164%"
       },
-      "checklists": 15,
+      "checklists": 8,
       "maturidade": {
-        "score": 10.0,
-        "quadro_turnos": 2,
+        "score": 5.6,
+        "quadro_turnos": 0,
         "relatorio_turnos": 2,
-        "checklist_executado": 15,
+        "checklist_executado": 8,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "cantucci_ac": {
-      "faturamento": 11959.99,
-      "meta": 13611.75,
+      "faturamento": 15681.92,
+      "meta": 15008.19,
       "google": {
         "grade": 4.48,
-        "total": 209
+        "total": 204
       },
       "ifood": {
         "grade": 4.7,
-        "total": 214
+        "total": 207
       },
       "reviews_dia": {
         "google": {
-          "total": 8,
-          "baixas": 1,
+          "total": 4,
+          "baixas": 0,
           "textos": []
         }
       },
       "relatorio": {
-        "nota_min": 7.0,
-        "nota_max": 8.0,
-        "nota_med": 7.5,
-        "turnos": 2,
-        "tma": 15,
+        "nota_min": 8.0,
+        "nota_max": 10.0,
+        "nota_med": 9.0,
+        "turnos": 4,
+        "tma": 12,
         "ocs": [
-          "Delivery atraso",
-          "Reclamação"
+          "Reclamação",
+          "Delivery atraso"
         ],
         "bos": [
-          "Erro na escala",
+          "Sem b.o",
+          "Turno sem intercorrências ",
+          "Sem b.o",
           "Somente 1 comanda de pizza que nao saiu na tela e nao imprimiu \n\n1 cliente reclamou de nao ter cardapio de bebidas nao alcoólicas físico "
         ]
       },
-      "quadro": {
-        "freelas": 0,
-        "alerta_escala": true,
-        "alerta_rupturas": false,
-        "rupturas": [
-          "LASAGNA BOLOGNESE",
-          "COCA COLA KS",
-          "SPRITE ORIGINAL",
-          "MARCELO PELLERITI SIGNATURE"
-        ],
-        "turnos": 1
-      },
+      "quadro": null,
       "diarias": {
         "acumulado": "4.430,00",
         "meta": "5.000,00",
         "pct": "88.6%"
       },
-      "checklists": 12,
+      "checklists": 13,
       "maturidade": {
-        "score": 8.3,
-        "quadro_turnos": 1,
-        "relatorio_turnos": 2,
-        "checklist_executado": 12,
+        "score": 6.7,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 4,
+        "checklist_executado": 13,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "superquadra": {
-      "faturamento": 6875.79,
-      "meta": 7973.4,
+      "faturamento": 10565.56,
+      "meta": 9792.04,
       "google": {
         "grade": 4.8,
         "total": 5
       },
       "ifood": {
-        "grade": 4.83,
-        "total": 70
+        "grade": 4.85,
+        "total": 66
       },
-      "reviews_dia": {
-        "google": {
-          "total": 1,
-          "baixas": 0,
-          "textos": []
-        }
-      },
+      "reviews_dia": null,
       "relatorio": null,
-      "quadro": {
-        "freelas": 0,
-        "alerta_escala": true,
-        "alerta_rupturas": false,
-        "rupturas": [
-          "CROQUETE DE CARNE DE PANELA",
-          "BOLO DE CHOCOLATE QUENTE"
-        ],
-        "turnos": 1
-      },
+      "quadro": null,
       "diarias": {
         "acumulado": "4.142,00",
         "meta": "3.500,00",
         "pct": "118.3%"
       },
-      "checklists": 14,
+      "checklists": 13,
       "maturidade": {
-        "score": 5.0,
-        "quadro_turnos": 1,
+        "score": 3.1,
+        "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 14,
+        "checklist_executado": 13,
         "checklist_esperado": 14,
         "tem_checklist": true
       }
     },
     "mane": {
-      "faturamento": 12539.32,
+      "faturamento": 17954.09,
       "meta": 0.0,
       "google": null,
       "ifood": null,
@@ -244,11 +187,8 @@
         "nota_max": null,
         "nota_med": null,
         "turnos": 0,
-        "tma": 11,
-        "ocs": [
-          "Reclamação cliente",
-          "Erro prato"
-        ],
+        "tma": 15,
+        "ocs": [],
         "bos": []
       },
       "quadro": null,
@@ -257,37 +197,43 @@
         "meta": "4.000,00",
         "pct": "220.1%"
       },
-      "checklists": 6,
+      "checklists": 3,
       "maturidade": {
-        "score": 1.7,
+        "score": 0.8,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 6,
+        "checklist_executado": 3,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "koji": {
-      "faturamento": 18720.09,
-      "meta": 22254.19,
+      "faturamento": 16614.14,
+      "meta": 24101.01,
       "google": {
-        "grade": 4.07,
-        "total": 14
+        "grade": 4.24,
+        "total": 17
       },
       "ifood": {
         "grade": 4.84,
-        "total": 51
+        "total": 49
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "google": {
+          "total": 4,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": null,
       "quadro": null,
       "diarias": null,
-      "checklists": 2,
+      "checklists": 1,
       "maturidade": {
-        "score": 1.7,
+        "score": 0.8,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 2,
+        "checklist_executado": 1,
         "checklist_esperado": 4,
         "tem_checklist": true
       }
