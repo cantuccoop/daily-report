@@ -12,11 +12,16 @@
       },
       "ifood": {
         "grade": 4.72,
-        "total": 190
+        "total": 191
       },
       "reviews_dia": {
         "google": {
           "total": 9,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
           "baixas": 0,
           "textos": []
         }
@@ -60,11 +65,16 @@
       },
       "ifood": {
         "grade": 4.63,
-        "total": 102
+        "total": 103
       },
       "reviews_dia": {
         "google": {
           "total": 47,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
           "baixas": 0,
           "textos": []
         }
@@ -105,12 +115,17 @@
         "total": 216
       },
       "ifood": {
-        "grade": 4.73,
-        "total": 197
+        "grade": 4.74,
+        "total": 199
       },
       "reviews_dia": {
         "google": {
           "total": 6,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
           "baixas": 0,
           "textos": []
         }
@@ -153,10 +168,16 @@
         "total": 6
       },
       "ifood": {
-        "grade": 4.85,
-        "total": 66
+        "grade": 4.86,
+        "total": 71
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": null,
       "quadro": null,
       "diarias": {
@@ -214,7 +235,7 @@
       },
       "ifood": {
         "grade": 4.83,
-        "total": 46
+        "total": 47
       },
       "reviews_dia": null,
       "relatorio": null,
