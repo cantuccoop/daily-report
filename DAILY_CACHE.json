@@ -12,11 +12,16 @@
       },
       "ifood": {
         "grade": 4.71,
-        "total": 184
+        "total": 191
       },
       "reviews_dia": {
         "google": {
           "total": 12,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 3,
           "baixas": 0,
           "textos": []
         }
@@ -59,13 +64,18 @@
         "total": 128
       },
       "ifood": {
-        "grade": 4.64,
-        "total": 100
+        "grade": 4.65,
+        "total": 105
       },
       "reviews_dia": {
         "google": {
           "total": 26,
           "baixas": 1,
+          "textos": []
+        },
+        "ifood": {
+          "total": 3,
+          "baixas": 0,
           "textos": []
         }
       },
@@ -107,12 +117,17 @@
         "total": 216
       },
       "ifood": {
-        "grade": 4.73,
-        "total": 196
+        "grade": 4.74,
+        "total": 199
       },
       "reviews_dia": {
         "google": {
           "total": 4,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
           "baixas": 0,
           "textos": []
         }
@@ -221,12 +236,17 @@
         "total": 18
       },
       "ifood": {
-        "grade": 4.83,
-        "total": 46
+        "grade": 4.79,
+        "total": 48
       },
       "reviews_dia": {
         "google": {
           "total": 2,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
           "baixas": 0,
           "textos": []
         }
