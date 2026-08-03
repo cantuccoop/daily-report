@@ -11,12 +11,17 @@
         "total": 176
       },
       "ifood": {
-        "grade": 4.7,
-        "total": 186
+        "grade": 4.71,
+        "total": 194
       },
       "reviews_dia": {
         "google": {
           "total": 18,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 3,
           "baixas": 0,
           "textos": []
         }
@@ -53,7 +58,7 @@
       }
     },
     "cantucci_as": {
-      "faturamento": 16184.45,
+      "faturamento": 16394.37,
       "meta": 0.0,
       "google": {
         "grade": 4.91,
@@ -61,11 +66,16 @@
       },
       "ifood": {
         "grade": 4.68,
-        "total": 106
+        "total": 110
       },
       "reviews_dia": {
         "google": {
           "total": 44,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
           "baixas": 0,
           "textos": []
         }
@@ -73,14 +83,15 @@
       "relatorio": {
         "nota_min": 7.0,
         "nota_max": 8.0,
-        "nota_med": 7.5,
-        "turnos": 2,
+        "nota_med": 7.7,
+        "turnos": 3,
         "tma": 14,
         "ocs": [
           "Equip. quebrado",
           "Erro qualidade"
         ],
         "bos": [
+          "Mandamos 2 itens errados no ifood ",
           "Não teve",
           "Muitos clientes chegando juntos ,como essa chegada não foi cadenciada tivemos q agilizar .\nDe reclamaçao somente mesa 15 ."
         ]
@@ -95,7 +106,7 @@
       "maturidade": {
         "score": 6.7,
         "quadro_turnos": 0,
-        "relatorio_turnos": 2,
+        "relatorio_turnos": 3,
         "checklist_executado": 13,
         "checklist_esperado": 12,
         "tem_checklist": true
@@ -109,13 +120,18 @@
         "total": 215
       },
       "ifood": {
-        "grade": 4.72,
-        "total": 192
+        "grade": 4.73,
+        "total": 196
       },
       "reviews_dia": {
         "google": {
           "total": 2,
           "baixas": 1,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
           "textos": []
         }
       },
@@ -159,7 +175,7 @@
       },
       "ifood": {
         "grade": 4.88,
-        "total": 67
+        "total": 69
       },
       "reviews_dia": null,
       "relatorio": null,
@@ -218,8 +234,8 @@
         "total": 18
       },
       "ifood": {
-        "grade": 4.81,
-        "total": 47
+        "grade": 4.78,
+        "total": 49
       },
       "reviews_dia": null,
       "relatorio": null,
