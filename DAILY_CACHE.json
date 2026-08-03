@@ -1,43 +1,39 @@
 {
-  "data": "2026-08-01",
-  "gerado_em": "2026-08-02",
+  "data": "2026-08-02",
+  "gerado_em": "2026-08-03",
   "semana_inicio": "2026-07-27",
   "lojas": {
     "cantucci_an": {
-      "faturamento": 29532.9,
+      "faturamento": 31944.9,
       "meta": 0.0,
       "google": {
         "grade": 4.96,
-        "total": 158
+        "total": 176
       },
       "ifood": {
-        "grade": 4.71,
-        "total": 191
+        "grade": 4.7,
+        "total": 186
       },
       "reviews_dia": {
         "google": {
-          "total": 12,
-          "baixas": 0,
-          "textos": []
-        },
-        "ifood": {
-          "total": 3,
+          "total": 18,
           "baixas": 0,
           "textos": []
         }
       },
       "relatorio": {
-        "nota_min": 6.0,
-        "nota_max": 6.0,
-        "nota_med": 6.0,
-        "turnos": 1,
-        "tma": 16,
+        "nota_min": 7.0,
+        "nota_max": 8.0,
+        "nota_med": 7.7,
+        "turnos": 3,
+        "tma": 12,
         "ocs": [
-          "Erro qualidade",
-          "Ruptura salão"
+          "Erro qualidade"
         ],
         "bos": [
-          "Abandono de posto de trabalho "
+          "Mesa 05 os pratos chegaram Frios voltou para a cozinha voltou com a carne borrachuda ( Baby Beef) a buffalo bolinha estava aguada e sem sabor.\nTivemos que cancelar os pratos.",
+          "Sem problemas graves",
+          "Parmegiana fria e ponto de carne"
         ]
       },
       "quadro": null,
@@ -46,51 +42,47 @@
         "meta": "5.000,00",
         "pct": "0%"
       },
-      "checklists": 11,
+      "checklists": 10,
       "maturidade": {
-        "score": 5.0,
+        "score": 6.7,
         "quadro_turnos": 0,
-        "relatorio_turnos": 1,
-        "checklist_executado": 11,
+        "relatorio_turnos": 3,
+        "checklist_executado": 10,
         "checklist_esperado": 8,
         "tem_checklist": true
       }
     },
     "cantucci_as": {
-      "faturamento": 11611.85,
+      "faturamento": 16184.45,
       "meta": 0.0,
       "google": {
-        "grade": 4.9,
-        "total": 128
+        "grade": 4.91,
+        "total": 172
       },
       "ifood": {
-        "grade": 4.65,
-        "total": 105
+        "grade": 4.68,
+        "total": 106
       },
       "reviews_dia": {
         "google": {
-          "total": 26,
-          "baixas": 1,
-          "textos": []
-        },
-        "ifood": {
-          "total": 3,
+          "total": 44,
           "baixas": 0,
           "textos": []
         }
       },
       "relatorio": {
-        "nota_min": 8.0,
-        "nota_max": 9.0,
-        "nota_med": 8.5,
+        "nota_min": 7.0,
+        "nota_max": 8.0,
+        "nota_med": 7.5,
         "turnos": 2,
         "tma": 14,
         "ocs": [
-          "Equip. quebrado"
+          "Equip. quebrado",
+          "Erro qualidade"
         ],
         "bos": [
-          "Sem ocorrências. ",
-          "Tivemos um gargalo, algumas mesas chegaram ao mesmo tempo e atrasou alguns pedidos\n"
+          "Não teve",
+          "Muitos clientes chegando juntos ,como essa chegada não foi cadenciada tivemos q agilizar .\nDe reclamaçao somente mesa 15 ."
         ]
       },
       "quadro": null,
@@ -99,54 +91,47 @@
         "meta": "2.500,00",
         "pct": "0%"
       },
-      "checklists": 11,
+      "checklists": 13,
       "maturidade": {
-        "score": 6.4,
+        "score": 6.7,
         "quadro_turnos": 0,
         "relatorio_turnos": 2,
-        "checklist_executado": 11,
+        "checklist_executado": 13,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "cantucci_ac": {
-      "faturamento": null,
+      "faturamento": 27682.96,
       "meta": 0.0,
       "google": {
         "grade": 4.72,
-        "total": 216
+        "total": 215
       },
       "ifood": {
-        "grade": 4.74,
-        "total": 199
+        "grade": 4.72,
+        "total": 192
       },
       "reviews_dia": {
         "google": {
-          "total": 4,
-          "baixas": 0,
-          "textos": []
-        },
-        "ifood": {
-          "total": 1,
-          "baixas": 0,
+          "total": 2,
+          "baixas": 1,
           "textos": []
         }
       },
       "relatorio": {
         "nota_min": 9.0,
-        "nota_max": 9.0,
-        "nota_med": 9.0,
-        "turnos": 3,
-        "tma": 13,
+        "nota_max": 10.0,
+        "nota_med": 9.5,
+        "turnos": 2,
+        "tma": 14,
         "ocs": [
-          "Erro qualidade",
           "Reclamação",
           "Delivery atraso"
         ],
         "bos": [
-          "Fiapo de madeira na pizza",
-          "Sem demais problemas.",
-          "Comandas não saiu na pizzaria."
+          "Sem b.o",
+          "Sem b.o"
         ]
       },
       "quadro": null,
@@ -155,22 +140,22 @@
         "meta": "5.000,00",
         "pct": "0%"
       },
-      "checklists": 11,
+      "checklists": 12,
       "maturidade": {
-        "score": 6.4,
+        "score": 6.7,
         "quadro_turnos": 0,
-        "relatorio_turnos": 3,
-        "checklist_executado": 11,
+        "relatorio_turnos": 2,
+        "checklist_executado": 12,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "superquadra": {
-      "faturamento": 18459.59,
+      "faturamento": 19841.33,
       "meta": 0.0,
       "google": {
-        "grade": 4.83,
-        "total": 6
+        "grade": 4.8,
+        "total": 5
       },
       "ifood": {
         "grade": 4.88,
@@ -184,18 +169,18 @@
         "meta": "3.500,00",
         "pct": "0%"
       },
-      "checklists": 9,
+      "checklists": 6,
       "maturidade": {
-        "score": 2.1,
+        "score": 1.4,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 9,
+        "checklist_executado": 6,
         "checklist_esperado": 14,
         "tem_checklist": true
       }
     },
     "mane": {
-      "faturamento": 26682.9,
+      "faturamento": 23612.9,
       "meta": 0.0,
       "google": null,
       "ifood": null,
@@ -206,10 +191,7 @@
         "nota_med": null,
         "turnos": 0,
         "tma": 12,
-        "ocs": [
-          "Erro prato",
-          "Reclamação cliente"
-        ],
+        "ocs": [],
         "bos": []
       },
       "quadro": null,
@@ -218,50 +200,39 @@
         "meta": "4.000,00",
         "pct": "0%"
       },
-      "checklists": 3,
+      "checklists": 4,
       "maturidade": {
-        "score": 0.8,
+        "score": 1.1,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 3,
+        "checklist_executado": 4,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "koji": {
-      "faturamento": 30861.45,
+      "faturamento": null,
       "meta": 0.0,
       "google": {
         "grade": 4.28,
         "total": 18
       },
       "ifood": {
-        "grade": 4.79,
-        "total": 48
+        "grade": 4.81,
+        "total": 47
       },
-      "reviews_dia": {
-        "google": {
-          "total": 2,
-          "baixas": 0,
-          "textos": []
-        },
-        "ifood": {
-          "total": 1,
-          "baixas": 0,
-          "textos": []
-        }
-      },
+      "reviews_dia": null,
       "relatorio": null,
       "quadro": null,
       "diarias": null,
-      "checklists": 1,
+      "checklists": null,
       "maturidade": {
-        "score": 0.8,
+        "score": 0.0,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 1,
+        "checklist_executado": 0,
         "checklist_esperado": 4,
-        "tem_checklist": true
+        "tem_checklist": false
       }
     }
   },
