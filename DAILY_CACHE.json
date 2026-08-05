@@ -8,11 +8,11 @@
       "meta": 15060.26,
       "google": {
         "grade": 4.95,
-        "total": 184
+        "total": 180
       },
       "ifood": {
         "grade": 4.67,
-        "total": 188
+        "total": 190
       },
       "reviews_dia": {
         "google": {
@@ -23,28 +23,31 @@
       },
       "relatorio": {
         "nota_min": 7.0,
-        "nota_max": 7.0,
-        "nota_med": 7.0,
-        "turnos": 1,
-        "tma": 13,
+        "nota_max": 10.0,
+        "nota_med": 8.5,
+        "turnos": 2,
+        "tma": 12,
         "ocs": [
-          "Erro qualidade"
+          "Erro qualidade",
+          "Ruptura salão",
+          "Equip. quebrado"
         ],
         "bos": [
+          "Sem o forno Rational no turno ",
           "Alguns atrasos da cozinha "
         ]
       },
       "quadro": null,
       "diarias": {
-        "acumulado": "0,00",
+        "acumulado": "130,00",
         "meta": "5.000,00",
-        "pct": "0%"
+        "pct": "2.6%"
       },
       "checklists": 13,
       "maturidade": {
-        "score": 5.0,
+        "score": 6.7,
         "quadro_turnos": 0,
-        "relatorio_turnos": 1,
+        "relatorio_turnos": 2,
         "checklist_executado": 13,
         "checklist_esperado": 8,
         "tem_checklist": true
@@ -54,8 +57,8 @@
       "faturamento": 8506.91,
       "meta": 6758.35,
       "google": {
-        "grade": 4.91,
-        "total": 194
+        "grade": 4.9,
+        "total": 195
       },
       "ifood": {
         "grade": 4.72,
@@ -63,8 +66,8 @@
       },
       "reviews_dia": {
         "google": {
-          "total": 2,
-          "baixas": 0,
+          "total": 3,
+          "baixas": 1,
           "textos": []
         }
       },
@@ -102,10 +105,10 @@
     },
     "cantucci_ac": {
       "faturamento": 13716.43,
-      "meta": 13105.46,
+      "meta": 13130.5,
       "google": {
         "grade": 4.72,
-        "total": 218
+        "total": 219
       },
       "ifood": {
         "grade": 4.7,
@@ -113,19 +116,20 @@
       },
       "reviews_dia": {
         "google": {
-          "total": 3,
+          "total": 4,
           "baixas": 0,
           "textos": []
         }
       },
       "relatorio": {
-        "nota_min": 10.0,
+        "nota_min": 8.0,
         "nota_max": 10.0,
-        "nota_med": 10.0,
-        "turnos": 1,
-        "tma": 22,
+        "nota_med": 9.0,
+        "turnos": 2,
+        "tma": 18,
         "ocs": [],
         "bos": [
+          "Sem ocorrências ",
           "Sem b.o"
         ]
       },
@@ -137,9 +141,9 @@
       },
       "checklists": 9,
       "maturidade": {
-        "score": 4.2,
+        "score": 5.8,
         "quadro_turnos": 0,
-        "relatorio_turnos": 1,
+        "relatorio_turnos": 2,
         "checklist_executado": 9,
         "checklist_esperado": 12,
         "tem_checklist": true
@@ -147,7 +151,7 @@
     },
     "superquadra": {
       "faturamento": 8187.11,
-      "meta": 8121.09,
+      "meta": 8137.31,
       "google": {
         "grade": 5.0,
         "total": 4
@@ -194,9 +198,9 @@
       },
       "quadro": null,
       "diarias": {
-        "acumulado": "345,00",
+        "acumulado": "465,00",
         "meta": "4.000,00",
-        "pct": "8.6%"
+        "pct": "11.6%"
       },
       "checklists": 1,
       "maturidade": {
