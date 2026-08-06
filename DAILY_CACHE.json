@@ -38,16 +38,16 @@
       },
       "quadro": null,
       "diarias": {
-        "acumulado": "130,00",
+        "acumulado": "1.040,00",
         "meta": "5.000,00",
-        "pct": "2.6%"
+        "pct": "20.8%"
       },
-      "checklists": 14,
+      "checklists": 15,
       "maturidade": {
         "score": 6.7,
         "quadro_turnos": 0,
         "relatorio_turnos": 2,
-        "checklist_executado": 14,
+        "checklist_executado": 15,
         "checklist_esperado": 8,
         "tem_checklist": true
       }
@@ -80,9 +80,9 @@
       },
       "quadro": null,
       "diarias": {
-        "acumulado": "0,00",
+        "acumulado": "1.550,00",
         "meta": "2.500,00",
-        "pct": "0%"
+        "pct": "62%"
       },
       "checklists": 8,
       "maturidade": {
@@ -130,9 +130,9 @@
       },
       "quadro": null,
       "diarias": {
-        "acumulado": "0,00",
+        "acumulado": "560,00",
         "meta": "5.000,00",
-        "pct": "0%"
+        "pct": "11.2%"
       },
       "checklists": 12,
       "maturidade": {
@@ -146,7 +146,7 @@
     },
     "superquadra": {
       "faturamento": 7374.42,
-      "meta": 9874.04,
+      "meta": 9895.76,
       "google": {
         "grade": 5.0,
         "total": 4
@@ -172,9 +172,9 @@
       },
       "quadro": null,
       "diarias": {
-        "acumulado": "0,00",
+        "acumulado": "510,00",
         "meta": "3.500,00",
-        "pct": "0%"
+        "pct": "14.6%"
       },
       "checklists": 11,
       "maturidade": {
@@ -203,9 +203,9 @@
       },
       "quadro": null,
       "diarias": {
-        "acumulado": "465,00",
+        "acumulado": "795,00",
         "meta": "4.000,00",
-        "pct": "11.6%"
+        "pct": "19.9%"
       },
       "checklists": 6,
       "maturidade": {

@@ -1334,7 +1334,7 @@
     "maturidade_score": 6.7,
     "quadro_turnos": 0,
     "relatorio_turnos": 2,
-    "checklist_executado": 14,
+    "checklist_executado": 15,
     "checklist_esperado": 8,
     "tem_checklist": true
   },
@@ -1382,7 +1382,7 @@
     "unidade_id": "superquadra",
     "unidade": "Superquadra Norte",
     "faturamento": 7374.42,
-    "meta": 9874.04,
+    "meta": 9895.76,
     "maturidade_score": 4.3,
     "quadro_turnos": 0,
     "relatorio_turnos": 1,
