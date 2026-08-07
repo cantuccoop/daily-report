@@ -1,18 +1,155 @@
 {
-  "data": "2026-08-05",
-  "gerado_em": "2026-08-06",
+  "data": "2026-08-06",
+  "gerado_em": "2026-08-07",
   "semana_inicio": "2026-08-03",
   "lojas": {
     "cantucci_an": {
-      "faturamento": 27685.04,
-      "meta": 17352.43,
+      "faturamento": 30489.97,
+      "meta": 21471.09,
       "google": {
         "grade": 4.95,
-        "total": 177
+        "total": 176
       },
       "ifood": {
-        "grade": 4.67,
-        "total": 179
+        "grade": 4.66,
+        "total": 175
+      },
+      "reviews_dia": {
+        "google": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
+      "relatorio": {
+        "nota_min": 7.0,
+        "nota_max": 8.0,
+        "nota_med": 7.5,
+        "turnos": 2,
+        "tma": 14,
+        "ocs": [
+          "Erro qualidade"
+        ],
+        "bos": [
+          "Atraso de sobremesas ",
+          "Sem problemas sérios "
+        ]
+      },
+      "quadro": null,
+      "diarias": {
+        "acumulado": "1.040,00",
+        "meta": "5.000,00",
+        "pct": "20.8%"
+      },
+      "checklists": 9,
+      "maturidade": {
+        "score": 6.7,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 2,
+        "checklist_executado": 9,
+        "checklist_esperado": 8,
+        "tem_checklist": true
+      }
+    },
+    "cantucci_as": {
+      "faturamento": 12494.46,
+      "meta": 9510.15,
+      "google": {
+        "grade": 4.9,
+        "total": 195
+      },
+      "ifood": {
+        "grade": 4.86,
+        "total": 96
+      },
+      "reviews_dia": null,
+      "relatorio": {
+        "nota_min": 5.0,
+        "nota_max": 8.0,
+        "nota_med": 6.3,
+        "turnos": 3,
+        "tma": 19,
+        "ocs": [],
+        "bos": [
+          "Tempo médio dos pratos ",
+          "Foi tranquilo",
+          "Tempo médio dos pratos "
+        ]
+      },
+      "quadro": null,
+      "diarias": {
+        "acumulado": "1.550,00",
+        "meta": "2.500,00",
+        "pct": "62%"
+      },
+      "checklists": 13,
+      "maturidade": {
+        "score": 6.7,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 3,
+        "checklist_executado": 13,
+        "checklist_esperado": 12,
+        "tem_checklist": true
+      }
+    },
+    "cantucci_ac": {
+      "faturamento": 20274.26,
+      "meta": 17519.06,
+      "google": {
+        "grade": 4.72,
+        "total": 213
+      },
+      "ifood": {
+        "grade": 4.72,
+        "total": 178
+      },
+      "reviews_dia": {
+        "google": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
+      "relatorio": {
+        "nota_min": 8.0,
+        "nota_max": 9.0,
+        "nota_med": 8.5,
+        "turnos": 2,
+        "tma": 13,
+        "ocs": [
+          "Erro qualidade"
+        ],
+        "bos": [
+          "Nao teve b.o",
+          "Gnhoque da sorte salgado. 2x\nWellington congelado 2x"
+        ]
+      },
+      "quadro": null,
+      "diarias": {
+        "acumulado": "560,00",
+        "meta": "5.000,00",
+        "pct": "11.2%"
+      },
+      "checklists": 10,
+      "maturidade": {
+        "score": 6.1,
+        "quadro_turnos": 0,
+        "relatorio_turnos": 2,
+        "checklist_executado": 10,
+        "checklist_esperado": 12,
+        "tem_checklist": true
+      }
+    },
+    "superquadra": {
+      "faturamento": 9904.7,
+      "meta": 10844.84,
+      "google": {
+        "grade": 5.0,
+        "total": 5
+      },
+      "ifood": {
+        "grade": 4.85,
+        "total": 59
       },
       "reviews_dia": {
         "google": {
@@ -25,149 +162,11 @@
         "nota_min": 7.0,
         "nota_max": 7.0,
         "nota_med": 7.0,
-        "turnos": 2,
-        "tma": 14,
-        "ocs": [
-          "Atraso cozinha",
-          "Erro qualidade"
-        ],
-        "bos": [
-          "Atraso de sobremesas ",
-          "A janta do colaboradores atrasou e atrapalhou o início da operação "
-        ]
-      },
-      "quadro": null,
-      "diarias": {
-        "acumulado": "1.040,00",
-        "meta": "5.000,00",
-        "pct": "20.8%"
-      },
-      "checklists": 15,
-      "maturidade": {
-        "score": 6.7,
-        "quadro_turnos": 0,
-        "relatorio_turnos": 2,
-        "checklist_executado": 15,
-        "checklist_esperado": 8,
-        "tem_checklist": true
-      }
-    },
-    "cantucci_as": {
-      "faturamento": 12912.87,
-      "meta": 8504.26,
-      "google": {
-        "grade": 4.9,
-        "total": 195
-      },
-      "ifood": {
-        "grade": 4.84,
-        "total": 99
-      },
-      "reviews_dia": null,
-      "relatorio": {
-        "nota_min": 6.0,
-        "nota_max": 6.0,
-        "nota_med": 6.0,
-        "turnos": 2,
-        "tma": 20,
-        "ocs": [
-          "Erro qualidade"
-        ],
-        "bos": [
-          "Tempo médio dos pratos ",
-          "Muitos pratos ao mesmo tempo"
-        ]
-      },
-      "quadro": null,
-      "diarias": {
-        "acumulado": "1.550,00",
-        "meta": "2.500,00",
-        "pct": "62%"
-      },
-      "checklists": 8,
-      "maturidade": {
-        "score": 5.6,
-        "quadro_turnos": 0,
-        "relatorio_turnos": 2,
-        "checklist_executado": 8,
-        "checklist_esperado": 12,
-        "tem_checklist": true
-      }
-    },
-    "cantucci_ac": {
-      "faturamento": 19393.17,
-      "meta": 14549.14,
-      "google": {
-        "grade": 4.72,
-        "total": 217
-      },
-      "ifood": {
-        "grade": 4.71,
-        "total": 187
-      },
-      "reviews_dia": {
-        "google": {
-          "total": 4,
-          "baixas": 0,
-          "textos": []
-        }
-      },
-      "relatorio": {
-        "nota_min": 8.0,
-        "nota_max": 9.0,
-        "nota_med": 8.5,
-        "turnos": 2,
-        "tma": 12,
-        "ocs": [
-          "Erro qualidade",
-          "Reclamação",
-          "Delivery atraso"
-        ],
-        "bos": [
-          "Demora dos pedidos, atraso nas duas plataformas ",
-          "Complicação na impressão de nota fiscal"
-        ]
-      },
-      "quadro": null,
-      "diarias": {
-        "acumulado": "560,00",
-        "meta": "5.000,00",
-        "pct": "11.2%"
-      },
-      "checklists": 12,
-      "maturidade": {
-        "score": 6.7,
-        "quadro_turnos": 0,
-        "relatorio_turnos": 2,
-        "checklist_executado": 12,
-        "checklist_esperado": 12,
-        "tem_checklist": true
-      }
-    },
-    "superquadra": {
-      "faturamento": 7374.42,
-      "meta": 9895.76,
-      "google": {
-        "grade": 5.0,
-        "total": 4
-      },
-      "ifood": {
-        "grade": 4.85,
-        "total": 60
-      },
-      "reviews_dia": null,
-      "relatorio": {
-        "nota_min": 8.0,
-        "nota_max": 8.0,
-        "nota_med": 8.0,
         "turnos": 1,
-        "tma": 10,
-        "ocs": [
-          "Erro qualidade",
-          "Equip. quebrado"
-        ],
+        "tma": 25,
+        "ocs": [],
         "bos": [
-          "Uma mesa reclamou da batata salgada"
+          "Cozinha e parrilha desalinhada, afetando atendimento no salão, pois estavam atrasando os pratos e na hora de soltar, queria soltar todas as mesas de uma vez."
         ]
       },
       "quadro": null,
@@ -187,7 +186,7 @@
       }
     },
     "mane": {
-      "faturamento": 12030.57,
+      "faturamento": 16536.5,
       "meta": 0.0,
       "google": null,
       "ifood": null,
@@ -198,7 +197,9 @@
         "nota_med": null,
         "turnos": 0,
         "tma": 16,
-        "ocs": [],
+        "ocs": [
+          "Reclamação cliente"
+        ],
         "bos": []
       },
       "quadro": null,
@@ -207,34 +208,28 @@
         "meta": "4.000,00",
         "pct": "19.9%"
       },
-      "checklists": 6,
+      "checklists": 7,
       "maturidade": {
-        "score": 1.7,
+        "score": 1.9,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 6,
+        "checklist_executado": 7,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "koji": {
-      "faturamento": 26246.22,
-      "meta": 21126.36,
+      "faturamento": 26650.59,
+      "meta": 22463.35,
       "google": {
         "grade": 4.35,
         "total": 20
       },
       "ifood": {
-        "grade": 4.68,
-        "total": 41
+        "grade": 4.67,
+        "total": 40
       },
-      "reviews_dia": {
-        "google": {
-          "total": 1,
-          "baixas": 1,
-          "textos": []
-        }
-      },
+      "reviews_dia": null,
       "relatorio": null,
       "quadro": null,
       "diarias": null,
