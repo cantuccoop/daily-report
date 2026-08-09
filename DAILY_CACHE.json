@@ -8,7 +8,7 @@
       "meta": 27589.43,
       "google": {
         "grade": 4.95,
-        "total": 210
+        "total": 212
       },
       "ifood": {
         "grade": 4.66,
@@ -16,7 +16,7 @@
       },
       "reviews_dia": {
         "google": {
-          "total": 8,
+          "total": 10,
           "baixas": 0,
           "textos": []
         }
@@ -53,15 +53,20 @@
       "meta": 13818.75,
       "google": {
         "grade": 4.9,
-        "total": 200
+        "total": 201
       },
       "ifood": {
-        "grade": 4.86,
-        "total": 108
+        "grade": 4.87,
+        "total": 113
       },
       "reviews_dia": {
         "google": {
-          "total": 5,
+          "total": 6,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 2,
           "baixas": 0,
           "textos": []
         }
@@ -102,13 +107,18 @@
         "total": 229
       },
       "ifood": {
-        "grade": 4.73,
-        "total": 183
+        "grade": 4.72,
+        "total": 189
       },
       "reviews_dia": {
         "google": {
           "total": 6,
           "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 4,
+          "baixas": 1,
           "textos": []
         }
       },
@@ -150,13 +160,19 @@
       "meta": 23757.71,
       "google": {
         "grade": 5.0,
-        "total": 6
+        "total": 7
       },
       "ifood": {
         "grade": 4.85,
         "total": 60
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "google": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": {
         "nota_min": 8.0,
         "nota_max": 8.0,
@@ -223,8 +239,8 @@
         "total": 23
       },
       "ifood": {
-        "grade": 4.68,
-        "total": 47
+        "grade": 4.69,
+        "total": 48
       },
       "reviews_dia": {
         "google": {
