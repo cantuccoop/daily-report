@@ -11,12 +11,17 @@
         "total": 227
       },
       "ifood": {
-        "grade": 4.66,
-        "total": 173
+        "grade": 4.68,
+        "total": 182
       },
       "reviews_dia": {
         "google": {
           "total": 15,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 4,
           "baixas": 0,
           "textos": []
         }
@@ -58,12 +63,17 @@
         "total": 206
       },
       "ifood": {
-        "grade": 4.87,
-        "total": 110
+        "grade": 4.84,
+        "total": 116
       },
       "reviews_dia": {
         "google": {
           "total": 5,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
           "baixas": 0,
           "textos": []
         }
@@ -98,19 +108,24 @@
     },
     "cantucci_ac": {
       "faturamento": 29381.76,
-      "meta": 26687.64,
+      "meta": 26730.75,
       "google": {
         "grade": 4.72,
-        "total": 245
+        "total": 247
       },
       "ifood": {
-        "grade": 4.74,
-        "total": 188
+        "grade": 4.73,
+        "total": 194
       },
       "reviews_dia": {
         "google": {
-          "total": 17,
+          "total": 19,
           "baixas": 1,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
           "textos": []
         }
       },
@@ -150,14 +165,20 @@
       "faturamento": 22145.99,
       "meta": 21948.99,
       "google": {
-        "grade": 5.0,
-        "total": 7
+        "grade": 4.8,
+        "total": 10
       },
       "ifood": {
         "grade": 4.85,
         "total": 59
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "google": {
+          "total": 3,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": null,
       "quadro": null,
       "diarias": {
@@ -216,8 +237,8 @@
         "total": 24
       },
       "ifood": {
-        "grade": 4.68,
-        "total": 47
+        "grade": 4.69,
+        "total": 48
       },
       "reviews_dia": {
         "google": {
