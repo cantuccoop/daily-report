@@ -1,184 +1,119 @@
 {
-  "data": "2026-08-09",
-  "gerado_em": "2026-08-10",
-  "semana_inicio": "2026-08-03",
+  "data": "2026-08-10",
+  "gerado_em": "2026-08-11",
+  "semana_inicio": "2026-08-10",
   "lojas": {
     "cantucci_an": {
-      "faturamento": 38052.68,
-      "meta": 27781.09,
+      "faturamento": 13270.46,
+      "meta": 14986.76,
       "google": {
         "grade": 4.95,
-        "total": 227
+        "total": 218
       },
       "ifood": {
-        "grade": 4.68,
-        "total": 182
+        "grade": 4.65,
+        "total": 181
       },
-      "reviews_dia": {
-        "google": {
-          "total": 15,
-          "baixas": 0,
-          "textos": []
-        },
-        "ifood": {
-          "total": 4,
-          "baixas": 0,
-          "textos": []
-        }
-      },
-      "relatorio": {
-        "nota_min": 9.0,
-        "nota_max": 9.0,
-        "nota_med": 9.0,
-        "turnos": 1,
-        "tma": 10,
-        "ocs": [
-          "Erro qualidade"
-        ],
-        "bos": [
-          "Sem problemas "
-        ]
-      },
+      "reviews_dia": null,
+      "relatorio": null,
       "quadro": null,
       "diarias": {
-        "acumulado": "1.040,00",
+        "acumulado": "1.175,00",
         "meta": "5.000,00",
-        "pct": "20.8%"
+        "pct": "23.5%"
       },
-      "checklists": 11,
+      "checklists": 17,
       "maturidade": {
-        "score": 5.0,
+        "score": 3.3,
         "quadro_turnos": 0,
-        "relatorio_turnos": 1,
-        "checklist_executado": 11,
+        "relatorio_turnos": 0,
+        "checklist_executado": 17,
         "checklist_esperado": 8,
         "tem_checklist": true
       }
     },
     "cantucci_as": {
-      "faturamento": 21004.27,
-      "meta": 15156.78,
+      "faturamento": 4490.59,
+      "meta": 4128.52,
       "google": {
-        "grade": 4.91,
-        "total": 206
+        "grade": 4.86,
+        "total": 208
       },
       "ifood": {
         "grade": 4.84,
-        "total": 116
+        "total": 114
       },
       "reviews_dia": {
         "google": {
-          "total": 5,
-          "baixas": 0,
-          "textos": []
-        },
-        "ifood": {
-          "total": 1,
-          "baixas": 0,
+          "total": 2,
+          "baixas": 2,
           "textos": []
         }
       },
-      "relatorio": {
-        "nota_min": 7.0,
-        "nota_max": 8.0,
-        "nota_med": 7.5,
-        "turnos": 2,
-        "tma": 18,
-        "ocs": [],
-        "bos": [
-          "Deu tudo certo",
-          "Tempo médio devido a alta demanda .\nTivemos 16 mesas na espera"
-        ]
-      },
+      "relatorio": null,
       "quadro": null,
       "diarias": {
         "acumulado": "1.550,00",
         "meta": "2.500,00",
         "pct": "62%"
       },
-      "checklists": 12,
+      "checklists": 14,
       "maturidade": {
-        "score": 6.7,
+        "score": 3.3,
         "quadro_turnos": 0,
-        "relatorio_turnos": 2,
-        "checklist_executado": 12,
+        "relatorio_turnos": 0,
+        "checklist_executado": 14,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "cantucci_ac": {
-      "faturamento": 29381.76,
-      "meta": 26730.75,
+      "faturamento": 10225.3,
+      "meta": 11965.78,
       "google": {
         "grade": 4.72,
-        "total": 247
+        "total": 245
       },
       "ifood": {
-        "grade": 4.73,
-        "total": 194
+        "grade": 4.72,
+        "total": 192
       },
       "reviews_dia": {
         "google": {
-          "total": 19,
-          "baixas": 1,
-          "textos": []
-        },
-        "ifood": {
           "total": 1,
           "baixas": 0,
           "textos": []
         }
       },
-      "relatorio": {
-        "nota_min": 9.0,
-        "nota_max": 10.0,
-        "nota_med": 9.3,
-        "turnos": 3,
-        "tma": 12,
-        "ocs": [
-          "Erro qualidade",
-          "Delivery atraso"
-        ],
-        "bos": [
-          "Sem b.o",
-          "Sem b o",
-          "Sem b.o"
-        ]
-      },
+      "relatorio": null,
       "quadro": null,
       "diarias": {
-        "acumulado": "1.220,00",
+        "acumulado": "1.540,00",
         "meta": "5.000,00",
-        "pct": "24.4%"
+        "pct": "30.8%"
       },
-      "checklists": 9,
+      "checklists": 13,
       "maturidade": {
-        "score": 5.8,
+        "score": 3.3,
         "quadro_turnos": 0,
-        "relatorio_turnos": 3,
-        "checklist_executado": 9,
+        "relatorio_turnos": 0,
+        "checklist_executado": 13,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "superquadra": {
-      "faturamento": 22145.99,
-      "meta": 21948.99,
+      "faturamento": null,
+      "meta": 3142.08,
       "google": {
         "grade": 4.8,
         "total": 10
       },
       "ifood": {
-        "grade": 4.85,
-        "total": 59
+        "grade": 4.84,
+        "total": 58
       },
-      "reviews_dia": {
-        "google": {
-          "total": 3,
-          "baixas": 0,
-          "textos": []
-        }
-      },
+      "reviews_dia": null,
       "relatorio": null,
       "quadro": null,
       "diarias": {
@@ -186,81 +121,68 @@
         "meta": "3.500,00",
         "pct": "37.4%"
       },
-      "checklists": 2,
+      "checklists": 1,
       "maturidade": {
-        "score": 0.5,
+        "score": 0.2,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 2,
+        "checklist_executado": 1,
         "checklist_esperado": 14,
         "tem_checklist": true
       }
     },
     "mane": {
-      "faturamento": 22727.2,
+      "faturamento": 7536.9,
       "meta": 0.0,
       "google": null,
       "ifood": null,
       "reviews_dia": null,
-      "relatorio": {
-        "nota_min": null,
-        "nota_max": null,
-        "nota_med": null,
-        "turnos": 0,
-        "tma": 15,
-        "ocs": [
-          "Reclamação cliente"
-        ],
-        "bos": []
-      },
+      "relatorio": null,
       "quadro": null,
       "diarias": {
-        "acumulado": "2.105,00",
+        "acumulado": "2.825,00",
         "meta": "4.000,00",
-        "pct": "52.6%"
+        "pct": "70.6%"
       },
-      "checklists": null,
+      "checklists": 1,
       "maturidade": {
-        "score": 0.0,
+        "score": 0.3,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 0,
+        "checklist_executado": 1,
         "checklist_esperado": 12,
-        "tem_checklist": false
+        "tem_checklist": true
       }
     },
     "koji": {
-      "faturamento": null,
-      "meta": 6988.89,
+      "faturamento": 17737.64,
+      "meta": 17856.86,
       "google": {
         "grade": 4.42,
         "total": 24
       },
       "ifood": {
-        "grade": 4.69,
-        "total": 48
+        "grade": 4.7,
+        "total": 47
       },
-      "reviews_dia": {
-        "google": {
-          "total": 1,
-          "baixas": 0,
-          "textos": []
-        }
-      },
+      "reviews_dia": null,
       "relatorio": null,
       "quadro": null,
       "diarias": null,
-      "checklists": null,
+      "checklists": 3,
       "maturidade": {
-        "score": 0.0,
+        "score": 2.5,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 0,
+        "checklist_executado": 3,
         "checklist_esperado": 4,
-        "tem_checklist": false
+        "tem_checklist": true
       }
     }
   },
   "vmarket": {},
-  "erros": []
+  "erros": [
+    "quadro: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/QUADRO_DADOS.json'",
+    "relatorio: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/RELATORIO_DADOS.json'"
+  ]
 }
