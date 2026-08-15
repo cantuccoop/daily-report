@@ -11,22 +11,27 @@
         "total": 229
       },
       "ifood": {
-        "grade": 4.65,
-        "total": 175
+        "grade": 4.66,
+        "total": 181
       },
       "reviews_dia": {
         "google": {
           "total": 14,
           "baixas": 1,
           "textos": []
+        },
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
         }
       },
       "relatorio": null,
       "quadro": null,
       "diarias": {
-        "acumulado": "3.955,00",
+        "acumulado": "4.075,00",
         "meta": "5.000,00",
-        "pct": "79.1%"
+        "pct": "81.5%"
       },
       "checklists": 11,
       "maturidade": {
@@ -46,8 +51,8 @@
         "total": 148
       },
       "ifood": {
-        "grade": 4.9,
-        "total": 107
+        "grade": 4.81,
+        "total": 109
       },
       "reviews_dia": null,
       "relatorio": null,
@@ -76,7 +81,7 @@
       },
       "ifood": {
         "grade": 4.74,
-        "total": 171
+        "total": 175
       },
       "reviews_dia": null,
       "relatorio": null,
@@ -100,14 +105,20 @@
       "faturamento": 14342.57,
       "meta": 16441.28,
       "google": {
-        "grade": 4.82,
-        "total": 11
+        "grade": 4.83,
+        "total": 12
       },
       "ifood": {
         "grade": 4.96,
-        "total": 53
+        "total": 54
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "google": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": null,
       "quadro": null,
       "diarias": {
@@ -126,7 +137,7 @@
       }
     },
     "mane": {
-      "faturamento": 27621.31,
+      "faturamento": 27546.31,
       "meta": 0.0,
       "google": null,
       "ifood": null,
@@ -134,9 +145,9 @@
       "relatorio": null,
       "quadro": null,
       "diarias": {
-        "acumulado": "3.326,22",
+        "acumulado": "3.686,22",
         "meta": "4.000,00",
-        "pct": "83.2%"
+        "pct": "92.2%"
       },
       "checklists": 4,
       "maturidade": {
@@ -156,8 +167,8 @@
         "total": 30
       },
       "ifood": {
-        "grade": 4.7,
-        "total": 47
+        "grade": 4.71,
+        "total": 48
       },
       "reviews_dia": null,
       "relatorio": null,
@@ -176,7 +187,7 @@
   },
   "vmarket": {},
   "erros": [
-    "relatorio: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/RELATORIO_DADOS.json'",
-    "quadro: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/QUADRO_DADOS.json'"
+    "quadro: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/QUADRO_DADOS.json'",
+    "relatorio: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/RELATORIO_DADOS.json'"
   ]
 }
