@@ -4,20 +4,25 @@
   "semana_inicio": "2026-08-10",
   "lojas": {
     "cantucci_an": {
-      "faturamento": 27044.76,
-      "meta": 27436.66,
+      "faturamento": 27219.58,
+      "meta": 27439.46,
       "google": {
         "grade": 4.94,
-        "total": 237
+        "total": 249
       },
       "ifood": {
         "grade": 4.66,
-        "total": 180
+        "total": 182
       },
       "reviews_dia": {
         "google": {
-          "total": 8,
+          "total": 20,
           "baixas": 1,
+          "textos": []
+        },
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
           "textos": []
         }
       },
@@ -42,14 +47,20 @@
       "faturamento": 18683.4,
       "meta": 13854.09,
       "google": {
-        "grade": 4.8,
-        "total": 156
+        "grade": 4.79,
+        "total": 151
       },
       "ifood": {
         "grade": 4.81,
-        "total": 107
+        "total": 108
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": null,
       "quadro": null,
       "diarias": {
@@ -72,15 +83,15 @@
       "meta": 32245.78,
       "google": {
         "grade": 4.67,
-        "total": 255
+        "total": 259
       },
       "ifood": {
-        "grade": 4.74,
-        "total": 172
+        "grade": 4.73,
+        "total": 175
       },
       "reviews_dia": {
         "google": {
-          "total": 10,
+          "total": 14,
           "baixas": 0,
           "textos": []
         }
@@ -92,12 +103,12 @@
         "meta": "5.000,00",
         "pct": "51.4%"
       },
-      "checklists": 7,
+      "checklists": 8,
       "maturidade": {
-        "score": 1.9,
+        "score": 2.2,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 7,
+        "checklist_executado": 8,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
@@ -110,11 +121,16 @@
         "total": 13
       },
       "ifood": {
-        "grade": 4.96,
-        "total": 53
+        "grade": 4.95,
+        "total": 57
       },
       "reviews_dia": {
         "google": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
           "total": 1,
           "baixas": 0,
           "textos": []
@@ -138,7 +154,7 @@
       }
     },
     "mane": {
-      "faturamento": 24306.9,
+      "faturamento": 24361.8,
       "meta": 0.0,
       "google": null,
       "ifood": null,
@@ -168,8 +184,8 @@
         "total": 31
       },
       "ifood": {
-        "grade": 4.7,
-        "total": 46
+        "grade": 4.71,
+        "total": 48
       },
       "reviews_dia": {
         "google": {
@@ -194,7 +210,7 @@
   },
   "vmarket": {},
   "erros": [
-    "quadro: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/QUADRO_DADOS.json'",
-    "relatorio: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/RELATORIO_DADOS.json'"
+    "relatorio: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/RELATORIO_DADOS.json'",
+    "quadro: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/QUADRO_DADOS.json'"
   ]
 }
