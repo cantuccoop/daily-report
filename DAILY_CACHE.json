@@ -8,15 +8,20 @@
       "meta": 27764.27,
       "google": {
         "grade": 4.94,
-        "total": 252
+        "total": 258
       },
       "ifood": {
-        "grade": 4.65,
-        "total": 180
+        "grade": 4.66,
+        "total": 189
       },
       "reviews_dia": {
         "google": {
-          "total": 6,
+          "total": 12,
+          "baixas": 1,
+          "textos": []
+        },
+        "ifood": {
+          "total": 5,
           "baixas": 0,
           "textos": []
         }
@@ -42,14 +47,20 @@
       "faturamento": 18218.55,
       "meta": 15119.05,
       "google": {
-        "grade": 4.8,
-        "total": 150
+        "grade": 4.79,
+        "total": 148
       },
       "ifood": {
-        "grade": 4.81,
-        "total": 108
+        "grade": 4.8,
+        "total": 113
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "ifood": {
+          "total": 4,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": null,
       "quadro": null,
       "diarias": {
@@ -76,7 +87,7 @@
       },
       "ifood": {
         "grade": 4.72,
-        "total": 171
+        "total": 172
       },
       "reviews_dia": {
         "google": {
@@ -110,10 +121,16 @@
         "total": 13
       },
       "ifood": {
-        "grade": 4.94,
-        "total": 54
+        "grade": 4.95,
+        "total": 56
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": null,
       "quadro": null,
       "diarias": {
@@ -188,7 +205,7 @@
   },
   "vmarket": {},
   "erros": [
-    "relatorio: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/RELATORIO_DADOS.json'",
-    "quadro: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/QUADRO_DADOS.json'"
+    "quadro: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/QUADRO_DADOS.json'",
+    "relatorio: [Errno 2] No such file or directory: '/home/runner/work/daily-report/daily-report/RELATORIO_DADOS.json'"
   ]
 }
