@@ -1,55 +1,55 @@
 {
-  "semana_inicio": "2026-07-27",
-  "semana_fim": "2026-08-02",
-  "mes_referencia": "July / 2026",
-  "gerado_em": "2026-08-03",
+  "semana_inicio": "2026-08-10",
+  "semana_fim": "2026-08-16",
+  "mes_referencia": "August / 2026",
+  "gerado_em": "2026-08-17",
   "unidades": {
     "cantucci_an": {
       "unidade": "Asa Norte",
-      "cmc_semana_pct": 43.3,
-      "faturamento_semana": 80553.0,
-      "compras_semana": 34855.0,
-      "cmv_mes_pct": 29.9,
+      "cmc_semana_pct": 43.7,
+      "faturamento_semana": 166698.0,
+      "compras_semana": 72927.0,
+      "cmv_mes_pct": 33.2,
       "cmv_mes_meta_pct": 29.5
     },
     "cantucci_as": {
       "unidade": "Asa Sul",
-      "cmc_semana_pct": 51.1,
-      "faturamento_semana": 36719.0,
-      "compras_semana": 18745.0,
-      "cmv_mes_pct": 34.5,
+      "cmc_semana_pct": 37.8,
+      "faturamento_semana": 83137.0,
+      "compras_semana": 31392.0,
+      "cmv_mes_pct": 27.5,
       "cmv_mes_meta_pct": 29.5
     },
     "cantucci_ac": {
       "unidade": "Aguas Claras",
-      "cmc_semana_pct": 37.8,
-      "faturamento_semana": 69028.0,
-      "compras_semana": 26110.0,
-      "cmv_mes_pct": 29.6,
+      "cmc_semana_pct": 33.9,
+      "faturamento_semana": 149493.0,
+      "compras_semana": 50634.0,
+      "cmv_mes_pct": 28.7,
       "cmv_mes_meta_pct": 29.5
     },
     "superquadra": {
       "unidade": "SPQ Norte",
-      "cmc_semana_pct": 38.2,
-      "faturamento_semana": 43926.0,
-      "compras_semana": 16765.0,
-      "cmv_mes_pct": 32.3,
+      "cmc_semana_pct": 27.7,
+      "faturamento_semana": 94643.0,
+      "compras_semana": 26263.0,
+      "cmv_mes_pct": 42.0,
       "cmv_mes_meta_pct": 29.5
     },
     "mane": {
       "unidade": "Mane",
-      "cmc_semana_pct": 44.2,
-      "faturamento_semana": 89792.0,
-      "compras_semana": 39648.0,
-      "cmv_mes_pct": 31.6,
+      "cmc_semana_pct": 35.6,
+      "faturamento_semana": 122193.0,
+      "compras_semana": 43539.0,
+      "cmv_mes_pct": 34.9,
       "cmv_mes_meta_pct": 29.5
     },
     "koji": {
       "unidade": "Koji",
-      "cmc_semana_pct": 45.3,
-      "faturamento_semana": 88505.0,
-      "compras_semana": 40099.0,
-      "cmv_mes_pct": 43.0,
+      "cmc_semana_pct": 42.8,
+      "faturamento_semana": 163184.0,
+      "compras_semana": 69813.0,
+      "cmv_mes_pct": 45.4,
       "cmv_mes_meta_pct": 29.5
     }
   }

@@ -1,145 +1,45 @@
 {
-  "semana_inicio": "2026-07-27",
-  "semana_fim": "2026-08-02",
-  "gerado_em": "2026-08-03",
-  "mes_referencia_cmv": "July / 2026",
+  "semana_inicio": "2026-08-10",
+  "semana_fim": "2026-08-16",
+  "gerado_em": "2026-08-17",
+  "mes_referencia_cmv": "August / 2026",
   "mes_referencia_projecao": "08/2026",
   "lojas": {
     "cantucci_an": {
       "dias": 7,
-      "faturamento": 156369.48,
-      "meta": 113993.21,
-      "maturidade_media": 6.0,
-      "quadro_turnos": 1,
-      "relatorio_turnos": 11,
-      "checklist_executado": 83,
+      "faturamento": 169985.12,
+      "meta": 150117.7,
+      "maturidade_media": 3.2,
+      "quadro_turnos": 0,
+      "relatorio_turnos": 0,
+      "checklist_executado": 78,
       "checklist_esperado": 56,
       "google": {
-        "grade": 4.96,
-        "total": 62
+        "grade": 4.84,
+        "total": 54
       },
       "ifood": {
-        "grade": 4.65,
-        "total": 40
-      },
-      "reviews_semana": {
-        "ifood": {
-          "baixas": 2,
-          "textos": [
-            {
-              "nota": 1,
-              "cliente": "Vitor",
-              "texto": "Embalagem veio pingando, além de que bolonhesa esse prato não tem nada, macarrão com molho de tomate e sem carne nenhuma"
-            },
-            {
-              "nota": 1,
-              "cliente": "Vilma",
-              "texto": "Quantidade mínima de comida. Parecia que pegaram restos."
-            }
-          ]
-        }
-      },
-      "detratores_google": 0,
-      "detratores_ifood": 2,
-      "cmc_semana_pct": 43.3,
-      "cmv_mes_pct": 29.9,
-      "cmv_mes_meta_pct": 29.5,
-      "pct_delivery": 15.24,
-      "ticket_medio_geral": 105.2,
-      "descontos_qtd": 236,
-      "descontos_valor": 9015.71,
-      "cancelamentos_qtd": 396,
-      "cancelamentos_valor": 13160.43,
-      "pct_upsell": 9.22,
-      "fat_upsell": 11991.26,
-      "pct_alcoolica": 12.81,
-      "fat_alcoolica": 16664.18,
-      "tma_cozinha_min": null,
-      "pct_tma_acima_20": null,
-      "projecao_mes": 702493.14,
-      "meta_mes": 0.0,
-      "projecao_pct_meta": null
-    },
-    "cantucci_as": {
-      "dias": 7,
-      "faturamento": 72339.53,
-      "meta": 50003.86,
-      "maturidade_media": 6.1,
-      "quadro_turnos": 2,
-      "relatorio_turnos": 12,
-      "checklist_executado": 78,
-      "checklist_esperado": 84,
-      "google": {
-        "grade": 4.93,
-        "total": 139
-      },
-      "ifood": {
-        "grade": 4.92,
-        "total": 20
+        "grade": 4.83,
+        "total": 35
       },
       "reviews_semana": {
         "google": {
-          "baixas": 1,
-          "textos": [
-            {
-              "nota": 2,
-              "cliente": "Pedro Lima",
-              "texto": "A comida veio um pouco salgada. O ambiente precisa ser mais refinado. O atendente Fernando foi receptivo."
-            }
-          ]
-        }
-      },
-      "detratores_google": 1,
-      "detratores_ifood": 0,
-      "cmc_semana_pct": 51.1,
-      "cmv_mes_pct": 34.5,
-      "cmv_mes_meta_pct": 29.5,
-      "pct_delivery": 23.64,
-      "ticket_medio_geral": 86.64,
-      "descontos_qtd": 225,
-      "descontos_valor": 8560.93,
-      "cancelamentos_qtd": 85,
-      "cancelamentos_valor": 2890.06,
-      "pct_upsell": 5.42,
-      "fat_upsell": 2900.45,
-      "pct_alcoolica": 7.95,
-      "fat_alcoolica": 4253.86,
-      "tma_cozinha_min": null,
-      "pct_tma_acima_20": null,
-      "projecao_mes": 325979.11,
-      "meta_mes": 0.0,
-      "projecao_pct_meta": null
-    },
-    "cantucci_ac": {
-      "dias": 7,
-      "faturamento": 112201.17,
-      "meta": 86548.6,
-      "maturidade_media": 6.4,
-      "quadro_turnos": 1,
-      "relatorio_turnos": 15,
-      "checklist_executado": 90,
-      "checklist_esperado": 84,
-      "google": {
-        "grade": 4.87,
-        "total": 34
-      },
-      "ifood": {
-        "grade": 4.73,
-        "total": 29
-      },
-      "reviews_semana": {
-        "google": {
-          "baixas": 2,
+          "baixas": 3,
           "textos": [
             {
               "nota": 1,
-              "cliente": "Clarice Maria",
-              "texto": "Com todo respeito aos trabalhadores do restaurante, mas a comida estava muito ruim. Ruim em um nível de levantar e ir embora. Os pratos vieram bem diferente das fotos do cardápio, e o sabor não tava nem um pouco legal. Que tristeza gastar com comida ruim :("
+              "cliente": "Leonardo Bayer",
+              "texto": ""
             },
             {
-              "nota": 2,
-              "cliente": "Cassio Roberto Sopko",
-              "texto": "Não ter o cardápio físico para bebidas não alcoólicas é um erro crasso. Não volto enquanto essa falha perdurar. Lamentável para todos aqueles que tem dificuldades em ler numa tela de celular."
+              "nota": 1,
+              "cliente": "Natália Marinho",
+              "texto": "experiência horrível, a comida parecia estar pronta no balcão o dia inteiro"
+            },
+            {
+              "nota": 1,
+              "cliente": "Juliano Scarp",
+              "texto": "Vim na restaurante week de agosto de 2026.\nDemoraram 25 minutos pra trazer a sobremesa e, ao fim, fui informado de que a sobremesa não estava gelada.(torta de chocolate). Paguei e pedi que enviassem mesmo assim, mas com mais atraso eu acabei indo embora sem comer a sobremesa.\nEntendo que o evento gere lotação, alto fluxo, mas se o restaurante não está preparado pra isso é melhor nem participar.\nFomos muito bem atendidos pelos garçons, que visivelmente estão dando tudo de si pra atender a alta demanda. Contudo, o restaurante não atendeu a expectativa."
             }
           ]
         },
@@ -147,9 +47,74 @@
           "baixas": 1,
           "textos": [
             {
-              "nota": 2,
-              "cliente": "Ruth",
-              "texto": "O frango estava muito salgado, sem condições de consumo e o arroz duro."
+              "nota": 1,
+              "cliente": "Fernanda",
+              "texto": "Pedi uma batata que infelizmente, tava com muito gosto de queimado. Não conseguimos comer."
+            }
+          ]
+        }
+      },
+      "detratores_google": 3,
+      "detratores_ifood": 1,
+      "cmc_semana_pct": 43.7,
+      "cmv_mes_pct": 33.2,
+      "cmv_mes_meta_pct": 29.5,
+      "pct_delivery": 15.55,
+      "ticket_medio_geral": 101.87,
+      "descontos_qtd": 222,
+      "descontos_valor": 9130.6,
+      "cancelamentos_qtd": 314,
+      "cancelamentos_valor": 9943.24,
+      "pct_upsell": 6.97,
+      "fat_upsell": 9809.78,
+      "pct_alcoolica": 11.97,
+      "fat_alcoolica": 16852.32,
+      "tma_cozinha_min": null,
+      "pct_tma_acima_20": null,
+      "projecao_mes": 802495.31,
+      "meta_mes": 737000.01,
+      "projecao_pct_meta": 108.9
+    },
+    "cantucci_as": {
+      "dias": 7,
+      "faturamento": 90039.08,
+      "meta": 71809.58,
+      "maturidade_media": 3.2,
+      "quadro_turnos": 0,
+      "relatorio_turnos": 0,
+      "checklist_executado": 88,
+      "checklist_esperado": 84,
+      "google": {
+        "grade": 3.75,
+        "total": 8
+      },
+      "ifood": {
+        "grade": 3.92,
+        "total": 20
+      },
+      "reviews_semana": {
+        "google": {
+          "baixas": 2,
+          "textos": [
+            {
+              "nota": 1,
+              "cliente": "Felipe Silva",
+              "texto": "O ambiente é agradável, porém a entrega dos pratos demora muito, o sabor é bom mas o preço é muito caro, não compensa."
+            },
+            {
+              "nota": 1,
+              "cliente": "Victor Luz",
+              "texto": "Atendimento muito demorado, comida é boa, mas incompatível com o valor, muito caro para o que oferece. No final a conta veio errada."
+            }
+          ]
+        },
+        "ifood": {
+          "baixas": 1,
+          "textos": [
+            {
+              "nota": 1,
+              "cliente": "Raoni",
+              "texto": "Eu não imaginava que dava pra estragar um filé assim. Não parecia filé de tão seco e duro. Difícil acreditar que só passou do ponto porque a textura era de uma carne de terceira bem passada tipo um lagarto."
             }
           ]
         }
@@ -157,134 +122,195 @@
       "detratores_google": 2,
       "detratores_ifood": 1,
       "cmc_semana_pct": 37.8,
-      "cmv_mes_pct": 29.6,
+      "cmv_mes_pct": 27.5,
       "cmv_mes_meta_pct": 29.5,
-      "pct_delivery": 18.87,
-      "ticket_medio_geral": 120.25,
-      "descontos_qtd": 321,
-      "descontos_valor": 11943.56,
-      "cancelamentos_qtd": 189,
-      "cancelamentos_valor": 8008.02,
-      "pct_upsell": 8.16,
-      "fat_upsell": 9349.99,
-      "pct_alcoolica": 14.45,
-      "fat_alcoolica": 16545.65,
+      "pct_delivery": 21.96,
+      "ticket_medio_geral": 83.78,
+      "descontos_qtd": 225,
+      "descontos_valor": 8694.03,
+      "cancelamentos_qtd": 97,
+      "cancelamentos_valor": 4886.68,
+      "pct_upsell": 4.16,
+      "fat_upsell": 2844.78,
+      "pct_alcoolica": 7.11,
+      "fat_alcoolica": 4863.92,
       "tma_cozinha_min": null,
       "pct_tma_acima_20": null,
-      "projecao_mes": 650299.76,
-      "meta_mes": 0.0,
-      "projecao_pct_meta": null
+      "projecao_mes": 388991.14,
+      "meta_mes": 349999.99,
+      "projecao_pct_meta": 111.1
+    },
+    "cantucci_ac": {
+      "dias": 7,
+      "faturamento": 151320.52,
+      "meta": 143108.96,
+      "maturidade_media": 3.0,
+      "quadro_turnos": 0,
+      "relatorio_turnos": 0,
+      "checklist_executado": 79,
+      "checklist_esperado": 84,
+      "google": {
+        "grade": 4.33,
+        "total": 51
+      },
+      "ifood": {
+        "grade": 4.8,
+        "total": 20
+      },
+      "reviews_semana": {
+        "ifood": {
+          "baixas": 1,
+          "textos": [
+            {
+              "nota": 1,
+              "cliente": "Juliana",
+              "texto": "A massa estava saborosa apesar de ter chegado fria, no entanto a carne do polpetone estava com um gosto estranho."
+            }
+          ]
+        }
+      },
+      "detratores_google": 0,
+      "detratores_ifood": 1,
+      "cmc_semana_pct": 33.9,
+      "cmv_mes_pct": 28.7,
+      "cmv_mes_meta_pct": 29.5,
+      "pct_delivery": 14.27,
+      "ticket_medio_geral": 100.8,
+      "descontos_qtd": 205,
+      "descontos_valor": 11223.78,
+      "cancelamentos_qtd": 147,
+      "cancelamentos_valor": 4916.72,
+      "pct_upsell": 6.06,
+      "fat_upsell": 7726.28,
+      "pct_alcoolica": 12.91,
+      "fat_alcoolica": 16451.99,
+      "tma_cozinha_min": null,
+      "pct_tma_acima_20": null,
+      "projecao_mes": 717868.2,
+      "meta_mes": 705000.02,
+      "projecao_pct_meta": 101.8
     },
     "superquadra": {
       "dias": 7,
-      "faturamento": 83710.29,
-      "meta": 47469.6,
-      "maturidade_media": 2.5,
-      "quadro_turnos": 1,
+      "faturamento": 87552.45,
+      "meta": 94057.22,
+      "maturidade_media": 2.1,
+      "quadro_turnos": 0,
       "relatorio_turnos": 0,
-      "checklist_executado": 67,
+      "checklist_executado": 61,
       "checklist_esperado": 98,
       "google": {
         "grade": 5.0,
-        "total": 2
+        "total": 3
       },
       "ifood": {
-        "grade": 5.0,
-        "total": 12
+        "grade": 4.92,
+        "total": 13
       },
       "reviews_semana": null,
       "detratores_google": 0,
       "detratores_ifood": 0,
-      "cmc_semana_pct": 38.2,
-      "cmv_mes_pct": 32.3,
+      "cmc_semana_pct": 27.7,
+      "cmv_mes_pct": 42.0,
       "cmv_mes_meta_pct": 29.5,
-      "pct_delivery": 13.98,
-      "ticket_medio_geral": 102.01,
-      "descontos_qtd": 156,
-      "descontos_valor": 4298.92,
-      "cancelamentos_qtd": 134,
-      "cancelamentos_valor": 4812.37,
-      "pct_upsell": 9.54,
-      "fat_upsell": 6758.06,
-      "pct_alcoolica": 18.95,
-      "fat_alcoolica": 13418.07,
+      "pct_delivery": 12.29,
+      "ticket_medio_geral": 102.18,
+      "descontos_qtd": 162,
+      "descontos_valor": 5273.25,
+      "cancelamentos_qtd": 129,
+      "cancelamentos_valor": 4283.27,
+      "pct_upsell": 10.38,
+      "fat_upsell": 7856.27,
+      "pct_alcoolica": 20.91,
+      "fat_alcoolica": 15816.75,
       "tma_cozinha_min": null,
       "pct_tma_acima_20": null,
-      "projecao_mes": 506988.16,
-      "meta_mes": 0.0,
-      "projecao_pct_meta": null
+      "projecao_mes": 479998.31,
+      "meta_mes": 469999.99,
+      "projecao_pct_meta": 102.1
     },
     "mane": {
       "dias": 7,
-      "faturamento": 154872.62,
+      "faturamento": 126454.81,
       "meta": null,
-      "maturidade_media": 1.2,
+      "maturidade_media": 0.8,
       "quadro_turnos": 0,
       "relatorio_turnos": 0,
-      "checklist_executado": 31,
+      "checklist_executado": 21,
       "checklist_esperado": 84,
       "google": null,
       "ifood": null,
       "reviews_semana": null,
       "detratores_google": null,
       "detratores_ifood": null,
-      "cmc_semana_pct": 44.2,
-      "cmv_mes_pct": 31.6,
+      "cmc_semana_pct": 35.6,
+      "cmv_mes_pct": 34.9,
       "cmv_mes_meta_pct": 29.5,
-      "pct_delivery": 14.64,
-      "ticket_medio_geral": 118.36,
-      "descontos_qtd": 957,
-      "descontos_valor": 34202.57,
-      "cancelamentos_qtd": 808,
-      "cancelamentos_valor": 29386.88,
-      "pct_upsell": 6.36,
-      "fat_upsell": 5982.9,
+      "pct_delivery": 14.7,
+      "ticket_medio_geral": 111.52,
+      "descontos_qtd": 822,
+      "descontos_valor": 34466.62,
+      "cancelamentos_qtd": 720,
+      "cancelamentos_valor": 24584.91,
+      "pct_upsell": 6.65,
+      "fat_upsell": 5083.23,
       "pct_alcoolica": 0.0,
       "fat_alcoolica": 0.0,
       "tma_cozinha_min": null,
       "pct_tma_acima_20": null,
-      "projecao_mes": 625932.81,
-      "meta_mes": 0.0,
-      "projecao_pct_meta": null
+      "projecao_mes": 593328.04,
+      "meta_mes": 629999.99,
+      "projecao_pct_meta": 94.2
     },
     "koji": {
       "dias": 7,
-      "faturamento": 122443.27,
-      "meta": 128167.62,
-      "maturidade_media": 1.4,
+      "faturamento": 147523.2,
+      "meta": 147167.16,
+      "maturidade_media": 1.7,
       "quadro_turnos": 0,
       "relatorio_turnos": 0,
       "checklist_executado": 14,
       "checklist_esperado": 28,
       "google": {
+        "grade": 4.6,
+        "total": 10
+      },
+      "ifood": {
         "grade": 5.0,
         "total": 7
       },
-      "ifood": {
-        "grade": 4.43,
-        "total": 7
+      "reviews_semana": {
+        "google": {
+          "baixas": 1,
+          "textos": [
+            {
+              "nota": 1,
+              "cliente": "Nícolas Ramos",
+              "texto": "Uma pena...\nO Kojima já foi o meu restaurante preferido disparado entre 2018 e 2019; nesse período, costumava frequentá-lo de duas a três vezes por mês. Porém, tornou-se apenas mais um restaurante após o fim da pandemia. De 2021 em diante, o restaurante mudou significativamente o cardápio — retirando pratos incríveis como o Tataki Poró —, aumentou drasticamente o preço (para a época), deixou de aceitar vale-refeição e criou o tal \"festival\", que começa com a sequência do chef.\nDesde então, costumo ir ao Koji esporadicamente (uma vez ao ano) para verificar como ele está, e sempre acontece algo que me desanima. Ontem não foi diferente.\nO primeiro problema já ocorreu na chegada. O restaurante abre às 18h; chegamos às 18h30 e ele estava fechado, com várias pessoas na frente aguardando para entrar. Perguntamos a elas o que havia acontecido, e apenas disseram que o local ainda não tinha aberto. Segundo o grupo, ninguém foi lá fora avisar sobre algum imprevisto, e só não foram embora porque conseguiam escutar barulhos vindos de dentro, como se ainda estivessem ajeitando as coisas para o início da noite. Entramos apenas por volta das 18h40. Mas até aí tudo bem, imprevistos acontecem. Relevamos no momento e seguimos otimistas.\nSolicitamos o festival, que começa com uma sequência do chef. Após a sua conclusão, você pode solicitar ao garçom os pratos que deseja repetir.\nO segundo problema foi a desatenção a uma restrição informada. Antes de iniciar a sequência, o garçom nos perguntou se tínhamos alguma restrição, seja por preferência ou alergia. Informamos que não precisava trazer camarão durante a sequência do chef e que pediríamos algo pontual após essa etapa. Essa informação serviu apenas para o primeiro prato; a partir do segundo, ela foi ignorada. Houve um momento em que chegaram à mesa, em um intervalo de apenas cinco minutos, quatro pratos de camarão: espetinho, pipoca de camarão, camarão empanado e gratin de camarão.\nO terceiro problema ocorreu na conclusão da sequênci"
+            }
+          ]
+        }
       },
-      "reviews_semana": null,
-      "detratores_google": 0,
+      "detratores_google": 1,
       "detratores_ifood": 0,
-      "cmc_semana_pct": 45.3,
-      "cmv_mes_pct": 43.0,
+      "cmc_semana_pct": 42.8,
+      "cmv_mes_pct": 45.4,
       "cmv_mes_meta_pct": 29.5,
-      "pct_delivery": 5.42,
-      "ticket_medio_geral": 199.26,
-      "descontos_qtd": 19,
-      "descontos_valor": 383.45,
-      "cancelamentos_qtd": 4,
-      "cancelamentos_valor": 516.0,
-      "pct_upsell": 5.04,
-      "fat_upsell": 6595.1,
-      "pct_alcoolica": 4.93,
-      "fat_alcoolica": 6452.1,
+      "pct_delivery": 11.2,
+      "ticket_medio_geral": 211.38,
+      "descontos_qtd": 8,
+      "descontos_valor": 144.96,
+      "cancelamentos_qtd": 33,
+      "cancelamentos_valor": 555.0,
+      "pct_upsell": 5.88,
+      "fat_upsell": 7597.96,
+      "pct_alcoolica": 5.84,
+      "fat_alcoolica": 7549.96,
       "tma_cozinha_min": null,
       "pct_tma_acima_20": null,
-      "projecao_mes": 655594.32,
-      "meta_mes": 0.0,
-      "projecao_pct_meta": null
+      "projecao_mes": 696783.91,
+      "meta_mes": 715000.02,
+      "projecao_pct_meta": 97.5
     }
   },
   "erros": []
