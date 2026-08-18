@@ -8,14 +8,19 @@
       "meta": 14885.94,
       "google": {
         "grade": 4.95,
-        "total": 251
+        "total": 254
       },
       "ifood": {
         "grade": 4.69,
-        "total": 183
+        "total": 187
       },
       "reviews_dia": {
         "google": {
+          "total": 5,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
           "total": 2,
           "baixas": 0,
           "textos": []
@@ -46,13 +51,18 @@
         "total": 151
       },
       "ifood": {
-        "grade": 4.8,
-        "total": 113
+        "grade": 4.77,
+        "total": 120
       },
       "reviews_dia": {
         "google": {
           "total": 3,
           "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
+          "total": 2,
+          "baixas": 1,
           "textos": []
         }
       },
@@ -78,15 +88,15 @@
       "meta": 11970.37,
       "google": {
         "grade": 4.67,
-        "total": 251
+        "total": 253
       },
       "ifood": {
         "grade": 4.72,
-        "total": 175
+        "total": 176
       },
       "reviews_dia": {
         "google": {
-          "total": 4,
+          "total": 6,
           "baixas": 0,
           "textos": []
         }
@@ -116,8 +126,8 @@
         "total": 13
       },
       "ifood": {
-        "grade": 4.93,
-        "total": 55
+        "grade": 4.91,
+        "total": 57
       },
       "reviews_dia": null,
       "relatorio": null,
@@ -146,9 +156,9 @@
       "relatorio": null,
       "quadro": null,
       "diarias": {
-        "acumulado": "3.686,22",
+        "acumulado": "5.663,22",
         "meta": "4.000,00",
-        "pct": "92.2%"
+        "pct": "141.6%"
       },
       "checklists": 4,
       "maturidade": {
@@ -164,14 +174,20 @@
       "faturamento": 19494.36,
       "meta": 17815.05,
       "google": {
-        "grade": 4.44,
-        "total": 32
+        "grade": 4.45,
+        "total": 33
       },
       "ifood": {
-        "grade": 4.73,
-        "total": 51
+        "grade": 4.74,
+        "total": 53
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "google": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": null,
       "quadro": null,
       "diarias": null,
