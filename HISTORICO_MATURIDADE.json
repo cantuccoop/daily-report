@@ -2247,5 +2247,83 @@
     "checklist_executado": 4,
     "checklist_esperado": 14,
     "tem_checklist": true
+  },
+  {
+    "data": "2026-08-17",
+    "unidade_id": "cantucci_ac",
+    "unidade": "Cantucci Águas Claras",
+    "faturamento": 10906.0,
+    "meta": 11970.37,
+    "maturidade_score": 3.3,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 15,
+    "checklist_esperado": 12,
+    "tem_checklist": true
+  },
+  {
+    "data": "2026-08-17",
+    "unidade_id": "cantucci_an",
+    "unidade": "Cantucci Asa Norte",
+    "faturamento": 14070.03,
+    "meta": 14885.94,
+    "maturidade_score": 3.3,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 10,
+    "checklist_esperado": 8,
+    "tem_checklist": true
+  },
+  {
+    "data": "2026-08-17",
+    "unidade_id": "cantucci_as",
+    "unidade": "Cantucci Asa Sul",
+    "faturamento": 5492.2,
+    "meta": 4144.19,
+    "maturidade_score": 3.3,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 14,
+    "checklist_esperado": 12,
+    "tem_checklist": true
+  },
+  {
+    "data": "2026-08-17",
+    "unidade_id": "koji",
+    "unidade": "Koji",
+    "faturamento": 19494.36,
+    "meta": 17815.05,
+    "maturidade_score": 1.7,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 2,
+    "checklist_esperado": 4,
+    "tem_checklist": true
+  },
+  {
+    "data": "2026-08-17",
+    "unidade_id": "mane",
+    "unidade": "Mané",
+    "faturamento": 16066.28,
+    "meta": 0.0,
+    "maturidade_score": 1.1,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 4,
+    "checklist_esperado": 12,
+    "tem_checklist": true
+  },
+  {
+    "data": "2026-08-17",
+    "unidade_id": "superquadra",
+    "unidade": "Superquadra Norte",
+    "faturamento": null,
+    "meta": 3190.62,
+    "maturidade_score": 0.0,
+    "quadro_turnos": 0,
+    "relatorio_turnos": 0,
+    "checklist_executado": 0,
+    "checklist_esperado": 14,
+    "tem_checklist": false
   }
 ]
