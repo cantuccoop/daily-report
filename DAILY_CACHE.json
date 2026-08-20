@@ -12,15 +12,15 @@
       },
       "ifood": {
         "grade": 4.7,
-        "total": 173
+        "total": 174
       },
       "reviews_dia": null,
       "relatorio": null,
       "quadro": null,
       "diarias": {
-        "acumulado": "4.240,00",
+        "acumulado": "5.790,00",
         "meta": "5.000,00",
-        "pct": "84.8%"
+        "pct": "115.8%"
       },
       "checklists": 8,
       "maturidade": {
@@ -41,15 +41,21 @@
       },
       "ifood": {
         "grade": 4.76,
-        "total": 116
+        "total": 119
       },
-      "reviews_dia": null,
+      "reviews_dia": {
+        "ifood": {
+          "total": 1,
+          "baixas": 0,
+          "textos": []
+        }
+      },
       "relatorio": null,
       "quadro": null,
       "diarias": {
-        "acumulado": "3.990,00",
+        "acumulado": "5.815,00",
         "meta": "2.500,00",
-        "pct": "159.6%"
+        "pct": "232.6%"
       },
       "checklists": 9,
       "maturidade": {
@@ -66,14 +72,19 @@
       "meta": 14507.45,
       "google": {
         "grade": 4.71,
-        "total": 229
+        "total": 230
       },
       "ifood": {
         "grade": 4.67,
-        "total": 156
+        "total": 159
       },
       "reviews_dia": {
         "google": {
+          "total": 2,
+          "baixas": 0,
+          "textos": []
+        },
+        "ifood": {
           "total": 1,
           "baixas": 0,
           "textos": []
@@ -82,9 +93,9 @@
       "relatorio": null,
       "quadro": null,
       "diarias": {
-        "acumulado": "2.567,60",
+        "acumulado": "4.037,60",
         "meta": "5.000,00",
-        "pct": "51.4%"
+        "pct": "80.8%"
       },
       "checklists": 5,
       "maturidade": {
@@ -105,15 +116,15 @@
       },
       "ifood": {
         "grade": 4.91,
-        "total": 54
+        "total": 56
       },
       "reviews_dia": null,
       "relatorio": null,
       "quadro": null,
       "diarias": {
-        "acumulado": "2.670,00",
+        "acumulado": "3.710,00",
         "meta": "3.500,00",
-        "pct": "76.3%"
+        "pct": "106%"
       },
       "checklists": 12,
       "maturidade": {
@@ -134,9 +145,9 @@
       "relatorio": null,
       "quadro": null,
       "diarias": {
-        "acumulado": "5.743,22",
+        "acumulado": "6.236,97",
         "meta": "4.000,00",
-        "pct": "143.6%"
+        "pct": "155.9%"
       },
       "checklists": 1,
       "maturidade": {
@@ -152,8 +163,8 @@
       "faturamento": 24846.22,
       "meta": 21214.52,
       "google": {
-        "grade": 4.54,
-        "total": 39
+        "grade": 4.57,
+        "total": 42
       },
       "ifood": {
         "grade": 4.7,
@@ -161,7 +172,7 @@
       },
       "reviews_dia": {
         "google": {
-          "total": 2,
+          "total": 5,
           "baixas": 0,
           "textos": []
         }
