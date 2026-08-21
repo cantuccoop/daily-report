@@ -1,17 +1,17 @@
 {
-  "data": "2026-08-19",
-  "gerado_em": "2026-08-20",
+  "data": "2026-08-20",
+  "gerado_em": "2026-08-21",
   "semana_inicio": "2026-08-17",
   "lojas": {
     "cantucci_an": {
-      "faturamento": 25383.59,
-      "meta": 17677.59,
+      "faturamento": 27348.31,
+      "meta": 21603.31,
       "google": {
-        "grade": 4.95,
-        "total": 239
+        "grade": 4.94,
+        "total": 237
       },
       "ifood": {
-        "grade": 4.7,
+        "grade": 4.69,
         "total": 174
       },
       "reviews_dia": null,
@@ -22,30 +22,30 @@
         "meta": "5.000,00",
         "pct": "115.8%"
       },
-      "checklists": 8,
+      "checklists": 11,
       "maturidade": {
         "score": 3.3,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 8,
+        "checklist_executado": 11,
         "checklist_esperado": 8,
         "tem_checklist": true
       }
     },
     "cantucci_as": {
-      "faturamento": 9122.2,
-      "meta": 8482.79,
+      "faturamento": 10065.04,
+      "meta": 9476.5,
       "google": {
         "grade": 4.78,
-        "total": 134
+        "total": 138
       },
       "ifood": {
-        "grade": 4.76,
-        "total": 119
+        "grade": 4.77,
+        "total": 117
       },
       "reviews_dia": {
-        "ifood": {
-          "total": 1,
+        "google": {
+          "total": 4,
           "baixas": 0,
           "textos": []
         }
@@ -57,36 +57,31 @@
         "meta": "2.500,00",
         "pct": "232.6%"
       },
-      "checklists": 9,
+      "checklists": 14,
       "maturidade": {
-        "score": 2.5,
+        "score": 3.3,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 9,
+        "checklist_executado": 14,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "cantucci_ac": {
-      "faturamento": 11628.65,
-      "meta": 14507.45,
+      "faturamento": 19118.67,
+      "meta": 17972.48,
       "google": {
-        "grade": 4.71,
-        "total": 230
+        "grade": 4.86,
+        "total": 241
       },
       "ifood": {
-        "grade": 4.67,
-        "total": 159
+        "grade": 4.69,
+        "total": 152
       },
       "reviews_dia": {
         "google": {
-          "total": 2,
-          "baixas": 0,
-          "textos": []
-        },
-        "ifood": {
-          "total": 1,
-          "baixas": 0,
+          "total": 14,
+          "baixas": 1,
           "textos": []
         }
       },
@@ -97,19 +92,19 @@
         "meta": "5.000,00",
         "pct": "80.8%"
       },
-      "checklists": 5,
+      "checklists": 11,
       "maturidade": {
-        "score": 1.4,
+        "score": 3.1,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 5,
+        "checklist_executado": 11,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "superquadra": {
-      "faturamento": 8255.01,
-      "meta": 9850.0,
+      "faturamento": 11357.56,
+      "meta": 10985.14,
       "google": {
         "grade": 4.79,
         "total": 14
@@ -126,18 +121,18 @@
         "meta": "3.500,00",
         "pct": "106%"
       },
-      "checklists": 12,
+      "checklists": 13,
       "maturidade": {
-        "score": 2.9,
+        "score": 3.1,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 12,
+        "checklist_executado": 13,
         "checklist_esperado": 14,
         "tem_checklist": true
       }
     },
     "mane": {
-      "faturamento": 14909.85,
+      "faturamento": 13679.9,
       "meta": 0.0,
       "google": null,
       "ifood": null,
@@ -149,19 +144,19 @@
         "meta": "4.000,00",
         "pct": "155.9%"
       },
-      "checklists": 1,
+      "checklists": 3,
       "maturidade": {
-        "score": 0.3,
+        "score": 0.8,
         "quadro_turnos": 0,
         "relatorio_turnos": 0,
-        "checklist_executado": 1,
+        "checklist_executado": 3,
         "checklist_esperado": 12,
         "tem_checklist": true
       }
     },
     "koji": {
-      "faturamento": 24846.22,
-      "meta": 21214.52,
+      "faturamento": 26454.12,
+      "meta": 22476.74,
       "google": {
         "grade": 4.57,
         "total": 42
@@ -170,13 +165,7 @@
         "grade": 4.7,
         "total": 53
       },
-      "reviews_dia": {
-        "google": {
-          "total": 5,
-          "baixas": 0,
-          "textos": []
-        }
-      },
+      "reviews_dia": null,
       "relatorio": null,
       "quadro": null,
       "diarias": null,
